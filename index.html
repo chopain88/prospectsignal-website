@@ -17,547 +17,98 @@
     --muted: #888;
     --border: #2a2a2a;
   }
-
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
   html { scroll-behavior: smooth; }
-
-  body {
-    background: var(--black);
-    color: var(--white);
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 300;
-    overflow-x: hidden;
-  }
-
-  /* NAV */
-  nav {
-    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 1.25rem 2.5rem;
-    background: rgba(10,10,10,0.92);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border);
-  }
-  .nav-logo {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: 1.1rem;
-    letter-spacing: -0.02em;
-  }
+  body { background: var(--black); color: var(--white); font-family: 'DM Sans', sans-serif; font-weight: 300; overflow-x: hidden; }
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 1.25rem 2.5rem; background: rgba(10,10,10,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+  .nav-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.1rem; letter-spacing: -0.02em; }
   .nav-logo span { color: var(--signal); }
   .nav-links { display: flex; gap: 2rem; align-items: center; }
-  .nav-links a {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.75rem;
-    color: var(--muted);
-    text-decoration: none;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    transition: color 0.2s;
-  }
+  .nav-links a { font-family: 'DM Mono', monospace; font-size: 0.75rem; color: var(--muted); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s; }
   .nav-links a:hover { color: var(--white); }
-  .nav-cta {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.75rem;
-    background: var(--signal);
-    color: var(--black) !important;
-    padding: 0.5rem 1.25rem;
-    letter-spacing: 0.06em;
-    font-weight: 500 !important;
-    transition: background 0.2s !important;
-  }
+  .nav-cta { font-family: 'DM Mono', monospace; font-size: 0.75rem; background: var(--signal); color: var(--black) !important; padding: 0.5rem 1.25rem; letter-spacing: 0.06em; font-weight: 500 !important; transition: background 0.2s !important; }
   .nav-cta:hover { background: var(--signal-dim) !important; color: var(--black) !important; }
-
-  /* HERO */
-  .hero {
-    min-height: 100vh;
-    display: flex; flex-direction: column; justify-content: center;
-    padding: 8rem 2.5rem 4rem;
-    position: relative;
-    overflow: hidden;
-  }
-  .hero-grid {
-    position: absolute; inset: 0;
-    background-image:
-      linear-gradient(rgba(232,255,71,0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(232,255,71,0.04) 1px, transparent 1px);
-    background-size: 60px 60px;
-    animation: gridPulse 8s ease-in-out infinite;
-  }
-  @keyframes gridPulse {
-    0%, 100% { opacity: 0.5; }
-    50% { opacity: 1; }
-  }
-  .hero-tag {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.7rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--signal);
-    margin-bottom: 1.5rem;
-    display: flex; align-items: center; gap: 0.75rem;
-  }
-  .hero-tag::before {
-    content: '';
-    display: inline-block;
-    width: 2rem; height: 1px;
-    background: var(--signal);
-  }
-  h1 {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: clamp(3rem, 7vw, 7rem);
-    line-height: 0.95;
-    letter-spacing: -0.03em;
-    max-width: 14ch;
-    position: relative;
-  }
-  h1 em {
-    font-style: normal;
-    color: var(--signal);
-    display: block;
-  }
-  .hero-sub {
-    margin-top: 2.5rem;
-    font-size: 1.1rem;
-    color: var(--muted);
-    max-width: 42ch;
-    line-height: 1.7;
-    font-weight: 300;
-  }
-  .hero-actions {
-    margin-top: 3rem;
-    display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;
-  }
-  .btn-primary {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.8rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    background: var(--signal);
-    color: var(--black);
-    padding: 1rem 2rem;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.2s, transform 0.2s;
-    display: inline-block;
-  }
+  .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 8rem 2.5rem 4rem; position: relative; overflow: hidden; }
+  .hero-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(232,255,71,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(232,255,71,0.04) 1px, transparent 1px); background-size: 60px 60px; animation: gridPulse 8s ease-in-out infinite; }
+  @keyframes gridPulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+  .hero-tag { font-family: 'DM Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--signal); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.75rem; }
+  .hero-tag::before { content: ''; display: inline-block; width: 2rem; height: 1px; background: var(--signal); }
+  h1 { font-family: 'Syne', sans-serif; font-weight: 800; font-size: clamp(3rem, 7vw, 7rem); line-height: 0.95; letter-spacing: -0.03em; max-width: 14ch; position: relative; }
+  h1 em { font-style: normal; color: var(--signal); display: block; }
+  .hero-sub { margin-top: 2.5rem; font-size: 1.1rem; color: var(--muted); max-width: 42ch; line-height: 1.7; font-weight: 300; }
+  .hero-actions { margin-top: 3rem; display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+  .btn-primary { font-family: 'DM Mono', monospace; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; background: var(--signal); color: var(--black); padding: 1rem 2rem; text-decoration: none; font-weight: 500; transition: background 0.2s, transform 0.2s; display: inline-block; }
   .btn-primary:hover { background: var(--signal-dim); transform: translateY(-1px); }
-  .btn-ghost {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.8rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    border: 1px solid var(--border);
-    color: var(--muted);
-    padding: 1rem 2rem;
-    text-decoration: none;
-    transition: border-color 0.2s, color 0.2s;
-    display: inline-block;
-  }
+  .btn-ghost { font-family: 'DM Mono', monospace; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; border: 1px solid var(--border); color: var(--muted); padding: 1rem 2rem; text-decoration: none; transition: border-color 0.2s, color 0.2s; display: inline-block; }
   .btn-ghost:hover { border-color: var(--white); color: var(--white); }
-
-  .hero-stats {
-    margin-top: 5rem;
-    display: flex; gap: 4rem; flex-wrap: wrap;
-    border-top: 1px solid var(--border);
-    padding-top: 2.5rem;
-  }
-  .stat-item {}
-  .stat-num {
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 2.2rem;
-    letter-spacing: -0.03em;
-    color: var(--signal);
-  }
-  .stat-label {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.7rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-top: 0.25rem;
-  }
-
-  /* TICKER */
-  .ticker {
-    background: var(--signal);
-    color: var(--black);
-    padding: 0.6rem 0;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  .ticker-inner {
-    display: inline-flex;
-    animation: ticker 30s linear infinite;
-  }
-  .ticker-inner span {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.72rem;
-    font-weight: 500;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    padding: 0 2.5rem;
-  }
-  .ticker-inner span::after {
-    content: '◆';
-    margin-left: 2.5rem;
-    opacity: 0.4;
-  }
-  @keyframes ticker {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-  }
-
-  /* SECTION */
+  .hero-stats { margin-top: 5rem; display: flex; gap: 4rem; flex-wrap: wrap; border-top: 1px solid var(--border); padding-top: 2.5rem; }
+  .stat-num { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 2.2rem; letter-spacing: -0.03em; color: var(--signal); }
+  .stat-label { font-family: 'DM Mono', monospace; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-top: 0.25rem; }
+  .ticker { background: var(--signal); color: var(--black); padding: 0.6rem 0; overflow: hidden; white-space: nowrap; }
+  .ticker-inner { display: inline-flex; animation: ticker 30s linear infinite; }
+  .ticker-inner span { font-family: 'DM Mono', monospace; font-size: 0.72rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; padding: 0 2.5rem; }
+  .ticker-inner span::after { content: '◆'; margin-left: 2.5rem; opacity: 0.4; }
+  @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
   section { padding: 6rem 2.5rem; }
-  .section-tag {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.7rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--signal);
-    margin-bottom: 1rem;
-    display: flex; align-items: center; gap: 0.75rem;
-  }
-  .section-tag::before {
-    content: '';
-    display: inline-block;
-    width: 1.5rem; height: 1px;
-    background: var(--signal);
-  }
-  h2 {
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: clamp(2rem, 4vw, 3.5rem);
-    letter-spacing: -0.03em;
-    line-height: 1.05;
-    max-width: 18ch;
-  }
-
-  /* HOW IT WORKS */
+  .section-tag { font-family: 'DM Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--signal); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem; }
+  .section-tag::before { content: ''; display: inline-block; width: 1.5rem; height: 1px; background: var(--signal); }
+  h2 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: clamp(2rem, 4vw, 3.5rem); letter-spacing: -0.03em; line-height: 1.05; max-width: 18ch; }
   .how { background: var(--mid); }
-  .steps {
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 0;
-  }
-  .step {
-    padding: 2.5rem;
-    border-left: 1px solid var(--border);
-    position: relative;
-  }
+  .steps { margin-top: 4rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0; }
+  .step { padding: 2.5rem; border-left: 1px solid var(--border); }
   .step:first-child { border-left: none; }
-  .step-num {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.7rem;
-    color: var(--signal);
-    letter-spacing: 0.1em;
-    margin-bottom: 1.5rem;
-  }
-  .step h3 {
-    font-family: 'Syne', sans-serif;
-    font-weight: 600;
-    font-size: 1.1rem;
-    margin-bottom: 0.75rem;
-  }
-  .step p {
-    font-size: 0.9rem;
-    color: var(--muted);
-    line-height: 1.7;
-  }
-
-  /* PRODUCTS */
-  .products-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-bottom: 3rem;
-  }
-  .products-header a {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.75rem;
-    color: var(--signal);
-    text-decoration: none;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-  .product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1px;
-    background: var(--border);
-    border: 1px solid var(--border);
-  }
-  .product-card {
-    background: var(--black);
-    padding: 2rem;
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    transition: background 0.2s;
-    position: relative;
-    overflow: hidden;
-  }
-  .product-card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 2px;
-    background: var(--signal);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.3s;
-  }
+  .step-num { font-family: 'DM Mono', monospace; font-size: 0.7rem; color: var(--signal); letter-spacing: 0.1em; margin-bottom: 1.5rem; }
+  .step h3 { font-family: 'Syne', sans-serif; font-weight: 600; font-size: 1.1rem; margin-bottom: 0.75rem; }
+  .step p { font-size: 0.9rem; color: var(--muted); line-height: 1.7; }
+  .products-header { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 2rem; margin-bottom: 3rem; }
+  .products-header a { font-family: 'DM Mono', monospace; font-size: 0.75rem; color: var(--signal); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; }
+  .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+  .product-card { background: var(--black); padding: 2rem; text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 1rem; transition: background 0.2s; position: relative; overflow: hidden; }
+  .product-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--signal); transform: scaleX(0); transform-origin: left; transition: transform 0.3s; }
   .product-card:hover { background: var(--mid); }
   .product-card:hover::before { transform: scaleX(1); }
-  .product-badge {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.65rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--signal);
-    background: rgba(232,255,71,0.08);
-    padding: 0.25rem 0.6rem;
-    display: inline-block;
-    width: fit-content;
-  }
-  .product-card h3 {
-    font-family: 'Syne', sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.3;
-  }
-  .product-rows {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.75rem;
-    color: var(--muted);
-    letter-spacing: 0.05em;
-  }
-  .product-price {
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 1.4rem;
-    letter-spacing: -0.02em;
-    margin-top: auto;
-  }
+  .product-badge { font-family: 'DM Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--signal); background: rgba(232,255,71,0.08); padding: 0.25rem 0.6rem; display: inline-block; width: fit-content; }
+  .product-card h3 { font-family: 'Syne', sans-serif; font-weight: 600; font-size: 1rem; line-height: 1.3; }
+  .product-rows { font-family: 'DM Mono', monospace; font-size: 0.75rem; color: var(--muted); letter-spacing: 0.05em; }
+  .product-price { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.4rem; letter-spacing: -0.02em; margin-top: auto; }
   .product-price.free { color: var(--signal); }
-
-  /* DATA FIELDS */
   .fields-section { background: var(--mid); }
-  .fields-grid {
-    margin-top: 3rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1px;
-    background: var(--border);
-    border: 1px solid var(--border);
-  }
-  .field-item {
-    background: var(--black);
-    padding: 1.25rem 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-  }
-  .field-name {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.72rem;
-    color: var(--signal);
-    letter-spacing: 0.05em;
-  }
-  .field-desc {
-    font-size: 0.8rem;
-    color: var(--muted);
-    line-height: 1.5;
-  }
-
-  /* SCORES */
-  .scores-section {}
-  .scores-intro {
-    margin-top: 1.5rem;
-    font-size: 1rem;
-    color: var(--muted);
-    max-width: 50ch;
-    line-height: 1.7;
-  }
-  .scores-grid {
-    margin-top: 3rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 1.5rem;
-  }
-  .score-card {
-    border: 1px solid var(--border);
-    padding: 1.5rem;
-  }
-  .score-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  .score-name {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.75rem;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
-  .score-range {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.7rem;
-    color: var(--signal);
-  }
-  .score-bar {
-    height: 2px;
-    background: var(--border);
-    margin-bottom: 0.75rem;
-    position: relative;
-  }
-  .score-bar-fill {
-    position: absolute;
-    left: 0; top: 0; bottom: 0;
-    background: var(--signal);
-  }
-  .score-desc {
-    font-size: 0.82rem;
-    color: var(--muted);
-    line-height: 1.6;
-  }
-  .score-buyers {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.65rem;
-    color: var(--signal);
-    margin-top: 0.75rem;
-    letter-spacing: 0.05em;
-    opacity: 0.7;
-  }
-
-  /* ABOUT */
+  .fields-grid { margin-top: 3rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+  .field-item { background: var(--black); padding: 1.25rem 1.5rem; display: flex; flex-direction: column; gap: 0.4rem; }
+  .field-name { font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--signal); letter-spacing: 0.05em; }
+  .field-desc { font-size: 0.8rem; color: var(--muted); line-height: 1.5; }
+  .scores-intro { margin-top: 1.5rem; font-size: 1rem; color: var(--muted); max-width: 50ch; line-height: 1.7; }
+  .scores-grid { margin-top: 3rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.5rem; }
+  .score-card { border: 1px solid var(--border); padding: 1.5rem; }
+  .score-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+  .score-name { font-family: 'DM Mono', monospace; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; }
+  .score-range { font-family: 'DM Mono', monospace; font-size: 0.7rem; color: var(--signal); }
+  .score-bar { height: 2px; background: var(--border); margin-bottom: 0.75rem; position: relative; }
+  .score-bar-fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--signal); }
+  .score-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
+  .score-buyers { font-family: 'DM Mono', monospace; font-size: 0.65rem; color: var(--signal); margin-top: 0.75rem; letter-spacing: 0.05em; opacity: 0.7; }
   .about { background: var(--mid); }
-  .about-grid {
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 6rem;
-    align-items: start;
-  }
-  .about-body p {
-    font-size: 1rem;
-    color: var(--muted);
-    line-height: 1.8;
-    margin-bottom: 1.5rem;
-  }
+  .about-grid { margin-top: 4rem; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+  .about-body p { font-size: 1rem; color: var(--muted); line-height: 1.8; margin-bottom: 1.5rem; }
   .about-body p strong { color: var(--white); font-weight: 500; }
   .about-facts { display: flex; flex-direction: column; gap: 0; }
-  .fact {
-    padding: 1.5rem 0;
-    border-bottom: 1px solid var(--border);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
+  .fact { padding: 1.5rem 0; border-bottom: 1px solid var(--border); display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
   .fact:first-child { border-top: 1px solid var(--border); }
-  .fact-label {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.7rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-  }
-  .fact-value {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.82rem;
-    color: var(--white);
-  }
-
-  /* CTA BAND */
-  .cta-band {
-    background: var(--signal);
-    color: var(--black);
-    padding: 5rem 2.5rem;
-    text-align: center;
-  }
-  .cta-band h2 {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: clamp(2rem, 5vw, 4rem);
-    letter-spacing: -0.03em;
-    color: var(--black);
-    max-width: 100%;
-    margin: 0 auto 2rem;
-  }
-  .cta-band .btn-dark {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.8rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    background: var(--black);
-    color: var(--signal);
-    padding: 1rem 2.5rem;
-    text-decoration: none;
-    font-weight: 500;
-    display: inline-block;
-    transition: opacity 0.2s;
-  }
+  .fact-label { font-family: 'DM Mono', monospace; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+  .fact-value { font-family: 'DM Mono', monospace; font-size: 0.82rem; color: var(--white); }
+  .cta-band { background: var(--signal); color: var(--black); padding: 5rem 2.5rem; text-align: center; }
+  .cta-band h2 { font-family: 'Syne', sans-serif; font-weight: 800; font-size: clamp(2rem, 5vw, 4rem); letter-spacing: -0.03em; color: var(--black); max-width: 100%; margin: 0 auto 2rem; }
+  .cta-band .btn-dark { font-family: 'DM Mono', monospace; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; background: var(--black); color: var(--signal); padding: 1rem 2.5rem; text-decoration: none; font-weight: 500; display: inline-block; transition: opacity 0.2s; }
   .cta-band .btn-dark:hover { opacity: 0.85; }
-
-  /* FOOTER */
-  footer {
-    padding: 3rem 2.5rem;
-    border-top: 1px solid var(--border);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-  }
-  .footer-logo {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: 1rem;
-    letter-spacing: -0.02em;
-  }
+  footer { padding: 3rem 2.5rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 2rem; }
+  .footer-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1rem; letter-spacing: -0.02em; }
   .footer-logo span { color: var(--signal); }
-  .footer-meta {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.68rem;
-    color: var(--muted);
-    letter-spacing: 0.06em;
-    line-height: 2;
-    text-align: right;
-  }
+  .footer-meta { font-family: 'DM Mono', monospace; font-size: 0.68rem; color: var(--muted); letter-spacing: 0.06em; line-height: 2; text-align: right; }
   .footer-meta a { color: var(--muted); text-decoration: none; }
   .footer-meta a:hover { color: var(--white); }
-
-  /* ANIM */
-  .fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.7s ease, transform 0.7s ease;
-  }
-  .fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  @media (max-width: 768px) {
-    nav { padding: 1rem 1.25rem; }
-    .nav-links { display: none; }
-    .hero { padding: 6rem 1.25rem 3rem; }
-    .hero-stats { gap: 2rem; }
-    section { padding: 4rem 1.25rem; }
-    .about-grid { grid-template-columns: 1fr; gap: 3rem; }
-    footer { flex-direction: column; align-items: flex-start; }
-    .footer-meta { text-align: left; }
-  }
+  .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .fade-in.visible { opacity: 1; transform: translateY(0); }
+  @media (max-width: 768px) { nav { padding: 1rem 1.25rem; } .nav-links { display: none; } .hero { padding: 6rem 1.25rem 3rem; } .hero-stats { gap: 2rem; } section { padding: 4rem 1.25rem; } .about-grid { grid-template-columns: 1fr; gap: 3rem; } footer { flex-direction: column; align-items: flex-start; } .footer-meta { text-align: left; } }
 </style>
 </head>
 <body>
@@ -579,26 +130,14 @@
   <h1>Know who to<em>call next.</em></h1>
   <p class="hero-sub">424,968 classified Australian businesses — sorted by trade, state, and buying propensity. Download a list, load it into your CRM, and start calling the right people today.</p>
   <div class="hero-actions">
-    <a href="https://prospectsignalau.gumroad.com/l/free-sample" class="btn-primary">Download Free Sample</a>
+    <a href="https://prospectsignalau.gumroad.com/l/free-sample-25" class="btn-primary">Download Free Sample</a>
     <a href="#products" class="btn-ghost">Browse Products</a>
   </div>
   <div class="hero-stats">
-    <div class="stat-item">
-      <div class="stat-num">424k</div>
-      <div class="stat-label">Classified records</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-num">41</div>
-      <div class="stat-label">Industry verticals</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-num">8</div>
-      <div class="stat-label">States & territories</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-num">8</div>
-      <div class="stat-label">Propensity scores</div>
-    </div>
+    <div class="stat-item"><div class="stat-num">424k</div><div class="stat-label">Classified records</div></div>
+    <div class="stat-item"><div class="stat-num">41</div><div class="stat-label">Industry verticals</div></div>
+    <div class="stat-item"><div class="stat-num">8</div><div class="stat-label">States & territories</div></div>
+    <div class="stat-item"><div class="stat-num">8</div><div class="stat-label">Propensity scores</div></div>
   </div>
 </section>
 
@@ -612,119 +151,164 @@
   <div class="section-tag">How it works</div>
   <h2>Data you can use in minutes.</h2>
   <div class="steps">
-    <div class="step fade-in">
-      <div class="step-num">01 —</div>
-      <h3>Pick your vertical</h3>
-      <p>Choose the industry and state combination that matches your sales territory. We have 41 classified verticals across all 8 states.</p>
-    </div>
-    <div class="step fade-in">
-      <div class="step-num">02 —</div>
-      <h3>Download instantly</h3>
-      <p>Pay once, download immediately. A clean CSV file ready to open in Excel, import into your CRM, or pipe straight into your outreach tool.</p>
-    </div>
-    <div class="step fade-in">
-      <div class="step-num">03 —</div>
-      <h3>Filter by score</h3>
-      <p>Each record includes 8 propensity scores so you can prioritise your best-fit prospects before you make a single call.</p>
-    </div>
-    <div class="step fade-in">
-      <div class="step-num">04 —</div>
-      <h3>Start selling</h3>
-      <p>Every record has ABN, entity name, trading name, suburb, LGA, and region. Enough to look them up, qualify them, and make the call.</p>
-    </div>
+    <div class="step fade-in"><div class="step-num">01 —</div><h3>Pick your vertical</h3><p>Choose the industry and state combination that matches your sales territory. We have 41 classified verticals across all 8 states.</p></div>
+    <div class="step fade-in"><div class="step-num">02 —</div><h3>Download instantly</h3><p>Pay once, download immediately. A clean CSV file ready to open in Excel, import into your CRM, or pipe straight into your outreach tool.</p></div>
+    <div class="step fade-in"><div class="step-num">03 —</div><h3>Filter by score</h3><p>Each record includes 8 propensity scores so you can prioritise your best-fit prospects before you make a single call.</p></div>
+    <div class="step fade-in"><div class="step-num">04 —</div><h3>Start selling</h3><p>Every record has ABN, entity name, trading name, suburb, LGA, and region. Enough to look them up, qualify them, and make the call.</p></div>
   </div>
 </section>
 
 <section id="products">
   <div class="products-header">
-    <div>
-      <div class="section-tag">Products</div>
-      <h2>Find your market.</h2>
-    </div>
+    <div><div class="section-tag">Products</div><h2>Find your market.</h2></div>
     <a href="https://prospectsignalau.gumroad.com">View all products →</a>
   </div>
   <div class="product-grid">
-    <a href="https://prospectsignalau.gumroad.com/l/free-sample" class="product-card">
+
+    <a href="https://prospectsignalau.gumroad.com/l/free-sample-25" class="product-card">
       <div class="product-badge">Free Sample</div>
       <h3>Australian B2B Prospect Data — Free Sample</h3>
       <div class="product-rows">25 records · 5 states · 14 verticals</div>
       <div class="product-price free">Free</div>
     </a>
+
+    <a href="https://prospectsignalau.gumroad.com/l/national-accommodation-operators-12687" class="product-card">
+      <div class="product-badge">National · Accommodation</div>
+      <h3>National Accommodation Operators</h3>
+      <div class="product-rows">12,687 verified businesses · all states</div>
+      <div class="product-price">A$999</div>
+    </a>
+
+    <a href="https://prospectsignalau.gumroad.com/l/national-accounting-firms-17054" class="product-card">
+      <div class="product-badge">National · Accounting</div>
+      <h3>National Accounting Firms</h3>
+      <div class="product-rows">17,054 verified businesses · all states</div>
+      <div class="product-price">A$999</div>
+    </a>
+
+    <a href="https://prospectsignalau.gumroad.com/l/national-allied-health-8900" class="product-card">
+      <div class="product-badge">National · Allied Health</div>
+      <h3>National Allied Health Providers</h3>
+      <div class="product-rows">8,900 verified businesses · all states</div>
+      <div class="product-price">A$599</div>
+    </a>
+
+    <a href="https://prospectsignalau.gumroad.com/l/national-transport-logistics-500" class="product-card">
+      <div class="product-badge">National · Transport</div>
+      <h3>National Transport & Logistics</h3>
+      <div class="product-rows">500 verified businesses · all states</div>
+      <div class="product-price">A$199</div>
+    </a>
+
     <a href="https://prospectsignalau.gumroad.com/l/nsw-building-construction-500" class="product-card">
       <div class="product-badge">NSW · Building</div>
-      <h3>NSW Building & Construction Contacts</h3>
+      <h3>NSW Building & Construction</h3>
       <div class="product-rows">500 verified businesses</div>
       <div class="product-price">A$199</div>
     </a>
+
     <a href="https://prospectsignalau.gumroad.com/l/nsw-civil-contractors-500" class="product-card">
       <div class="product-badge">NSW · Civil</div>
       <h3>NSW Civil Contractors</h3>
       <div class="product-rows">500 verified businesses</div>
       <div class="product-price">A$199</div>
     </a>
+
     <a href="https://prospectsignalau.gumroad.com/l/nsw-cleaning-restoration-500" class="product-card">
       <div class="product-badge">NSW · Cleaning</div>
-      <h3>NSW Cleaning & Restoration Contacts</h3>
+      <h3>NSW Cleaning & Restoration</h3>
       <div class="product-rows">500 verified businesses</div>
       <div class="product-price">A$199</div>
     </a>
+
     <a href="https://prospectsignalau.gumroad.com/l/nsw-electrical-contractors-500" class="product-card">
       <div class="product-badge">NSW · Electrical</div>
       <h3>NSW Electrical Contractors</h3>
       <div class="product-rows">500 verified businesses</div>
       <div class="product-price">A$199</div>
     </a>
+
     <a href="https://prospectsignalau.gumroad.com/l/nsw-plumbing-services-500" class="product-card">
       <div class="product-badge">NSW · Plumbing</div>
       <h3>NSW Plumbing Services</h3>
       <div class="product-rows">500 verified businesses</div>
       <div class="product-price">A$199</div>
     </a>
+
     <a href="https://prospectsignalau.gumroad.com/l/vic-building-construction-500" class="product-card">
       <div class="product-badge">VIC · Building</div>
-      <h3>VIC Building & Construction Contacts</h3>
+      <h3>VIC Building & Construction</h3>
       <div class="product-rows">500 verified businesses</div>
       <div class="product-price">A$199</div>
     </a>
+
     <a href="https://prospectsignalau.gumroad.com/l/wa-building-construction-500" class="product-card">
       <div class="product-badge">WA · Building</div>
-      <h3>WA Building & Construction Contacts</h3>
+      <h3>WA Building & Construction</h3>
       <div class="product-rows">500 verified businesses</div>
       <div class="product-price">A$199</div>
     </a>
+
     <a href="https://prospectsignalau.gumroad.com/l/wa-civil-contractors-500" class="product-card">
       <div class="product-badge">WA · Civil</div>
       <h3>WA Civil Contractors</h3>
       <div class="product-rows">500 verified businesses</div>
       <div class="product-price">A$199</div>
     </a>
+
     <a href="https://prospectsignalau.gumroad.com/l/wa-cleaning-restoration-500" class="product-card">
       <div class="product-badge">WA · Cleaning</div>
-      <h3>WA Cleaning & Restoration Contacts</h3>
+      <h3>WA Cleaning & Restoration</h3>
       <div class="product-rows">500 verified businesses</div>
       <div class="product-price">A$199</div>
     </a>
+
     <a href="https://prospectsignalau.gumroad.com/l/wa-electrical-contractors-500" class="product-card">
       <div class="product-badge">WA · Electrical</div>
       <h3>WA Electrical Contractors</h3>
       <div class="product-rows">500 verified businesses</div>
       <div class="product-price">A$199</div>
     </a>
+
     <a href="https://prospectsignalau.gumroad.com/l/wa-plumbing-services-500" class="product-card">
       <div class="product-badge">WA · Plumbing</div>
       <h3>WA Plumbing Services</h3>
       <div class="product-rows">500 verified businesses</div>
       <div class="product-price">A$199</div>
     </a>
-    <a href="https://prospectsignalau.gumroad.com/l/national-transport-logistics-500" class="product-card">
-      <div class="product-badge">National · Transport</div>
-      <h3>National Transport & Logistics Contacts</h3>
-      <div class="product-rows">500 verified businesses · all states</div>
+
+    <a href="https://prospectsignalau.gumroad.com/l/act-building-construction-1419" class="product-card">
+      <div class="product-badge">ACT · Building</div>
+      <h3>ACT Building & Construction</h3>
+      <div class="product-rows">1,419 verified businesses</div>
+      <div class="product-price">A$299</div>
+    </a>
+
+    <a href="https://prospectsignalau.gumroad.com/l/act-cleaning-restoration-629" class="product-card">
+      <div class="product-badge">ACT · Cleaning</div>
+      <h3>ACT Cleaning & Restoration</h3>
+      <div class="product-rows">629 verified businesses</div>
       <div class="product-price">A$199</div>
     </a>
-    <a href="https://prospectsignalau.gumroad.com" class="product-card" style="justify-content: center; align-items: center; text-align: center; min-height: 160px; border: 1px dashed var(--border); background: transparent;">
-      <div style="color: var(--muted); font-family: 'DM Mono', monospace; font-size: 0.75rem; letter-spacing: 0.08em;">MORE VERTICALS COMING →</div>
+
+    <a href="https://prospectsignalau.gumroad.com/l/act-consulting-services-2105" class="product-card">
+      <div class="product-badge">ACT · Consulting</div>
+      <h3>ACT Consulting Services</h3>
+      <div class="product-rows">2,105 verified businesses</div>
+      <div class="product-price">A$299</div>
     </a>
+
+    <a href="https://prospectsignalau.gumroad.com/l/act-electrical-contractors-618" class="product-card">
+      <div class="product-badge">ACT · Electrical</div>
+      <h3>ACT Electrical Contractors</h3>
+      <div class="product-rows">618 verified businesses</div>
+      <div class="product-price">A$199</div>
+    </a>
+
+    <a href="https://prospectsignalau.gumroad.com" class="product-card" style="justify-content: center; align-items: center; text-align: center; min-height: 160px; border: 1px dashed var(--border); background: transparent;">
+      <div style="color: var(--muted); font-family: 'DM Mono', monospace; font-size: 0.75rem; letter-spacing: 0.08em;">182 MORE PRODUCTS COMING →</div>
+    </a>
+
   </div>
 </section>
 
@@ -754,56 +338,16 @@
 <section class="scores-section">
   <div class="section-tag">Propensity Scores</div>
   <h2>Prioritise your best prospects.</h2>
-  <p class="scores-intro">Each record is scored 0–100 across 8 buying propensity dimensions. Industry-category benchmarks with entity-type modifiers. Filter your list before you make a single call.</p>
+  <p class="scores-intro">Each record is scored 0–100 across 8 buying propensity dimensions. Filter your list before you make a single call.</p>
   <div class="scores-grid">
-    <div class="score-card fade-in">
-      <div class="score-header"><div class="score-name">Fleet Score</div><div class="score-range">0–100</div></div>
-      <div class="score-bar"><div class="score-bar-fill" style="width:90%"></div></div>
-      <div class="score-desc">Likelihood of operating a vehicle fleet.</div>
-      <div class="score-buyers">Fleet leasing · Fuel cards · GPS tracking · Vehicle finance</div>
-    </div>
-    <div class="score-card fade-in">
-      <div class="score-header"><div class="score-name">Software / CRM</div><div class="score-range">0–100</div></div>
-      <div class="score-bar"><div class="score-bar-fill" style="width:65%"></div></div>
-      <div class="score-desc">Fit for trade and field service software.</div>
-      <div class="score-buyers">ServiceM8 · Tradify · Simpro · Xero · MYOB</div>
-    </div>
-    <div class="score-card fade-in">
-      <div class="score-header"><div class="score-name">Marketing</div><div class="score-range">0–100</div></div>
-      <div class="score-bar"><div class="score-bar-fill" style="width:70%"></div></div>
-      <div class="score-desc">Receptiveness to marketing services.</div>
-      <div class="score-buyers">Web design · SEO · Google Ads agencies</div>
-    </div>
-    <div class="score-card fade-in">
-      <div class="score-header"><div class="score-name">Equipment</div><div class="score-range">0–100</div></div>
-      <div class="score-bar"><div class="score-bar-fill" style="width:85%"></div></div>
-      <div class="score-desc">Need for equipment hire or purchase.</div>
-      <div class="score-buyers">Kennards · Coates · Tool & plant suppliers</div>
-    </div>
-    <div class="score-card fade-in">
-      <div class="score-header"><div class="score-name">Insurance</div><div class="score-range">0–100</div></div>
-      <div class="score-bar"><div class="score-bar-fill" style="width:95%"></div></div>
-      <div class="score-desc">Insurance and trade finance propensity.</div>
-      <div class="score-buyers">Public liability · Trade credit · Equipment insurance</div>
-    </div>
-    <div class="score-card fade-in">
-      <div class="score-header"><div class="score-name">PPE / Workwear</div><div class="score-range">0–100</div></div>
-      <div class="score-bar"><div class="score-bar-fill" style="width:80%"></div></div>
-      <div class="score-desc">Workwear and PPE purchasing propensity.</div>
-      <div class="score-buyers">Totally Workwear · Safety equipment suppliers</div>
-    </div>
-    <div class="score-card fade-in">
-      <div class="score-header"><div class="score-name">Recruitment</div><div class="score-range">0–100</div></div>
-      <div class="score-bar"><div class="score-bar-fill" style="width:75%"></div></div>
-      <div class="score-desc">Labour and hiring propensity.</div>
-      <div class="score-buyers">Recruitment agencies · Labour hire firms</div>
-    </div>
-    <div class="score-card fade-in">
-      <div class="score-header"><div class="score-name">Training / RTO</div><div class="score-range">0–100</div></div>
-      <div class="score-bar"><div class="score-bar-fill" style="width:72%"></div></div>
-      <div class="score-desc">Training and RTO spend propensity.</div>
-      <div class="score-buyers">White card · Trade licencing · Upskilling RTOs</div>
-    </div>
+    <div class="score-card fade-in"><div class="score-header"><div class="score-name">Fleet Score</div><div class="score-range">0–100</div></div><div class="score-bar"><div class="score-bar-fill" style="width:90%"></div></div><div class="score-desc">Likelihood of operating a vehicle fleet.</div><div class="score-buyers">Fleet leasing · Fuel cards · GPS tracking · Vehicle finance</div></div>
+    <div class="score-card fade-in"><div class="score-header"><div class="score-name">Software / CRM</div><div class="score-range">0–100</div></div><div class="score-bar"><div class="score-bar-fill" style="width:65%"></div></div><div class="score-desc">Fit for trade and field service software.</div><div class="score-buyers">ServiceM8 · Tradify · Simpro · Xero · MYOB</div></div>
+    <div class="score-card fade-in"><div class="score-header"><div class="score-name">Marketing</div><div class="score-range">0–100</div></div><div class="score-bar"><div class="score-bar-fill" style="width:70%"></div></div><div class="score-desc">Receptiveness to marketing services.</div><div class="score-buyers">Web design · SEO · Google Ads agencies</div></div>
+    <div class="score-card fade-in"><div class="score-header"><div class="score-name">Equipment</div><div class="score-range">0–100</div></div><div class="score-bar"><div class="score-bar-fill" style="width:85%"></div></div><div class="score-desc">Need for equipment hire or purchase.</div><div class="score-buyers">Kennards · Coates · Tool & plant suppliers</div></div>
+    <div class="score-card fade-in"><div class="score-header"><div class="score-name">Insurance</div><div class="score-range">0–100</div></div><div class="score-bar"><div class="score-bar-fill" style="width:95%"></div></div><div class="score-desc">Insurance and trade finance propensity.</div><div class="score-buyers">Public liability · Trade credit · Equipment insurance</div></div>
+    <div class="score-card fade-in"><div class="score-header"><div class="score-name">PPE / Workwear</div><div class="score-range">0–100</div></div><div class="score-bar"><div class="score-bar-fill" style="width:80%"></div></div><div class="score-desc">Workwear and PPE purchasing propensity.</div><div class="score-buyers">Totally Workwear · Safety equipment suppliers</div></div>
+    <div class="score-card fade-in"><div class="score-header"><div class="score-name">Recruitment</div><div class="score-range">0–100</div></div><div class="score-bar"><div class="score-bar-fill" style="width:75%"></div></div><div class="score-desc">Labour and hiring propensity.</div><div class="score-buyers">Recruitment agencies · Labour hire firms</div></div>
+    <div class="score-card fade-in"><div class="score-header"><div class="score-name">Training / RTO</div><div class="score-range">0–100</div></div><div class="score-bar"><div class="score-bar-fill" style="width:72%"></div></div><div class="score-desc">Training and RTO spend propensity.</div><div class="score-buyers">White card · Trade licencing · Upskilling RTOs</div></div>
   </div>
 </section>
 
@@ -831,7 +375,7 @@
 
 <div class="cta-band">
   <h2>Download your first list today.</h2>
-  <a href="https://prospectsignalau.gumroad.com/l/free-sample" class="btn-dark">Get the free sample →</a>
+  <a href="https://prospectsignalau.gumroad.com/l/free-sample-25" class="btn-dark">Get the free sample →</a>
 </div>
 
 <footer>
@@ -844,11 +388,8 @@
 </footer>
 
 <script>
-  // Fade in on scroll
   const obs = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) { e.target.classList.add('visible'); }
-    });
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
   }, { threshold: 0.1 });
   document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
 </script>
