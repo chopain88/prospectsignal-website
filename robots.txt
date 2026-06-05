@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Sitemap: https://prospectsignal.com.au/sitemap.xml
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Googlebot
+Allow: /
+User-agent: bingbot
+Allow: /

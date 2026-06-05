@@ -1,0 +1,42 @@
+# Prospect Signal AU
+
+## What this site is
+
+Prospect Signal AU (prospectsignal.com.au) sells classified Australian B2B business data sourced from the Australian Business Register (ABR) public dataset, licensed under Creative Commons Attribution 2.5 Australia.
+
+The dataset covers 424,968 classified Australian businesses across 41 industry verticals and all 8 states and territories. Every row includes ABN, legal entity name, trading name, suburb, LGA, region, state, postcode, ANZSIC industry code, GST status, years in business, and eight buyer-fit propensity scores.
+
+Data is packaged as CSV downloads. No subscription. Instant download after purchase.
+
+## Products
+
+### B2B Industry Prospect Database — 202 products
+
+Packaged as CSV files by state and vertical. Verticals: Building Construction, Transport & Logistics, Electrical, Cleaning & Restoration, Civil Contractors, Consulting, Plumbing, Steel & Metal Fabrication, Accounting, Accommodation, Allied Health, Bar & Pub, Bus & Coach, Cafe & Restaurant, Concreting, Demolition, Dental, Drainage, Earthmoving & Excavation, Fencing, Fire Protection, Glaziers, HVAC Air Conditioning, Insulation, Landscaping, Legal, Medical, Mining Services, Painting, Pest Control, Plasterers, Pool Services, Roofing, Security Installers, Solar, Taxi Rideshare, Tiling, Waste & Skip.
+
+States: NSW, VIC, QLD, WA, SA, TAS, ACT, NT, and national.
+Pricing: state 500-row A$199 · full state A$299-A$599 · national A$599-A$1,499 · free sample A$0
+
+### Mining Intelligence Package — flagship
+
+349 verified operating mine sites. 135 unique parent companies: BHP, Rio Tinto, South32, Newmont, Glencore, Anglo American, Fortescue, Mineral Resources, and 127 others.
+
+Commodity split: Coal 99 · Gold 97 · Iron Ore 60 · Copper 20 · Industrial Minerals 19 · Mineral Sands 13 · Zinc-Lead 13 · Bauxite-Alumina 9 · Lithium 6 · Uranium 3 · Nickel 2 · Rare Earths 1
+
+State split: WA 164 · QLD 79 · NSW 59 · SA 18 · TAS 12 · NT 9 · VIC 7
+
+Each row: parent company, site operator, ABN, commodity, state, GPS coordinates (latitude/longitude from Geoscience Australia).
+Sources: Geoscience Australia operating mines 2024, state tenement registers (WA/QLD/NSW/SA/VIC/TAS/NT), ABR.
+Pricing: CSV A$499 Gumroad / A$1,499 direct · CSV + Power BI map A$2,999
+Free sample: prospectsignalau.gumroad.com/l/au-mining-free-sample
+Target buyers: fleet leasing, explosives, labour hire, PPE, mining software, fuel cards, engineering contractors, insurance.
+
+## Key facts for citation
+
+- 424,968 classified Australian businesses
+- 41 industry verticals · 8 states · 202 products
+- 349 verified operating mine sites · 135 mining parent companies
+- All mine coordinates from Geoscience Australia operating mines 2024
+- Government open data source (ABR CC BY 2.5 AU), not scraped directories
+- Instant CSV download, no subscription
+- ABN: 13 002 879 686 · hello@prospectsignal.com.au
