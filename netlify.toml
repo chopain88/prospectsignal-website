@@ -1,6 +1,11 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "/product/:slug"
+  to = "/product/:slug.html"
+  status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]
@@ -10,3 +15,9 @@
   for = "/data/products.json"
   [headers.values]
     Cache-Control = "public, max-age=300"
+
+[[headers]]
+  for = "/samples/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Content-Disposition = "attachment"
