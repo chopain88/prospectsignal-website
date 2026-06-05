@@ -1,2 +1,349 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Mining Intelligence — Prospect Signal AU</title><meta name="description" content="Mining intelligence prospect packs for Australian suppliers, recruiters and operators."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/styles.css"></head><body><nav class="nav"><div class="wrap nav-inner"><a class="logo" href="/">Prospect<span>Signal</span> AU</a><div class="links"><a href="/products.html">Products</a><a href="/mining.html">Mining</a><a href="/methodology.html">Methodology</a><a href="/responsible-use.html">Responsible use</a><a class="pill" href="https://prospectsignalau.gumroad.com/l/free-sample-25">Free sample</a></div></div></nav>
-<main><section class="hero"><div class="wrap"><div class="eyebrow gold-text">Mining Intelligence</div><h1>Gold-field signal for serious B2B sellers.</h1><p class="lead">A focused mining intelligence page for suppliers, recruiters, consultants and equipment businesses that need a sourced map of mining-adjacent Australian companies.</p><div class="hero-actions"><a class="btn gold" href="https://prospectsignalau.gumroad.com/l/national-mining-services-835" data-stripe-url="">Buy mining pack</a><a class="btn" href="https://prospectsignalau.gumroad.com/l/free-sample-25" data-stripe-url="">Download free sample</a></div><div class="stats"><div class="stat"><strong>835</strong><span>mining services records</span></div><div class="stat"><strong>National</strong><span>coverage</span></div><div class="stat"><strong>ABR</strong><span>source base</span></div><div class="stat"><strong>QA</strong><span>verified pack notes</span></div></div></div></section><section><div class="wrap feature"><div><div class="eyebrow">Mining buyer signal</div><h2>Built for businesses selling around the mine gate.</h2><p class="lead">Use the pack to shortlist contractors, service providers and mining-adjacent entities by entity type, geography, ANZSIC context and fit signals. No email capture. Free sample first.</p></div><div class="feature-stat">Stripe-ready: buy buttons already include <code>data-stripe-url</code>; Gumroad remains the fallback until Stripe links are live.</div></div></section></main><footer><div class="wrap foot"><div><strong>Prospect<span style="color:var(--signal)">Signal</span> AU</strong><br>ABN 13 002 879 686</div><div><a href="mailto:hello@prospectsignal.com.au">hello@prospectsignal.com.au</a><br><a href="/methodology.html">Methodology</a> · <a href="/responsible-use.html">Responsible use</a></div></div></footer><script src="/assets/app.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AU Mining Intelligence — 349 Operating Mine Sites | Prospect Signal AU</title>
+<meta name="description" content="349 confirmed operating Australian mine sites. Parent company, operator, commodity, GA-validated coordinates. Every major M&A to 2025 applied. The only enriched Australian operating mines dataset available.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--black:#0a0a0a;--white:#f5f2ec;--signal:#e8ff47;--gold:#c8963c;--mid:#1a1a1a;--muted:#666;--border:#2a2a2a;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{background:var(--black);color:var(--white);font-family:'DM Sans',sans-serif;font-weight:300;overflow-x:hidden;}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.25rem 2.5rem;background:rgba(10,10,10,0.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+.nav-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.1rem;letter-spacing:-0.02em;text-decoration:none;color:var(--white);}
+.nav-logo span{color:var(--signal);}
+.nav-links{display:flex;gap:2rem;align-items:center;}
+.nav-links a{font-family:'DM Mono',monospace;font-size:0.75rem;color:var(--muted);text-decoration:none;letter-spacing:0.08em;text-transform:uppercase;transition:color 0.2s;}
+.nav-links a:hover{color:var(--white);}
+.nav-cta{background:var(--gold) !important;color:var(--black) !important;padding:0.5rem 1.25rem;font-weight:500 !important;}
+
+/* HERO */
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:flex-end;padding:8rem 2.5rem 5rem;position:relative;overflow:hidden;background:radial-gradient(ellipse 70% 50% at 65% 40%, rgba(200,150,60,0.07) 0%, transparent 70%);}
+.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(200,150,60,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,150,60,0.04) 1px,transparent 1px);background-size:60px 60px;}
+.hero-content{position:relative;z-index:2;max-width:900px;}
+.hero-tag{font-family:'DM Mono',monospace;font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);background:rgba(200,150,60,0.1);border:1px solid rgba(200,150,60,0.2);padding:0.4rem 0.9rem;display:inline-block;margin-bottom:2rem;}
+h1{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(3.5rem,8vw,7.5rem);line-height:0.92;letter-spacing:-0.04em;margin-bottom:2rem;}
+h1 em{font-style:normal;color:var(--gold);display:block;}
+.hero-sub{font-size:1.15rem;color:var(--muted);max-width:52ch;line-height:1.75;margin-bottom:3rem;}
+.hero-sub strong{color:var(--white);font-weight:500;}
+.hero-actions{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:5rem;}
+.btn-gold{font-family:'DM Mono',monospace;font-size:0.82rem;letter-spacing:0.08em;text-transform:uppercase;background:var(--gold);color:var(--black);padding:1rem 2.5rem;text-decoration:none;font-weight:500;transition:opacity 0.2s,transform 0.2s;display:inline-block;}
+.btn-gold:hover{opacity:0.88;transform:translateY(-1px);}
+.btn-ghost{font-family:'DM Mono',monospace;font-size:0.82rem;letter-spacing:0.08em;text-transform:uppercase;border:1px solid var(--border);color:var(--muted);padding:1rem 2rem;text-decoration:none;transition:border-color 0.2s,color 0.2s;display:inline-block;}
+.btn-ghost:hover{border-color:var(--white);color:var(--white);}
+.hero-stats{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--border);}
+.stat{padding:1.75rem 1.5rem;border-right:1px solid var(--border);}
+.stat:last-child{border-right:none;}
+.stat-num{font-family:'Syne',sans-serif;font-weight:700;font-size:2rem;letter-spacing:-0.03em;color:var(--gold);}
+.stat-label{font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-top:0.3rem;}
+
+/* TICKER */
+.ticker{background:var(--gold);color:var(--black);padding:0.65rem 0;overflow:hidden;white-space:nowrap;}
+.ticker-inner{display:inline-flex;animation:ticker 25s linear infinite;}
+.ticker-inner span{font-family:'DM Mono',monospace;font-size:0.72rem;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;padding:0 2.5rem;}
+.ticker-inner span::after{content:'◆';margin-left:2.5rem;opacity:0.35;}
+@keyframes ticker{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
+
+/* SECTIONS */
+section{padding:6rem 2.5rem;}
+.label{font-family:'DM Mono',monospace;font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;}
+.label::before{content:'';display:inline-block;width:1.5rem;height:1px;background:var(--gold);}
+h2{font-family:'Syne',sans-serif;font-weight:700;font-size:clamp(2rem,4vw,3.5rem);letter-spacing:-0.03em;line-height:1.05;}
+
+/* COMMODITY */
+.commodity-section{background:var(--mid);}
+.commodity-grid{margin-top:3.5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);}
+.comm{background:var(--black);padding:1.5rem;position:relative;}
+.comm::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;}
+.comm.gold::after{background:#c8963c;}
+.comm.coal::after{background:#ff6b35;}
+.comm.iron::after{background:#4a9eff;}
+.comm.copper::after{background:#22d3ee;}
+.comm.other::after{background:#555;}
+.comm-n{font-family:'Syne',sans-serif;font-weight:700;font-size:2.2rem;letter-spacing:-0.03em;}
+.comm.gold .comm-n{color:#c8963c;}
+.comm.coal .comm-n{color:#ff6b35;}
+.comm.iron .comm-n{color:#4a9eff;}
+.comm.copper .comm-n{color:#22d3ee;}
+.comm.other .comm-n{color:#666;}
+.comm-name{font-family:'DM Mono',monospace;font-size:0.7rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:0.4rem;}
+.state-bar{margin-top:3rem;display:flex;border:1px solid var(--border);}
+.state-item{flex:1;padding:1.25rem 1rem;border-right:1px solid var(--border);text-align:center;}
+.state-item:last-child{border-right:none;}
+.state-code{font-family:'Syne',sans-serif;font-weight:700;font-size:1.4rem;color:var(--gold);}
+.state-count{font-family:'DM Mono',monospace;font-size:0.65rem;color:var(--muted);letter-spacing:0.08em;margin-top:0.2rem;}
+
+/* WHO BUYS */
+.buyers-grid{margin-top:3.5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;}
+.buyer{border:1px solid var(--border);padding:2rem;position:relative;}
+.buyer::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;background:var(--gold);}
+.buyer h3{font-family:'Syne',sans-serif;font-weight:600;font-size:1rem;margin-bottom:0.5rem;}
+.buyer p{font-size:0.88rem;color:var(--muted);line-height:1.7;}
+.buyer-eg{font-family:'DM Mono',monospace;font-size:0.65rem;color:var(--gold);margin-top:0.75rem;opacity:0.7;}
+
+/* FIELDS */
+.fields-section{background:var(--mid);}
+.fields-grid{margin-top:3rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);}
+.field{background:var(--black);padding:1.25rem 1.5rem;}
+.field-name{font-family:'DM Mono',monospace;font-size:0.72rem;color:var(--gold);}
+.field-desc{font-size:0.8rem;color:var(--muted);line-height:1.5;margin-top:0.3rem;}
+
+/* PRICING */
+.pricing-grid{margin-top:3.5rem;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);}
+.price-card{background:var(--black);padding:3rem;display:flex;flex-direction:column;gap:1.5rem;position:relative;}
+.price-card.featured{background:var(--mid);}
+.price-card.featured::before{content:'RECOMMENDED';position:absolute;top:1.5rem;right:1.5rem;font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.12em;color:var(--gold);background:rgba(200,150,60,0.1);border:1px solid rgba(200,150,60,0.2);padding:0.25rem 0.6rem;}
+.price-tier{font-family:'DM Mono',monospace;font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);}
+.price-amount{font-family:'Syne',sans-serif;font-weight:800;font-size:3.5rem;letter-spacing:-0.04em;color:var(--gold);line-height:1;}
+.price-list{list-style:none;display:flex;flex-direction:column;gap:0.4rem;font-size:0.88rem;color:var(--muted);line-height:1.8;}
+.price-list li{display:flex;align-items:flex-start;gap:0.5rem;}
+.price-list li::before{content:'→';color:var(--gold);font-family:'DM Mono',monospace;font-size:0.8rem;flex-shrink:0;margin-top:0.1rem;}
+.price-note{font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--muted);}
+
+/* PROVENANCE */
+.prov-section{background:var(--mid);}
+.prov-grid{margin-top:3rem;display:grid;grid-template-columns:1fr 1fr;gap:6rem;}
+.prov-body p{font-size:0.95rem;color:var(--muted);line-height:1.85;margin-bottom:1.25rem;}
+.prov-body p strong{color:var(--white);font-weight:500;}
+.prov-facts{display:flex;flex-direction:column;}
+.fact{padding:1.25rem 0;border-bottom:1px solid var(--border);display:grid;grid-template-columns:1fr 1.2fr;gap:1rem;align-items:center;}
+.fact:first-child{border-top:1px solid var(--border);}
+.fact-label{font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);}
+.fact-value{font-family:'DM Mono',monospace;font-size:0.8rem;color:var(--white);}
+
+/* CTA */
+.cta-band{background:var(--gold);padding:5rem 2.5rem;text-align:center;}
+.cta-band h2{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(2rem,5vw,4rem);letter-spacing:-0.03em;color:var(--black);margin-bottom:1rem;}
+.cta-band p{font-size:1rem;color:rgba(10,10,10,0.6);margin-bottom:2.5rem;max-width:44ch;margin-left:auto;margin-right:auto;}
+.btn-dark{font-family:'DM Mono',monospace;font-size:0.8rem;letter-spacing:0.08em;text-transform:uppercase;background:var(--black);color:var(--gold);padding:1rem 2.5rem;text-decoration:none;font-weight:500;display:inline-block;transition:opacity 0.2s;margin:0 0.5rem;}
+.btn-dark:hover{opacity:0.85;}
+.btn-dark-ghost{font-family:'DM Mono',monospace;font-size:0.8rem;letter-spacing:0.08em;text-transform:uppercase;border:2px solid rgba(10,10,10,0.3);color:var(--black);padding:1rem 2.5rem;text-decoration:none;display:inline-block;margin:0 0.5rem;transition:border-color 0.2s;}
+.btn-dark-ghost:hover{border-color:var(--black);}
+
+/* FOOTER */
+footer{padding:3rem 2.5rem;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:2rem;}
+.footer-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1rem;text-decoration:none;color:var(--white);}
+.footer-logo span{color:var(--signal);}
+.footer-meta{font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--muted);letter-spacing:0.06em;line-height:2;text-align:right;}
+.footer-meta a{color:var(--muted);text-decoration:none;}
+.footer-meta a:hover{color:var(--white);}
+
+@media(max-width:768px){
+nav{padding:1rem 1.25rem;}.nav-links{display:none;}
+.hero{padding:6rem 1.25rem 3rem;}
+.hero-stats{grid-template-columns:repeat(3,1fr);}
+section{padding:4rem 1.25rem;}
+.pricing-grid{grid-template-columns:1fr;}
+.prov-grid{grid-template-columns:1fr;gap:3rem;}
+.state-bar{flex-wrap:wrap;}
+.state-item{flex:0 0 25%;border-top:1px solid var(--border);}
+footer{flex-direction:column;align-items:flex-start;}
+.footer-meta{text-align:left;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">Prospect<span>Signal</span> AU</a>
+  <div class="nav-links">
+    <a href="/products.html">B2B Data</a>
+    <a href="/methodology.html">Methodology</a>
+    <a href="/responsible-use.html">Responsible Use</a>
+    <a href="/samples/sample_AU-Mining-Intelligence.csv" download class="nav-cta">Download Sample</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Mining Intelligence · Premium Dataset</div>
+    <h1>Every operating<em>Australian mine.</em></h1>
+    <p class="hero-sub">349 confirmed operating mine sites. <strong>Parent company, operator, commodity, and GA-validated coordinates.</strong> Every major acquisition from 2022–2025 applied. Built from Geoscience Australia's authoritative operating mines dataset and cross-validated against ASX filings. There is no comparable product on the market.</p>
+    <div class="hero-actions">
+      <a href="#pricing" class="btn-gold">Get the data →</a>
+      <a href="/samples/sample_AU-Mining-Intelligence.csv" download class="btn-ghost">Download free sample</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">349</div><div class="stat-label">Operating mine sites</div></div>
+      <div class="stat"><div class="stat-num">8</div><div class="stat-label">States & territories</div></div>
+      <div class="stat"><div class="stat-num">14</div><div class="stat-label">Commodity categories</div></div>
+      <div class="stat"><div class="stat-num">40+</div><div class="stat-label">Parent companies</div></div>
+      <div class="stat"><div class="stat-num">100%</div><div class="stat-label">GA-validated coords</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker">
+  <div class="ticker-inner">
+    <span>Rio Tinto</span><span>BHP Group</span><span>Glencore</span><span>Northern Star</span><span>Newmont</span><span>Evolution Mining</span><span>Fortescue</span><span>Whitehaven Coal</span><span>South32</span><span>Mineral Resources</span><span>Gold Fields</span><span>Westgold</span><span>Yancoal</span><span>Iluka Resources</span><span>Hancock Prospecting</span><span>Rio Tinto</span><span>BHP Group</span><span>Glencore</span><span>Northern Star</span><span>Newmont</span><span>Evolution Mining</span><span>Fortescue</span><span>Whitehaven Coal</span><span>South32</span><span>Mineral Resources</span><span>Gold Fields</span><span>Westgold</span><span>Yancoal</span><span>Iluka Resources</span><span>Hancock Prospecting</span>
+  </div>
+</div>
+
+<section class="commodity-section" id="coverage">
+  <div class="label">Coverage</div>
+  <h2>Every commodity. Every state.</h2>
+  <div class="commodity-grid">
+    <div class="comm gold"><div class="comm-n">97</div><div class="comm-name">Gold</div></div>
+    <div class="comm coal"><div class="comm-n">99</div><div class="comm-name">Coal</div></div>
+    <div class="comm iron"><div class="comm-n">60</div><div class="comm-name">Iron Ore</div></div>
+    <div class="comm copper"><div class="comm-n">20</div><div class="comm-name">Copper</div></div>
+    <div class="comm other"><div class="comm-n">19</div><div class="comm-name">Industrial Minerals</div></div>
+    <div class="comm other"><div class="comm-n">13</div><div class="comm-name">Zinc-Lead</div></div>
+    <div class="comm other"><div class="comm-n">13</div><div class="comm-name">Mineral Sands</div></div>
+    <div class="comm other"><div class="comm-n">9</div><div class="comm-name">Bauxite-Alumina</div></div>
+    <div class="comm other"><div class="comm-n">6</div><div class="comm-name">Lithium</div></div>
+    <div class="comm other"><div class="comm-n">3</div><div class="comm-name">Uranium</div></div>
+    <div class="comm other"><div class="comm-n">2</div><div class="comm-name">Manganese</div></div>
+    <div class="comm other"><div class="comm-n">2</div><div class="comm-name">Nickel</div></div>
+    <div class="comm other"><div class="comm-n">1</div><div class="comm-name">Rare Earths</div></div>
+    <div class="comm other"><div class="comm-n">5</div><div class="comm-name">Other</div></div>
+  </div>
+  <div class="state-bar">
+    <div class="state-item"><div class="state-code">WA</div><div class="state-count">164 sites</div></div>
+    <div class="state-item"><div class="state-code">QLD</div><div class="state-count">79 sites</div></div>
+    <div class="state-item"><div class="state-code">NSW</div><div class="state-count">59 sites</div></div>
+    <div class="state-item"><div class="state-code">SA</div><div class="state-count">18 sites</div></div>
+    <div class="state-item"><div class="state-code">TAS</div><div class="state-count">12 sites</div></div>
+    <div class="state-item"><div class="state-code">NT</div><div class="state-count">9 sites</div></div>
+    <div class="state-item"><div class="state-code">VIC</div><div class="state-count">7 sites</div></div>
+  </div>
+</section>
+
+<section id="buyers">
+  <div class="label">Who buys this</div>
+  <h2>Built for mining's supply chain.</h2>
+  <div class="buyers-grid">
+    <div class="buyer">
+      <h3>Fleet Leasing & Fuel Cards</h3>
+      <p>Every operating mine runs 50–300 vehicles. Know exactly who owns each site, who the operator is, and how many tenements they hold before your rep makes a single call. The fleet leasing pitch writes itself.</p>
+      <div class="buyer-eg">Eclipx · SG Fleet · Fleetcare · Motorpass · Shell Fleet · BP Fleet</div>
+    </div>
+    <div class="buyer">
+      <h3>Explosives & Blasting</h3>
+      <p>349 operating sites. Parent company hierarchy tells you whether you're selling to a site-level operator or a group procurement team. Know before you go.</p>
+      <div class="buyer-eg">Orica · Dyno Nobel · Austin Powder · Maxam</div>
+    </div>
+    <div class="buyer">
+      <h3>Labour Hire & Recruitment</h3>
+      <p>Commodity type, operator name, and parent company in one row. Your BD team knows which accounts to target, in which regions, before they open a spreadsheet.</p>
+      <div class="buyer-eg">Programmed · Chandler Macleod · Hays Mining · WorkPac</div>
+    </div>
+    <div class="buyer">
+      <h3>Mining Software & Technology</h3>
+      <p>Filter by commodity to find your ideal customer profile. 97 gold mines. 60 iron ore operations. 20 copper sites. Your total addressable market, mapped.</p>
+      <div class="buyer-eg">Micromine · Deswik · Maptek · Surpac · iVolve</div>
+    </div>
+    <div class="buyer">
+      <h3>Insurance & Finance</h3>
+      <p>Operating status, commodity category, and parent company in a single row. Understand the risk profile before the first conversation.</p>
+      <div class="buyer-eg">Gallagher · Marsh · Austbrokers · Macquarie</div>
+    </div>
+    <div class="buyer">
+      <h3>PPE & Safety Equipment</h3>
+      <p>Different commodities demand different PPE. This dataset tells you exactly what type of operation you're walking into before you pitch.</p>
+      <div class="buyer-eg">3M · MSA Safety · Ansell · Totally Workwear</div>
+    </div>
+  </div>
+</section>
+
+<section class="fields-section" id="fields">
+  <div class="label">Data Fields</div>
+  <h2>Every row includes.</h2>
+  <div class="fields-grid">
+    <div class="field"><div class="field-name">site_name</div><div class="field-desc">Operating mine or project name</div></div>
+    <div class="field"><div class="field-name">parent_company</div><div class="field-desc">Ultimate group owner (e.g. BHP Group Limited)</div></div>
+    <div class="field"><div class="field-name">operator_company</div><div class="field-desc">Day-to-day operating entity</div></div>
+    <div class="field"><div class="field-name">legal_entity_name</div><div class="field-desc">Registered tenement-holding entity</div></div>
+    <div class="field"><div class="field-name">state</div><div class="field-desc">State or territory</div></div>
+    <div class="field"><div class="field-name">commodity_category</div><div class="field-desc">Normalised category (Gold, Coal, Iron Ore…)</div></div>
+    <div class="field"><div class="field-name">status</div><div class="field-desc">Operating / Care & Maintenance / Rehabilitation</div></div>
+    <div class="field"><div class="field-name">latitude / longitude</div><div class="field-desc">GA-validated coordinates — every row</div></div>
+    <div class="field"><div class="field-name">evidence_url</div><div class="field-desc">Source URL for every parent/operator assignment</div></div>
+    <div class="field"><div class="field-name">confidence_tier</div><div class="field-desc">High / Medium / Low — transparent quality</div></div>
+    <div class="field"><div class="field-name">asx_ticker</div><div class="field-desc">Exchange ticker where parent is listed</div></div>
+    <div class="field"><div class="field-name">notes</div><div class="field-desc">M&A history, JV structure, status changes</div></div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="label">Pricing</div>
+  <h2>One-time purchase. Yours to keep.</h2>
+  <div class="pricing-grid">
+    <div class="price-card">
+      <div class="price-tier">CSV Data File</div>
+      <div class="price-amount">A$499</div>
+      <ul class="price-list">
+        <li>349 operating Australian mine sites</li>
+        <li>16 enriched fields per row</li>
+        <li>Parent company & operator hierarchy</li>
+        <li>GA-validated coordinates — all rows</li>
+        <li>M&A corrections to May 2025</li>
+        <li>Evidence URLs for every assignment</li>
+        <li>Data dictionary PDF included</li>
+        <li>Instant download · CSV format</li>
+      </ul>
+      <a href="https://buy.stripe.com/placeholder-csv" class="btn-gold" data-stripe-url="https://buy.stripe.com/placeholder-csv">Buy CSV — A$499</a>
+      <div class="price-note">One-time payment · No subscription · Yours to keep</div>
+    </div>
+    <div class="price-card featured">
+      <div class="price-tier">CSV + Power BI Map</div>
+      <div class="price-amount">A$999</div>
+      <ul class="price-list">
+        <li>Everything in the CSV tier</li>
+        <li>Pre-built Power BI .pbix file</li>
+        <li>Map layer coloured by commodity</li>
+        <li>Slicers for parent, commodity, state, status</li>
+        <li>Load in Power BI Desktop in 3 clicks</li>
+        <li>Show your boss a map on day one</li>
+      </ul>
+      <a href="https://buy.stripe.com/placeholder-powerbi" class="btn-gold" data-stripe-url="https://buy.stripe.com/placeholder-powerbi">Buy CSV + Power BI — A$999</a>
+      <div class="price-note">One-time payment · .pbix + .csv · Instant download</div>
+    </div>
+  </div>
+</section>
+
+<section class="prov-section">
+  <div class="label">Data Provenance</div>
+  <h2>Where the data comes from.</h2>
+  <div class="prov-grid">
+    <div class="prov-body">
+      <p>The base dataset is <strong>Geoscience Australia's Operating Mines 2024</strong> — the authoritative federal register of confirmed operating mines. Every row starts from a real GA mine record with a real GA coordinate. No estimates. No approximations.</p>
+      <p>Parent company, operator, and legal entity data is enriched from <strong>ASX annual reports, company operations pages, state tenement registers, and official M&A announcements</strong>. Every enrichment row carries an evidence URL and a validation date.</p>
+      <p>All major acquisitions from 2022 to May 2025 have been applied — BHP/OZ Minerals, Newmont/Newcrest, Whitehaven/BHP Coal, Greatland/Telfer, Westgold/Karora, Red 5/Silver Lake, Genesis/Dacian, Thungela/Ensham, Kaiser Reef/Henty, Meeka Metals/Andy Well, Hancock Iron Ore consolidation.</p>
+      <p>12 rows carry a <strong>needs_review flag</strong> — documented, not hidden. The site, coordinates, and parent are confirmed. Legal entity requires direct state register verification.</p>
+    </div>
+    <div class="prov-facts">
+      <div class="fact"><div class="fact-label">Base source</div><div class="fact-value">GA Operating Mines 2024</div></div>
+      <div class="fact"><div class="fact-label">Total rows</div><div class="fact-value">349 mine sites</div></div>
+      <div class="fact"><div class="fact-label">Coordinates</div><div class="fact-value">349/349 GA-validated</div></div>
+      <div class="fact"><div class="fact-label">Parent populated</div><div class="fact-value">348/349 (99.7%)</div></div>
+      <div class="fact"><div class="fact-label">Operator populated</div><div class="fact-value">348/349 (99.7%)</div></div>
+      <div class="fact"><div class="fact-label">M&A updated to</div><div class="fact-value">May 2025</div></div>
+      <div class="fact"><div class="fact-label">Needs review</div><div class="fact-value">12 rows (flagged)</div></div>
+      <div class="fact"><div class="fact-label">ABN</div><div class="fact-value">13 002 879 686</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="cta-band">
+  <h2>349 operating mines. Load it today.</h2>
+  <p>Clean data, real coordinates, every major operator. No subscription. Yours to keep.</p>
+  <a href="#pricing" class="btn-dark">Buy now →</a>
+  <a href="/samples/sample_AU-Mining-Intelligence.csv" download class="btn-dark-ghost">Free sample first</a>
+</div>
+
+<footer>
+  <a href="/" class="footer-logo">Prospect<span>Signal</span> AU</a>
+  <div class="footer-meta">
+    ABN 13 002 879 686 · Perth, Western Australia<br>
+    Data sourced from Geoscience Australia operating mines dataset<br>
+    <a href="mailto:hello@prospectsignal.com.au">hello@prospectsignal.com.au</a>
+  </div>
+</footer>
+
+</body>
+</html>
