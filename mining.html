@@ -21,9 +21,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .nav-cta{background:var(--gold) !important;color:var(--black) !important;padding:0.5rem 1.25rem;font-weight:500 !important;}
 
 /* HERO */
-.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:flex-end;padding:8rem 2.5rem 5rem;position:relative;overflow:hidden;background:radial-gradient(ellipse 70% 50% at 65% 40%, rgba(200,150,60,0.07) 0%, transparent 70%);}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:flex-end;padding:8rem max(2.5rem,calc((100vw - 1280px)/2)) 5rem;position:relative;overflow:hidden;background:radial-gradient(ellipse 70% 50% at 65% 40%, rgba(200,150,60,0.07) 0%, transparent 70%);}
 .hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(200,150,60,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,150,60,0.04) 1px,transparent 1px);background-size:60px 60px;}
-.hero-content{position:relative;z-index:2;max-width:900px;}
+.hero-content{position:relative;z-index:2;max-width:1280px;width:100%;}
 .hero-tag{font-family:'DM Mono',monospace;font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);background:rgba(200,150,60,0.1);border:1px solid rgba(200,150,60,0.2);padding:0.4rem 0.9rem;display:inline-block;margin-bottom:2rem;}
 h1{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(3.5rem,8vw,7.5rem);line-height:0.92;letter-spacing:-0.04em;margin-bottom:2rem;}
 h1 em{font-style:normal;color:var(--gold);display:block;}
@@ -34,7 +34,7 @@ h1 em{font-style:normal;color:var(--gold);display:block;}
 .btn-gold:hover{opacity:0.88;transform:translateY(-1px);}
 .btn-ghost{font-family:'DM Mono',monospace;font-size:0.82rem;letter-spacing:0.08em;text-transform:uppercase;border:1px solid var(--border);color:var(--muted);padding:1rem 2rem;text-decoration:none;transition:border-color 0.2s,color 0.2s;display:inline-block;}
 .btn-ghost:hover{border-color:var(--white);color:var(--white);}
-.hero-map{margin-bottom:2.5rem;border:1px solid var(--border);}
+.hero-map{display:block;margin-bottom:2.5rem;border:1px solid var(--border);transition:border-color 0.2s;}
 .hero-map img{width:100%;height:auto;display:block;}
 .hero-stats{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--border);}
 .stat{padding:1.75rem 1.5rem;border-right:1px solid var(--border);}
@@ -50,7 +50,7 @@ h1 em{font-style:normal;color:var(--gold);display:block;}
 @keyframes ticker{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
 
 /* SECTIONS */
-section{padding:6rem 2.5rem;}
+section{padding:6rem max(2.5rem,calc((100vw - 1280px)/2));}
 .label{font-family:'DM Mono',monospace;font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;}
 .label::before{content:'';display:inline-block;width:1.5rem;height:1px;background:var(--gold);}
 h2{font-family:'Syne',sans-serif;font-weight:700;font-size:clamp(2rem,4vw,3.5rem);letter-spacing:-0.03em;line-height:1.05;}
@@ -129,7 +129,7 @@ h2{font-family:'Syne',sans-serif;font-weight:700;font-size:clamp(2rem,4vw,3.5rem
 .fact-value{font-family:'DM Mono',monospace;font-size:0.8rem;color:var(--white);}
 
 /* CTA */
-.cta-band{background:var(--gold);padding:5rem 2.5rem;text-align:center;}
+.cta-band{background:var(--gold);padding:5rem max(2.5rem,calc((100vw - 1280px)/2));text-align:center;}
 .cta-band h2{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(2rem,5vw,4rem);letter-spacing:-0.03em;color:var(--black);margin-bottom:1rem;}
 .cta-band p{font-size:1rem;color:rgba(10,10,10,0.6);margin-bottom:2.5rem;max-width:44ch;margin-left:auto;margin-right:auto;}
 .btn-dark{font-family:'DM Mono',monospace;font-size:0.8rem;letter-spacing:0.08em;text-transform:uppercase;background:var(--black);color:var(--gold);padding:1rem 2.5rem;text-decoration:none;font-weight:500;display:inline-block;transition:opacity 0.2s;margin:0 0.5rem;}
@@ -145,7 +145,26 @@ footer{padding:3rem 2.5rem;border-top:1px solid var(--border);display:flex;justi
 .footer-meta a{color:var(--muted);text-decoration:none;}
 .footer-meta a:hover{color:var(--white);}
 
+/* STICKY BUY BAR */
+.buybar{position:fixed;bottom:0;left:0;right:0;z-index:99;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-top:1px solid var(--gold);transform:translateY(110%);transition:transform 0.3s ease;}
+.buybar-inner{max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:0.85rem 2.5rem;flex-wrap:wrap;}
+.buybar.show{transform:translateY(0);}
+.buybar-txt{font-family:'DM Mono',monospace;font-size:0.72rem;letter-spacing:0.06em;color:var(--muted);text-transform:uppercase;}
+.buybar-txt strong{color:var(--gold);font-weight:500;}
+.buybar-actions{display:flex;gap:0.75rem;align-items:center;}
+.buybar-buy{font-family:'DM Mono',monospace;font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;background:var(--gold);color:var(--black);padding:0.65rem 1.5rem;text-decoration:none;font-weight:500;}
+.buybar-ghost{font-family:'DM Mono',monospace;font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;border:1px solid var(--border);color:var(--muted);padding:0.65rem 1.25rem;text-decoration:none;}
+.buybar-ghost:hover{color:var(--white);border-color:var(--white);}
+.table-cta{margin-top:2rem;}
+.try-sample{font-family:'DM Mono',monospace;font-size:0.72rem;color:var(--muted);text-decoration:none;letter-spacing:0.06em;}
+.try-sample:hover{color:var(--gold);}
+.trust-strip{margin-top:1.5rem;text-align:center;font-family:'DM Mono',monospace;font-size:0.7rem;letter-spacing:0.06em;color:var(--muted);line-height:2;}
+.trust-strip a{color:var(--muted);}
+.trust-strip a:hover{color:var(--gold);}
+.hero-map:hover{border-color:var(--gold);}
 @media(max-width:768px){
+.buybar-inner{padding:0.75rem 1.25rem;}.buybar-txt{display:none;}
+
 nav{padding:1rem 1.25rem;}.nav-links{display:none;}
 .hero{padding:6rem 1.25rem 3rem;}
 .hero-stats{grid-template-columns:repeat(3,1fr);}
@@ -191,7 +210,7 @@ footer{flex-direction:column;align-items:flex-start;}
       <a href="#pricing" class="btn-gold">Get the data →</a>
       <a href="/samples/sample_AU-Mining-Intelligence.csv" download class="btn-ghost">Download free sample</a>
     </div>
-    <div class="hero-map"><img src="/assets/mining-hero.png" alt="349 Australian operating mine sites mapped by commodity — gold, coal, iron ore, lithium, copper" width="1295" height="986"></div>
+    <a class="hero-map" href="#pricing" aria-label="View pricing"><img src="/assets/mining-hero.png" alt="349 Australian operating mine sites mapped by commodity — gold, coal, iron ore, lithium, copper" width="1295" height="986"></a>
     <div class="hero-stats">
       <div class="stat"><div class="stat-num">349</div><div class="stat-label">Operating mine sites</div></div>
       <div class="stat"><div class="stat-num">8</div><div class="stat-label">States & territories</div></div>
@@ -295,6 +314,7 @@ footer{flex-direction:column;align-items:flex-start;}
     <thead><tr><th>site_name</th><th>parent_company</th><th>operator_company</th><th>commodity</th><th>state</th></tr></thead>
     <tbody><tr><td>Hail Creek</td><td>Rio Tinto Limited</td><td>Hail Creek Coal Holdings Pty Limited</td><td>Coal</td><td>QLD</td></tr><tr><td>Tropicana</td><td>AngloGold Ashanti</td><td>Tropicana Gold Mines Pty Ltd</td><td>Gold</td><td>WA</td></tr><tr><td>Greenbushes</td><td>Talison Lithium Pty Ltd</td><td>Talison Lithium Australia Pty Ltd</td><td>Lithium</td><td>WA</td></tr><tr><td>Appin</td><td>GM3 (Golden Energy & Resources / M Resources JV)</td><td>Illawarra Metallurgical Coal</td><td>Coal</td><td>NSW</td></tr><tr><td>Boggabri</td><td>Idemitsu Australia Resources Pty Ltd</td><td>Idemitsu Australia Resources Pty Ltd</td><td>Coal</td><td>NSW</td></tr><tr><td>Christmas Island</td><td>PRL Global Ltd</td><td>Christmas Island Phosphates</td><td>Industrial Minerals</td><td>IOT</td></tr></tbody>
   </table></div>
+  <a href="#pricing" class="btn-gold table-cta" style="display:inline-block;">Get all 349 rows &rarr;</a>
 </section>
 
 <section class="fields-section" id="fields">
@@ -334,6 +354,7 @@ footer{flex-direction:column;align-items:flex-start;}
         <li>Instant download · CSV format</li>
       </ul>
       <a href="https://buy.stripe.com/bJe14f9w26h5byn10V8Vj1O" class="btn-gold" data-stripe-url="https://buy.stripe.com/bJe14f9w26h5byn10V8Vj1O">Buy CSV — A$1,499</a>
+      <a class="try-sample" href="/samples/sample_AU-Mining-Intelligence.csv" download>Not sure? Try 25 rows free first &rarr;</a>
       <div class="price-note">One-time payment · No subscription · Yours to keep</div>
     </div>
     <div class="price-card featured">
@@ -348,9 +369,11 @@ footer{flex-direction:column;align-items:flex-start;}
         <li>Show your boss a map on day one</li>
       </ul>
       <a href="https://buy.stripe.com/3cIfZ99w2bBpfOD24Z8Vj1P" class="btn-gold" data-stripe-url="https://buy.stripe.com/3cIfZ99w2bBpfOD24Z8Vj1P">Buy CSV + Power BI — A$2,999</a>
+      <a class="try-sample" href="/samples/sample_AU-Mining-Intelligence.csv" download>Not sure? Try 25 rows free first &rarr;</a>
       <div class="price-note">One-time payment · .pbix + .csv · Instant download</div>
     </div>
   </div>
+  <div class="trust-strip">Instant download after Stripe checkout &middot; Tax invoice issued &middot; ABN 13 002 879 686 &middot; One-time payment, no subscription &middot; <a href="mailto:hello@prospectsignal.com.au">Questions? hello@prospectsignal.com.au</a></div>
 </section>
 
 <section class="prov-section">
@@ -390,5 +413,12 @@ footer{flex-direction:column;align-items:flex-start;}
   </div>
 </footer>
 
+<div class="buybar" id="buybar"><div class="buybar-inner"><span class="buybar-txt"><strong>349 mine sites</strong> &middot; parent + operator &middot; verified June 2026</span><div class="buybar-actions"><a href="/samples/sample_AU-Mining-Intelligence.csv" download class="buybar-ghost">Free 25-row sample</a><a href="#pricing" class="buybar-buy">Buy from A$1,499 &rarr;</a></div></div></div>
+<script>
+(function(){var b=document.getElementById('buybar'),pr=document.getElementById('pricing');
+function onS(){var y=window.scrollY,prTop=pr.getBoundingClientRect().top,inPricing=prTop<window.innerHeight*0.6&&prTop>-pr.offsetHeight;
+b.classList.toggle('show',y>700&&!inPricing);}
+window.addEventListener('scroll',onS,{passive:true});onS();})();
+</script>
 </body>
 </html>
