@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Australian Mine Sites Database — 349 Operating Mines | Prospect Signal AU</title>
-<meta name="description" content="349 verified Australian operating mine sites. Parent company, operator, ABN, commodity, state and GPS coordinates. Built for fleet, PPE, explosives, labour hire, and mining software sales teams. CSV from A$499.">
+<meta name="description" content="349 verified Australian operating mine sites. Parent company, operator, commodity, state and GPS coordinates. Ownership verified to June 2026. CSV A$1,499 direct. CSV + Power BI map A$2,999.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -34,6 +34,8 @@ h1 em{font-style:normal;color:var(--gold);display:block;}
 .btn-gold:hover{opacity:0.88;transform:translateY(-1px);}
 .btn-ghost{font-family:'DM Mono',monospace;font-size:0.82rem;letter-spacing:0.08em;text-transform:uppercase;border:1px solid var(--border);color:var(--muted);padding:1rem 2rem;text-decoration:none;transition:border-color 0.2s,color 0.2s;display:inline-block;}
 .btn-ghost:hover{border-color:var(--white);color:var(--white);}
+.hero-map{margin-bottom:2.5rem;border:1px solid var(--border);}
+.hero-map img{width:100%;height:auto;display:block;}
 .hero-stats{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--border);}
 .stat{padding:1.75rem 1.5rem;border-right:1px solid var(--border);}
 .stat:last-child{border-right:none;}
@@ -84,6 +86,18 @@ h2{font-family:'Syne',sans-serif;font-weight:700;font-size:clamp(2rem,4vw,3.5rem
 .buyer p{font-size:0.88rem;color:var(--muted);line-height:1.7;}
 .buyer-eg{font-family:'DM Mono',monospace;font-size:0.65rem;color:var(--gold);margin-top:0.75rem;opacity:0.7;}
 
+/* PARENT-OPERATOR + TABLE */
+.po-section{background:var(--black);}
+.po-body{max-width:760px;margin-top:2.5rem;}
+.po-body p{font-size:1rem;color:var(--muted);line-height:1.85;margin-bottom:1.25rem;}
+.po-body p strong{color:var(--white);font-weight:500;}
+.table-section{background:var(--mid);}
+.table-intro{margin-top:1.25rem;color:var(--muted);max-width:60ch;line-height:1.7;}
+.table-wrap{margin-top:2.5rem;overflow-x:auto;border:1px solid var(--border);}
+.data-table{width:100%;border-collapse:collapse;font-family:'DM Mono',monospace;font-size:0.78rem;min-width:760px;}
+.data-table th{text-align:left;color:var(--gold);border-bottom:1px solid var(--border);padding:0.9rem 1.25rem;font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;background:var(--black);}
+.data-table td{padding:0.8rem 1.25rem;border-bottom:1px solid var(--border);color:var(--white);background:var(--black);}
+.data-table tr:last-child td{border-bottom:none;}
 /* FIELDS */
 .fields-section{background:var(--mid);}
 .fields-grid{margin-top:3rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);}
@@ -146,12 +160,12 @@ footer{flex-direction:column;align-items:flex-start;}
 </style>
 <link rel="canonical" href="https://prospectsignal.com.au/mining">
 <meta property="og:title" content="Australian Mine Sites Database — 349 Operating Mines">
-<meta property="og:description" content="Every operating mine in Australia. Parent company, operator, ABN, commodity, state, GPS. B2B sales intelligence for resources suppliers. From A$499.">
+<meta property="og:description" content="Every operating mine in Australia. One file. 349 verified sites, 137 parent companies, GPS coordinates. B2B sales intelligence for resources suppliers. A$1,499 direct.">
 <meta property="og:url" content="https://prospectsignal.com.au/mining">
 <meta property="og:type" content="product">
 <meta property="og:site_name" content="Prospect Signal AU">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"Australian Mine Sites Intelligence Database","description":"349 verified operating mine sites. Parent company, operator, ABN, commodity, state, GPS coordinates. 135 parent companies including BHP, Rio Tinto, South32, Newmont, Glencore.","url":"https://prospectsignal.com.au/mining","brand":{"@type":"Organization","name":"Prospect Signal AU"},"offers":[{"@type":"Offer","name":"CSV — Gumroad","price":"499","priceCurrency":"AUD","availability":"https://schema.org/InStock"},{"@type":"Offer","name":"CSV — Direct","price":"1499","priceCurrency":"AUD","availability":"https://schema.org/InStock"},{"@type":"Offer","name":"CSV + Power BI Map","price":"2999","priceCurrency":"AUD","availability":"https://schema.org/InStock"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"Australian Mine Sites Intelligence Database","description":"349 verified operating mine sites. Parent company, operator, ABN, commodity, state, GPS coordinates. 137 parent companies including BHP, Rio Tinto, Newmont, Glencore, Fortescue.","url":"https://prospectsignal.com.au/mining","brand":{"@type":"Organization","name":"Prospect Signal AU"},"offers":[{"@type":"Offer","name":"CSV — Direct","price":"1499","priceCurrency":"AUD","availability":"https://schema.org/InStock"},{"@type":"Offer","name":"CSV + Power BI Map","price":"2999","priceCurrency":"AUD","availability":"https://schema.org/InStock"}]}</script>
 </head>
 <body>
 
@@ -161,6 +175,8 @@ footer{flex-direction:column;align-items:flex-start;}
     <a href="/products.html">B2B Data</a>
     <a href="/methodology.html">Methodology</a>
     <a href="/responsible-use.html">Responsible Use</a>
+    <a href="/blog/">Blog</a>
+    <a href="/faq.html">FAQ</a>
     <a href="/samples/sample_AU-Mining-Intelligence.csv" download class="nav-cta">Download Sample</a>
   </div>
 </nav>
@@ -169,17 +185,18 @@ footer{flex-direction:column;align-items:flex-start;}
   <div class="hero-grid"></div>
   <div class="hero-content">
     <div class="hero-tag">Mining Intelligence · Premium Dataset</div>
-    <h1>Every operating<em>Australian mine.</em></h1>
-    <p class="hero-sub">349 confirmed operating mine sites. <strong>Parent company, operator, commodity, and GA-validated coordinates.</strong> Every major acquisition from 2022–2025 applied. Built from Geoscience Australia's authoritative operating mines dataset and cross-validated against ASX filings. There is no comparable product on the market.</p>
+    <h1>Every operating mine<em>in Australia. One file.</em></h1>
+    <p class="hero-sub">349 verified sites. <strong>137 parent companies. GPS coordinates. Commodity data. Instant download.</strong> Built from Geoscience Australia’s operating mines register, cross-validated against ASX filings and state tenement registers. Ownership verified to June 2026.</p>
     <div class="hero-actions">
       <a href="#pricing" class="btn-gold">Get the data →</a>
       <a href="/samples/sample_AU-Mining-Intelligence.csv" download class="btn-ghost">Download free sample</a>
     </div>
+    <div class="hero-map"><img src="/assets/mining-hero.png" alt="349 Australian operating mine sites mapped by commodity — gold, coal, iron ore, lithium, copper" width="1295" height="986"></div>
     <div class="hero-stats">
       <div class="stat"><div class="stat-num">349</div><div class="stat-label">Operating mine sites</div></div>
       <div class="stat"><div class="stat-num">8</div><div class="stat-label">States & territories</div></div>
       <div class="stat"><div class="stat-num">14</div><div class="stat-label">Commodity categories</div></div>
-      <div class="stat"><div class="stat-num">40+</div><div class="stat-label">Parent companies</div></div>
+      <div class="stat"><div class="stat-num">137</div><div class="stat-label">Parent companies</div></div>
       <div class="stat"><div class="stat-num">100%</div><div class="stat-label">GA-validated coords</div></div>
     </div>
   </div>
@@ -218,6 +235,7 @@ footer{flex-direction:column;align-items:flex-start;}
     <div class="state-item"><div class="state-code">TAS</div><div class="state-count">12 sites</div></div>
     <div class="state-item"><div class="state-code">NT</div><div class="state-count">9 sites</div></div>
     <div class="state-item"><div class="state-code">VIC</div><div class="state-count">7 sites</div></div>
+    <div class="state-item"><div class="state-code">IOT</div><div class="state-count">1 site</div></div>
   </div>
 </section>
 
@@ -258,6 +276,27 @@ footer{flex-direction:column;align-items:flex-start;}
   </div>
 </section>
 
+
+<section class="po-section" id="parent-operator">
+  <div class="label">Parent vs Operator</div>
+  <h2>The entity on the tenement isn't the one that signs.</h2>
+  <div class="po-body">
+    <p>A mine site is usually operated by a subsidiary nobody outside the industry has heard of. The procurement decision sits with the parent. Generic lists carry one or the other — this file carries <strong>both, on every row</strong>.</p>
+    <p><strong>Example: Appin coal mine, NSW.</strong> The operator is Illawarra Metallurgical Coal. Until 2024 the parent was South32 — then the entire division was sold to GM3, the Golden Energy &amp; Resources / M Resources joint venture. Lists built before that deal still point at South32. Ours says GM3, with an evidence URL on the row to prove it.</p>
+    <p>Australian mining ownership moves fast. Every row carries a source link and a verification date, and the file is verified to <strong>June 2026</strong>.</p>
+  </div>
+</section>
+
+<section class="table-section" id="sample-rows">
+  <div class="label">The Data</div>
+  <h2>Real rows from the file.</h2>
+  <p class="table-intro">Straight from the dataset — no mockups. The full file carries 58 columns per site; these are the five your sales team will use first.</p>
+  <div class="table-wrap"><table class="data-table">
+    <thead><tr><th>site_name</th><th>parent_company</th><th>operator_company</th><th>commodity</th><th>state</th></tr></thead>
+    <tbody><tr><td>Hail Creek</td><td>Rio Tinto Limited</td><td>Hail Creek Coal Holdings Pty Limited</td><td>Coal</td><td>QLD</td></tr><tr><td>Tropicana</td><td>AngloGold Ashanti</td><td>Tropicana Gold Mines Pty Ltd</td><td>Gold</td><td>WA</td></tr><tr><td>Greenbushes</td><td>Talison Lithium Pty Ltd</td><td>Talison Lithium Australia Pty Ltd</td><td>Lithium</td><td>WA</td></tr><tr><td>Appin</td><td>GM3 (Golden Energy & Resources / M Resources JV)</td><td>Illawarra Metallurgical Coal</td><td>Coal</td><td>NSW</td></tr><tr><td>Boggabri</td><td>Idemitsu Australia Resources Pty Ltd</td><td>Idemitsu Australia Resources Pty Ltd</td><td>Coal</td><td>NSW</td></tr><tr><td>Christmas Island</td><td>PRL Global Ltd</td><td>Christmas Island Phosphates</td><td>Industrial Minerals</td><td>IOT</td></tr></tbody>
+  </table></div>
+</section>
+
 <section class="fields-section" id="fields">
   <div class="label">Data Fields</div>
   <h2>Every row includes.</h2>
@@ -271,7 +310,7 @@ footer{flex-direction:column;align-items:flex-start;}
     <div class="field"><div class="field-name">status</div><div class="field-desc">Operating / Care & Maintenance / Rehabilitation</div></div>
     <div class="field"><div class="field-name">latitude / longitude</div><div class="field-desc">GA-validated coordinates — every row</div></div>
     <div class="field"><div class="field-name">evidence_url</div><div class="field-desc">Source URL for every parent/operator assignment</div></div>
-    <div class="field"><div class="field-name">confidence_tier</div><div class="field-desc">High / Medium / Low — transparent quality</div></div>
+    <div class="field"><div class="field-name">confidence_tier</div><div class="field-desc">Every assignment scored and source-linked</div></div>
     <div class="field"><div class="field-name">asx_ticker</div><div class="field-desc">Exchange ticker where parent is listed</div></div>
     <div class="field"><div class="field-name">notes</div><div class="field-desc">M&A history, JV structure, status changes</div></div>
   </div>
@@ -289,7 +328,7 @@ footer{flex-direction:column;align-items:flex-start;}
         <li>16 enriched fields per row</li>
         <li>Parent company & operator hierarchy</li>
         <li>GA-validated coordinates — all rows</li>
-        <li>M&A corrections to May 2025</li>
+        <li>Ownership verified to June 2026</li>
         <li>Evidence URLs for every assignment</li>
         <li>Data dictionary PDF included</li>
         <li>Instant download · CSV format</li>
@@ -305,7 +344,7 @@ footer{flex-direction:column;align-items:flex-start;}
         <li>Pre-built Power BI .pbix file</li>
         <li>Map layer coloured by commodity</li>
         <li>Slicers for parent, commodity, state, status</li>
-        <li>Load in Power BI Desktop in 3 clicks</li>
+        <li>Data embedded — opens in free Power BI Desktop, zero setup</li>
         <li>Show your boss a map on day one</li>
       </ul>
       <a href="https://buy.stripe.com/3cIfZ99w2bBpfOD24Z8Vj1P" class="btn-gold" data-stripe-url="https://buy.stripe.com/3cIfZ99w2bBpfOD24Z8Vj1P">Buy CSV + Power BI — A$2,999</a>
@@ -321,17 +360,15 @@ footer{flex-direction:column;align-items:flex-start;}
     <div class="prov-body">
       <p>The base dataset is <strong>Geoscience Australia's Operating Mines 2024</strong> — the authoritative federal register of confirmed operating mines. Every row starts from a real GA mine record with a real GA coordinate. No estimates. No approximations.</p>
       <p>Parent company, operator, and legal entity data is enriched from <strong>ASX annual reports, company operations pages, state tenement registers, and official M&A announcements</strong>. Every enrichment row carries an evidence URL and a validation date.</p>
-      <p>All major acquisitions from 2022 to May 2025 have been applied — BHP/OZ Minerals, Newmont/Newcrest, Whitehaven/BHP Coal, Greatland/Telfer, Westgold/Karora, Red 5/Silver Lake, Genesis/Dacian, Thungela/Ensham, Kaiser Reef/Henty, Meeka Metals/Andy Well, Hancock Iron Ore consolidation.</p>
-      <p>12 rows carry a <strong>needs_review flag</strong> — documented, not hidden. The site, coordinates, and parent are confirmed. Legal entity requires direct state register verification.</p>
+      <p>All major acquisitions from 2022 to June 2026 are applied — BHP/OZ Minerals, Newmont/Newcrest, Whitehaven/BHP Coal, South32/Illawarra (GM3), Greatland/Telfer, Westgold/Karora, Red 5/Silver Lake, Genesis/Dacian, Thungela/Ensham, Kaiser Reef/Henty, Meeka Metals/Andy Well, Hancock Iron Ore consolidation.</p>
     </div>
     <div class="prov-facts">
       <div class="fact"><div class="fact-label">Base source</div><div class="fact-value">GA Operating Mines 2024</div></div>
       <div class="fact"><div class="fact-label">Total rows</div><div class="fact-value">349 mine sites</div></div>
       <div class="fact"><div class="fact-label">Coordinates</div><div class="fact-value">349/349 GA-validated</div></div>
-      <div class="fact"><div class="fact-label">Parent populated</div><div class="fact-value">348/349 (99.7%)</div></div>
-      <div class="fact"><div class="fact-label">Operator populated</div><div class="fact-value">348/349 (99.7%)</div></div>
-      <div class="fact"><div class="fact-label">M&A updated to</div><div class="fact-value">May 2025</div></div>
-      <div class="fact"><div class="fact-label">Needs review</div><div class="fact-value">12 rows (flagged)</div></div>
+      <div class="fact"><div class="fact-label">Parent &amp; operator</div><div class="fact-value">Every site</div></div>
+      <div class="fact"><div class="fact-label">Ownership verified to</div><div class="fact-value">June 2026</div></div>
+      <div class="fact"><div class="fact-label">Evidence</div><div class="fact-value">Source URL on every row</div></div>
       <div class="fact"><div class="fact-label">ABN</div><div class="fact-value">13 002 879 686</div></div>
     </div>
   </div>
