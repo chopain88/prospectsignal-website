@@ -21,7 +21,8 @@ Pricing: state 500-row A$199 · full state A$299-A$599 · national A$599-A$1,499
 
 349 verified operating mine sites. 137 unique parent companies: BHP, Rio Tinto, South32, Newmont, Glencore, Anglo American, Fortescue, Mineral Resources, and 127 others.
 
-Commodity split: Coal 99 · Gold 97 · Iron Ore 60 · Copper 20 · Industrial Minerals 19 · Mineral Sands 13 · Zinc-Lead 13 · Bauxite-Alumina 9 · Lithium 6 · Uranium 3 · Nickel 2 · Rare Earths 1
+Commodity split (primary commodity): Gold 103 · Coal 99 · Iron Ore 60 · Copper 14 · Mineral Sands 13 · Zinc 10 · Bauxite 9 · High-Purity Alumina/Silica 8 · Phosphate/Potash 6 · Lithium 6 · Magnesium 5 · Uranium 3 · Tin 2 · Lead 2 · Silver 2 · Manganese 2 · Tungsten 2 · Nickel 2 · Rare Earths 1
+Operating lithium mines (all 6 in Western Australia, verified June 2026): Greenbushes (Talison Lithium), Pilgangoora (Pilbara Minerals), Wodgina (Albemarle), Mount Marion (Mineral Resources), Mount Holland (Covalent Lithium), Kathleen Valley (Liontown Resources). Bald Hill and Finniss are in care and maintenance and excluded from operating counts.
 
 State split: WA 164 · QLD 79 · NSW 59 · SA 18 · TAS 12 · NT 9 · VIC 7
 
