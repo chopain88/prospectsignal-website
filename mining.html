@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -186,24 +186,23 @@ footer{flex-direction:column;align-items:flex-start;}
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"Australian Mine Sites Intelligence Database","description":"349 verified operating mine sites. Parent company, operator, ABN, commodity, state, GPS coordinates. 137 parent companies including BHP, Rio Tinto, Newmont, Glencore, Fortescue.","url":"https://prospectsignal.com.au/mining","brand":{"@type":"Organization","name":"Prospect Signal AU"},"offers":[{"@type":"Offer","name":"CSV — Direct","price":"1499","priceCurrency":"AUD","availability":"https://schema.org/InStock"},{"@type":"Offer","name":"CSV + Power BI Map","price":"2999","priceCurrency":"AUD","availability":"https://schema.org/InStock"}]}</script>
 <script defer src="https://analytics.smithhouse.au/script.js" data-website-id="793f60f0-1e46-46d2-aaae-0e8190695a33"></script>
-<link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
-<nav class="nav">
-  <div class="wrap nav-inner">
-    <a class="logo" href="/">Prospect<span>Signal</span> AU</a>
-    <div class="links">
-      <a href="/products.html">Products</a>
-      <a href="/mining.html">Mining</a>
-      <a href="/transport.html">Transport</a>
-      <a href="/methodology.html">Methodology</a>
-      <a href="/responsible-use.html">Responsible use</a>
-      <a href="/blog/">Blog</a>
-      <a href="/faq.html">FAQ</a>
-      <a class="pill" href="/samples/sample_NSW-Transport-Logistics-19061.csv">Free sample</a>
-    </div>
+
+<nav>
+  <a href="/" class="nav-logo">Prospect<span>Signal</span> AU</a>
+  <div class="nav-links">
+    <a href="/products.html">Products</a>
+    <a href="/mining.html" class="active">Mining</a>
+    <a href="/transport.html">Transport</a>
+    <a href="/methodology.html">Methodology</a>
+    <a href="/responsible-use.html">Responsible use</a>
+    <a href="/blog/">Blog</a>
+    <a href="/faq.html">FAQ</a>
+    <a data-umami-event="sample-download" download href="/samples/sample_AU-Mining-Intelligence.csv" class="nav-cta">Free sample</a>
   </div>
 </nav>
+
 <section class="hero">
   <div class="hero-grid"></div>
   <div class="hero-content">
@@ -408,7 +407,14 @@ footer{flex-direction:column;align-items:flex-start;}
   <a data-umami-event="sample-download" href="/samples/sample_AU-Mining-Intelligence.csv" download class="btn-dark-ghost">Free sample first</a>
 </div>
 
-
+<footer>
+  <a href="/" class="footer-logo">Prospect<span>Signal</span> AU</a>
+  <div class="footer-meta">
+    ABN 13 002 879 686 · Perth, Western Australia<br>
+    Data sourced from Geoscience Australia operating mines dataset<br>
+    <a href="mailto:hello@prospectsignal.com.au">hello@prospectsignal.com.au</a>
+  </div>
+</footer>
 
 <div class="buybar" id="buybar"><div class="buybar-inner"><span class="buybar-txt"><strong>349 mine sites</strong> &middot; parent + operator &middot; verified June 2026</span><div class="buybar-actions"><a data-umami-event="sample-download" href="/samples/sample_AU-Mining-Intelligence.csv" download class="buybar-ghost">Free 25-row sample</a><a data-umami-event="buy-click" href="#pricing" class="buybar-buy">Buy from A$1,499 &rarr;</a></div></div></div>
 <script>
@@ -417,20 +423,5 @@ function onS(){var y=window.scrollY,prTop=pr.getBoundingClientRect().top,inPrici
 b.classList.toggle('show',y>700&&!inPricing);}
 window.addEventListener('scroll',onS,{passive:true});onS();})();
 </script>
-
-<script src="/assets/app.js"></script>
-<footer>
-  <div class="wrap foot">
-    <div>
-      <strong>Prospect<span style="color:var(--signal)">Signal</span> AU</strong><br>
-      ABN 13 002 879 686
-    </div>
-    <div>
-      <a href="mailto:hello@prospectsignal.com.au">hello@prospectsignal.com.au</a><br>
-      <a href="/methodology.html">Methodology</a> · <a href="/responsible-use.html">Responsible use</a>
-    </div>
-  </div>
-</footer>
-<script src="/assets/app.js"></script>
 </body>
 </html>
