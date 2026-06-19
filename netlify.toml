@@ -6,10 +6,23 @@
   to = "/product/:slug.html"
   status = 200
 
+# HTML pages: always revalidate so site updates appear immediately (no stale 1-hour cache)
 [[headers]]
   for = "/*"
   [headers.values]
-    Cache-Control = "public, max-age=3600"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# CSS/JS: short cache so style changes propagate within minutes
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
+
+# Banners/images: cacheable for a day
+[[headers]]
+  for = "/banners/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
 
 [[headers]]
   for = "/data/products.json"
