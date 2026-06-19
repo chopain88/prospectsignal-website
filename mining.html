@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -188,20 +188,21 @@ footer{flex-direction:column;align-items:flex-start;}
 <script defer src="https://analytics.smithhouse.au/script.js" data-website-id="793f60f0-1e46-46d2-aaae-0e8190695a33"></script>
 </head>
 <body>
-
-<nav>
-  <a href="/" class="nav-logo">Prospect<span>Signal</span> AU</a>
-  <div class="nav-links">
-    <a href="/products.html">B2B Data</a>
-    <a href="/transport.html">Transport</a>
-    <a href="/methodology.html">Methodology</a>
-    <a href="/responsible-use.html">Responsible Use</a>
-    <a href="/blog/">Blog</a>
-    <a href="/faq.html">FAQ</a>
-    <a data-umami-event="sample-download" href="/samples/sample_AU-Mining-Intelligence.csv" download class="nav-cta">Download Sample</a>
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a class="logo" href="/">Prospect<span>Signal</span> AU</a>
+    <div class="links">
+      <a href="/products.html">Products</a>
+      <a href="/mining.html">Mining</a>
+      <a href="/transport.html">Transport</a>
+      <a href="/methodology.html">Methodology</a>
+      <a href="/responsible-use.html">Responsible use</a>
+      <a href="/blog/">Blog</a>
+      <a href="/faq.html">FAQ</a>
+      <a class="pill" href="/samples/sample_NSW-Transport-Logistics-19061.csv">Free sample</a>
+    </div>
   </div>
 </nav>
-
 <section class="hero">
   <div class="hero-grid"></div>
   <div class="hero-content">
@@ -422,5 +423,18 @@ function onS(){var y=window.scrollY,prTop=pr.getBoundingClientRect().top,inPrici
 b.classList.toggle('show',y>700&&!inPricing);}
 window.addEventListener('scroll',onS,{passive:true});onS();})();
 </script>
+<footer>
+  <div class="wrap foot">
+    <div>
+      <strong>Prospect<span style="color:var(--signal)">Signal</span> AU</strong><br>
+      ABN 13 002 879 686
+    </div>
+    <div>
+      <a href="mailto:hello@prospectsignal.com.au">hello@prospectsignal.com.au</a><br>
+      <a href="/methodology.html">Methodology</a> · <a href="/responsible-use.html">Responsible use</a>
+    </div>
+  </div>
+</footer>
+<script src="/assets/app.js"></script>
 </body>
 </html>
