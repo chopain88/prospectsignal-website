@@ -10,7 +10,7 @@ urls=[]
 def add(loc, path, freq, pri):
     urls.append(f'  <url><loc>{BASE}{loc}</loc><lastmod>{mtime(path)}</lastmod><changefreq>{freq}</changefreq><priority>{pri}</priority></url>')
 # core pages
-core={"index.html":("/","weekly","1.0"),"mining.html":("/mining","weekly","0.9"),
+core={"index.html":("/","weekly","1.0"),"mining.html":("/mining","weekly","0.9"),"mining-map.html":("/mining-map","monthly","0.6"),
  "transport.html":("/transport","weekly","0.9"),"products.html":("/products","weekly","0.8"),
  "faq.html":("/faq","monthly","0.8"),"methodology.html":("/methodology","monthly","0.5"),
  "responsible-use.html":("/responsible-use","monthly","0.4")}
