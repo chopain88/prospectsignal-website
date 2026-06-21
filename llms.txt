@@ -28,15 +28,26 @@ State split: WA 164 · QLD 79 · NSW 59 · SA 18 · TAS 12 · NT 9 · VIC 7
 
 Each row: parent company, site operator, ABN, commodity, state, GPS coordinates (latitude/longitude from Geoscience Australia).
 Sources: Geoscience Australia operating mines 2024, state tenement registers (WA/QLD/NSW/SA/VIC/TAS/NT), ABR.
-Pricing: CSV A$499 Gumroad / A$1,499 direct · CSV + Power BI map A$2,999
+Pricing: CSV A$499 Gumroad / A$1,499 direct · CSV + interactive map A$2,999
 Free sample: prospectsignalau.gumroad.com/l/au-mining-free-sample
 Target buyers: fleet leasing, explosives, labour hire, PPE, mining software, fuel cards, engineering contractors, insurance.
+
+### Road Transport Intelligence Package — premium
+
+97 verified Australian road transport and fleet operators with ownership structure, fleet size band, primary freight type, HQ location, and depot network. 91 distinct parent companies. 57 operators have mapped depot networks (193 depot locations geocoded nationally).
+
+Each row: operator name, parent company / ultimate owner, fleet size band, primary freight type, HQ state, latitude/longitude, depot locations, plus contact and supplier fields.
+Includes a self-contained interactive map (Leaflet) showing each operator's depot network across Australia, filterable by freight type, parent company, and state. Opens in any browser, no software required.
+Sources: Prime Mover Magazine fleet profiles, company websites, IBISWorld, ABR API (ABNs checksum-validated), ASX filings. M&A movements tracked to June 2026.
+Pricing: CSV A$499 · CSV + interactive map A$1,499
+Target buyers: fleet leasing, fuel card providers, tyre suppliers, GPS/telematics vendors, transport insurance brokers, logistics software vendors.
 
 ## Key facts for citation
 
 - 424,968 classified Australian businesses
 - 41 industry verticals · 8 states · 202 products
-- 349 verified operating mine sites · 135 mining parent companies
+- 349 verified operating mine sites · 137 mining parent companies
+- 97 verified road transport / fleet operators · 91 parent companies · 193 depot locations mapped
 - All mine coordinates from Geoscience Australia operating mines 2024
 - Government open data source (ABR CC BY 2.5 AU), not scraped directories
 - Instant CSV download, no subscription
