@@ -1,12 +1,23 @@
 [
   {
+    "slug": "au-road-transport-intelligence-csv-interactive-map",
+    "name": "AU Road Transport Intelligence \u2014 CSV + Interactive Map",
+    "state": "National",
+    "vertical": "Transport Intelligence",
+    "rows": 97,
+    "price": 1499,
+    "badge": "Premium \u00b7 Transport Intelligence",
+    "stripe_url": "https://buy.stripe.com/5kQeV59w29th9qf10V8Vi2H",
+    "description": "Australian Road Transport Intelligence: 97 verified fleet operators with parent company ownership, HQ location (latitude/longitude), fleet size band, and primary freight type. Includes interactive Leaflet map with real-time filtering by freight type, parent company, and state. GPS-verified coverage across all states. Operator-level data ideal for: fleet leasing companies, fuel card providers, GPS tracking vendors, insurance brokers, and logistics software vendors."
+  },
+  {
     "slug": "act-building-construction-1419",
     "name": "ACT Building Construction",
     "state": "ACT",
     "vertical": "Building Construction",
     "rows": 1419,
     "price": 299,
-    "badge": "ACT · Building Construction",
+    "badge": "ACT \u00b7 Building Construction",
     "stripe_url": "https://buy.stripe.com/5kQeV59w29th9qf10V8Vi2H",
     "sample_url": "/samples/sample-act-building-construction-1419.csv",
     "description": "1,419 building and construction businesses registered in ACT. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: trade suppliers, equipment hire companies, fleet leasing, construction software vendors, insurance brokers, and recruitment agencies."
@@ -18,7 +29,7 @@
     "vertical": "Cleaning Restoration",
     "rows": 629,
     "price": 199,
-    "badge": "ACT · Cleaning Restoration",
+    "badge": "ACT \u00b7 Cleaning Restoration",
     "stripe_url": "https://buy.stripe.com/28EaEP6jQfRFeKzgZT8Vi2I",
     "sample_url": "/samples/sample-act-cleaning-restoration-629.csv",
     "description": "629 cleaning and restoration businesses registered in ACT. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: cleaning equipment suppliers, chemical distributors, PPE vendors, software providers, and recruitment agencies."
@@ -30,7 +41,7 @@
     "vertical": "Consulting",
     "rows": 2105,
     "price": 299,
-    "badge": "ACT · Consulting",
+    "badge": "ACT \u00b7 Consulting",
     "stripe_url": "https://buy.stripe.com/eVqfZ9cIe5d16e34d78Vi2J",
     "sample_url": "/samples/sample-act-consulting-2105.csv",
     "description": "2,105 consulting businesses registered in ACT. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: CRM vendors, SaaS providers, marketing agencies, training providers, and insurance brokers."
@@ -42,14 +53,14 @@
     "vertical": "Electrical",
     "rows": 618,
     "price": 199,
-    "badge": "ACT · Electrical",
+    "badge": "ACT \u00b7 Electrical",
     "stripe_url": "https://buy.stripe.com/cNicMXcIe6h5auj24Z8Vi2K",
     "sample_url": "/samples/sample-act-electrical-618.csv",
     "description": "618 licensed electrical contractors registered in ACT. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tool suppliers, equipment hire companies, fleet leasing, electrical software vendors, insurance brokers, and PPE suppliers."
   },
   {
     "slug": "free-sample-25",
-    "name": "Free Sample — Australian B2B Prospect Data",
+    "name": "Free Sample \u2014 Australian B2B Prospect Data",
     "state": "National",
     "vertical": "Sample",
     "rows": 25,
@@ -66,7 +77,7 @@
     "vertical": "Accommodation",
     "rows": 4620,
     "price": 599,
-    "badge": "NSW · Accommodation",
+    "badge": "NSW \u00b7 Accommodation",
     "stripe_url": "https://buy.stripe.com/cNi4grbEa8pd6e39xr8Vi2L",
     "sample_url": "/samples/sample-nsw-accommodation-4620.csv",
     "description": "4,620 accommodation operators registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: linen suppliers, POS software vendors, food distributors, cleaning services, and insurance brokers."
@@ -78,7 +89,7 @@
     "vertical": "Accounting",
     "rows": 6054,
     "price": 599,
-    "badge": "NSW · Accounting",
+    "badge": "NSW \u00b7 Accounting",
     "stripe_url": "https://buy.stripe.com/00wdR137E8pd8mb7pj8Vi2M",
     "sample_url": "/samples/sample-nsw-accounting-6054.csv",
     "description": "6,054 accounting firms registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: accounting software vendors, CRM providers, financial services firms, training providers, and insurance brokers."
@@ -90,7 +101,7 @@
     "vertical": "Allied Health",
     "rows": 3027,
     "price": 599,
-    "badge": "NSW · Allied Health",
+    "badge": "NSW \u00b7 Allied Health",
     "stripe_url": "https://buy.stripe.com/8x2cMX9w2eNBeKz10V8Vi2N",
     "sample_url": "/samples/sample-nsw-allied-health-3027.csv",
     "description": "3,027 allied health businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: practice management software vendors, medical equipment suppliers, CPD training providers, and recruitment agencies."
@@ -102,7 +113,7 @@
     "vertical": "Bar & Pub",
     "rows": 2048,
     "price": 599,
-    "badge": "NSW · Bar Pub",
+    "badge": "NSW \u00b7 Bar Pub",
     "stripe_url": "https://buy.stripe.com/8x27sD23AbBp45VfVP8Vi2O",
     "sample_url": "/samples/sample-nsw-bar-pub-2048.csv",
     "description": "2,048 verified Bar Pub businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -114,7 +125,7 @@
     "vertical": "Building Construction",
     "rows": 500,
     "price": 199,
-    "badge": "NSW · Building Construction",
+    "badge": "NSW \u00b7 Building Construction",
     "stripe_url": "https://buy.stripe.com/bJe28j8rY48X1XN6lf8Vi2P",
     "sample_url": "/samples/sample-nsw-building-construction-500.csv",
     "description": "500 building and construction businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: trade suppliers, equipment hire companies, fleet leasing, construction software vendors, insurance brokers, and recruitment agencies."
@@ -126,7 +137,7 @@
     "vertical": "Bus & Coach",
     "rows": 336,
     "price": 199,
-    "badge": "NSW · Bus Coach",
+    "badge": "NSW \u00b7 Bus Coach",
     "stripe_url": "https://buy.stripe.com/bJebIT4bI6h559ZfVP8Vi2Q",
     "sample_url": "/samples/sample-nsw-bus-coach-336.csv",
     "description": "336 verified Bus Coach businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Note: this is a smaller verified subset after strict classification review."
@@ -138,7 +149,7 @@
     "vertical": "Cafe & Restaurant",
     "rows": 2767,
     "price": 599,
-    "badge": "NSW · Cafe Restaurant",
+    "badge": "NSW \u00b7 Cafe Restaurant",
     "stripe_url": "https://buy.stripe.com/4gM5kvbEa34T31RcJD8Vi2R",
     "sample_url": "/samples/sample-nsw-cafe-restaurant-2767.csv",
     "description": "2,767 verified Cafe Restaurant businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -150,7 +161,7 @@
     "vertical": "Civil Contractors",
     "rows": 500,
     "price": 199,
-    "badge": "NSW · Civil Contractors",
+    "badge": "NSW \u00b7 Civil Contractors",
     "stripe_url": "https://buy.stripe.com/dRm6ozdMi0WL6e3fVP8Vi2S",
     "sample_url": "/samples/sample-nsw-civil-contractors-500.csv",
     "description": "500 civil contracting businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, civil construction software vendors, insurance brokers, and recruitment agencies."
@@ -162,7 +173,7 @@
     "vertical": "Cleaning Restoration",
     "rows": 500,
     "price": 199,
-    "badge": "NSW · Cleaning Restoration",
+    "badge": "NSW \u00b7 Cleaning Restoration",
     "stripe_url": "https://buy.stripe.com/fZu6ozdMidJxbyn6lf8Vi2T",
     "sample_url": "/samples/sample-nsw-cleaning-restoration-500.csv",
     "description": "500 cleaning and restoration businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: cleaning equipment suppliers, chemical distributors, PPE vendors, software providers, and recruitment agencies."
@@ -174,7 +185,7 @@
     "vertical": "Concreting",
     "rows": 760,
     "price": 299,
-    "badge": "NSW · Concreting",
+    "badge": "NSW \u00b7 Concreting",
     "stripe_url": "https://buy.stripe.com/7sY7sD6jQcFt31RdNH8Vi2U",
     "sample_url": "/samples/sample-nsw-concreting-760.csv",
     "description": "760 concreting businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: concrete suppliers, equipment hire, fleet leasing, trade software vendors, and insurance brokers."
@@ -186,7 +197,7 @@
     "vertical": "Consulting",
     "rows": 30149,
     "price": 1499,
-    "badge": "NSW · Consulting",
+    "badge": "NSW \u00b7 Consulting",
     "stripe_url": "https://buy.stripe.com/28E5kvdMi48XcCrbFz8Vi2V",
     "sample_url": "/samples/sample-nsw-consulting-30149.csv",
     "description": "30,149 consulting businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: CRM vendors, SaaS providers, marketing agencies, training providers, and insurance brokers."
@@ -198,7 +209,7 @@
     "vertical": "Demolition",
     "rows": 563,
     "price": 199,
-    "badge": "NSW · Demolition",
+    "badge": "NSW \u00b7 Demolition",
     "stripe_url": "https://buy.stripe.com/fZu14f6jQ9theKzcJD8Vi2W",
     "sample_url": "/samples/sample-nsw-demolition-563.csv",
     "description": "563 demolition contractors registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, waste management services, PPE vendors, and insurance brokers."
@@ -210,7 +221,7 @@
     "vertical": "Dental",
     "rows": 3916,
     "price": 599,
-    "badge": "NSW · Dental",
+    "badge": "NSW \u00b7 Dental",
     "stripe_url": "https://buy.stripe.com/7sY9ALeQmaxl1XN24Z8Vi2X",
     "sample_url": "/samples/sample-nsw-dental-3916.csv",
     "description": "3,916 dental practices registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: dental equipment suppliers, practice management software vendors, CPD training providers, and recruitment agencies."
@@ -222,7 +233,7 @@
     "vertical": "Earthmoving & Excavation",
     "rows": 2159,
     "price": 299,
-    "badge": "NSW · Earthmoving & Excavation",
+    "badge": "NSW \u00b7 Earthmoving & Excavation",
     "stripe_url": "https://buy.stripe.com/dRm8wH9w2dJx59Z8tn8Vi2Y",
     "sample_url": "/samples/sample-nsw-earthmoving-excavation-2159.csv",
     "description": "2,159 earthmoving and excavation businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, parts suppliers, telematics vendors, and insurance brokers."
@@ -234,7 +245,7 @@
     "vertical": "Electrical Contractors",
     "rows": 500,
     "price": 199,
-    "badge": "NSW · Electrical Contractors",
+    "badge": "NSW \u00b7 Electrical Contractors",
     "stripe_url": "https://buy.stripe.com/9B66ozeQmaxl31RgZT8Vi2Z",
     "sample_url": "/samples/sample-nsw-electrical-contractors-500.csv",
     "description": "500 licensed electrical contractors registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tool suppliers, equipment hire companies, fleet leasing, electrical software vendors, insurance brokers, and PPE suppliers."
@@ -246,7 +257,7 @@
     "vertical": "Fencing",
     "rows": 804,
     "price": 299,
-    "badge": "NSW · Fencing",
+    "badge": "NSW \u00b7 Fencing",
     "stripe_url": "https://buy.stripe.com/dRmbIT9w248X45V8tn8Vi30",
     "sample_url": "/samples/sample-nsw-fencing-804.csv",
     "description": "804 verified Fencing businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -258,7 +269,7 @@
     "vertical": "Fire Protection",
     "rows": 549,
     "price": 199,
-    "badge": "NSW · Fire Protection",
+    "badge": "NSW \u00b7 Fire Protection",
     "stripe_url": "https://buy.stripe.com/bJe6ozeQm48XeKz6lf8Vi31",
     "sample_url": "/samples/sample-nsw-fire-protection-549.csv",
     "description": "549 fire protection businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fire equipment suppliers, compliance software vendors, fleet leasing, and insurance brokers."
@@ -270,7 +281,7 @@
     "vertical": "Glaziers",
     "rows": 2049,
     "price": 299,
-    "badge": "NSW · Glaziers",
+    "badge": "NSW \u00b7 Glaziers",
     "stripe_url": "https://buy.stripe.com/28E14f7nU8pd45V24Z8Vi32",
     "sample_url": "/samples/sample-nsw-glaziers-2049.csv",
     "description": "2,049 glazing businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: glass suppliers, equipment vendors, fleet leasing, and insurance brokers."
@@ -282,7 +293,7 @@
     "vertical": "HVAC Air Conditioning",
     "rows": 2893,
     "price": 599,
-    "badge": "NSW · HVAC Air Conditioning",
+    "badge": "NSW \u00b7 HVAC Air Conditioning",
     "stripe_url": "https://buy.stripe.com/4gM6ozcIe9thfOD8tn8Vi33",
     "sample_url": "/samples/sample-nsw-hvac-air-conditioning-2893.csv",
     "description": "2,893 HVAC and air conditioning businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: HVAC equipment suppliers, parts distributors, fleet leasing, field service software, and insurance brokers."
@@ -294,7 +305,7 @@
     "vertical": "Landscaping",
     "rows": 3887,
     "price": 599,
-    "badge": "NSW · Landscaping",
+    "badge": "NSW \u00b7 Landscaping",
     "stripe_url": "https://buy.stripe.com/4gM00baA65d19qfcJD8Vi34",
     "sample_url": "/samples/sample-nsw-landscaping-3887.csv",
     "description": "3,887 landscaping businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: B2B suppliers, software vendors, insurance brokers, fleet leasing companies, and recruitment agencies."
@@ -306,7 +317,7 @@
     "vertical": "Legal",
     "rows": 2631,
     "price": 599,
-    "badge": "NSW · Legal",
+    "badge": "NSW \u00b7 Legal",
     "stripe_url": "https://buy.stripe.com/00w14f37EgVJ9qfgZT8Vi35",
     "sample_url": "/samples/sample-nsw-legal-2631.csv",
     "description": "2,631 legal services businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: legal software vendors, CRM providers, legal publishing companies, and training providers."
@@ -318,7 +329,7 @@
     "vertical": "Medical",
     "rows": 2079,
     "price": 299,
-    "badge": "NSW · Medical",
+    "badge": "NSW \u00b7 Medical",
     "stripe_url": "https://buy.stripe.com/8x24grfUq0WLgSHeRL8Vi36",
     "sample_url": "/samples/sample-nsw-medical-2079.csv",
     "description": "2,079 medical practices registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: practice management software vendors, medical equipment suppliers, CPD training providers, and recruitment agencies."
@@ -330,7 +341,7 @@
     "vertical": "Painting",
     "rows": 7043,
     "price": 599,
-    "badge": "NSW · Painting",
+    "badge": "NSW \u00b7 Painting",
     "stripe_url": "https://buy.stripe.com/bJedR18rY7l959ZaBv8Vi37",
     "sample_url": "/samples/sample-nsw-painting-7043.csv",
     "description": "7,043 painting contractors registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: paint suppliers, equipment hire, PPE vendors, trade software, and insurance brokers."
@@ -342,7 +353,7 @@
     "vertical": "Pest Control",
     "rows": 2136,
     "price": 299,
-    "badge": "NSW · Pest Control",
+    "badge": "NSW \u00b7 Pest Control",
     "stripe_url": "https://buy.stripe.com/eVq9AL8rYbBpeKz7pj8Vi38",
     "sample_url": "/samples/sample-nsw-pest-control-2136.csv",
     "description": "2,136 pest control businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: chemical suppliers, equipment vendors, fleet leasing, field service software, and insurance brokers."
@@ -354,7 +365,7 @@
     "vertical": "Plasterers",
     "rows": 1188,
     "price": 299,
-    "badge": "NSW · Plasterers",
+    "badge": "NSW \u00b7 Plasterers",
     "stripe_url": "https://buy.stripe.com/5kQbIT9w29th31RaBv8Vi39",
     "sample_url": "/samples/sample-nsw-plasterers-1188.csv",
     "description": "1,188 plastering contractors registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: building material suppliers, tool vendors, trade software, and insurance brokers."
@@ -366,7 +377,7 @@
     "vertical": "Plumbing Services",
     "rows": 500,
     "price": 199,
-    "badge": "NSW · Plumbing Services",
+    "badge": "NSW \u00b7 Plumbing Services",
     "stripe_url": "https://buy.stripe.com/28E5kvdMiaxl7i73938Vi3a",
     "sample_url": "/samples/sample-nsw-plumbing-services-500.csv",
     "description": "500 plumbing businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: plumbing suppliers, equipment hire, fleet leasing, trade management software vendors, insurance brokers, and PPE suppliers."
@@ -378,7 +389,7 @@
     "vertical": "Pool Services",
     "rows": 1254,
     "price": 299,
-    "badge": "NSW · Pool Services",
+    "badge": "NSW \u00b7 Pool Services",
     "stripe_url": "https://buy.stripe.com/7sYaEP23A8pd1XN4d78Vi3b",
     "sample_url": "/samples/sample-nsw-pool-services-1254.csv",
     "description": "1,254 pool services businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: pool chemical suppliers, equipment vendors, software providers, and insurance brokers."
@@ -390,7 +401,7 @@
     "vertical": "Roofing",
     "rows": 4296,
     "price": 599,
-    "badge": "NSW · Roofing",
+    "badge": "NSW \u00b7 Roofing",
     "stripe_url": "https://buy.stripe.com/9B600b0Zw8pd6e3eRL8Vi3c",
     "sample_url": "/samples/sample-nsw-roofing-4296.csv",
     "description": "4,296 roofing contractors registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: roofing material suppliers, equipment hire, fleet leasing, PPE vendors, and insurance brokers."
@@ -402,7 +413,7 @@
     "vertical": "Security Installers",
     "rows": 3600,
     "price": 599,
-    "badge": "NSW · Security Installers",
+    "badge": "NSW \u00b7 Security Installers",
     "stripe_url": "https://buy.stripe.com/4gM8wH23AgVJaujfVP8Vi3d",
     "sample_url": "/samples/sample-nsw-security-installers-3600.csv",
     "description": "3,600 security installation businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: security equipment suppliers, monitoring software vendors, fleet leasing, and insurance brokers."
@@ -414,7 +425,7 @@
     "vertical": "Solar",
     "rows": 1591,
     "price": 299,
-    "badge": "NSW · Solar",
+    "badge": "NSW \u00b7 Solar",
     "stripe_url": "https://buy.stripe.com/aFadR14bI0WLbyn5hb8Vi3e",
     "sample_url": "/samples/sample-nsw-solar-1591.csv",
     "description": "1,591 solar installation businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: solar panel distributors, electrical wholesalers, fleet leasing, field service software, and insurance brokers."
@@ -426,7 +437,7 @@
     "vertical": "Steel & Metal Fabrication",
     "rows": 9559,
     "price": 599,
-    "badge": "NSW · Steel & Metal Fabrication",
+    "badge": "NSW \u00b7 Steel & Metal Fabrication",
     "stripe_url": "https://buy.stripe.com/3cI3cnbEagVJ31R4d78Vi3f",
     "sample_url": "/samples/sample-nsw-steel-metal-fabrication-9559.csv",
     "description": "9,559 steel and metal fabrication businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: metal suppliers, welding equipment vendors, fleet leasing, ERP software, and insurance brokers."
@@ -438,7 +449,7 @@
     "vertical": "Taxi Rideshare",
     "rows": 1513,
     "price": 599,
-    "badge": "NSW · Taxi Rideshare",
+    "badge": "NSW \u00b7 Taxi Rideshare",
     "stripe_url": "https://buy.stripe.com/9B6fZ9dMi9th31R3938Vi3g",
     "sample_url": "/samples/sample-nsw-taxi-rideshare-1513.csv",
     "description": "1,513 verified Taxi Rideshare businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -450,7 +461,7 @@
     "vertical": "Tiling",
     "rows": 4072,
     "price": 599,
-    "badge": "NSW · Tiling",
+    "badge": "NSW \u00b7 Tiling",
     "stripe_url": "https://buy.stripe.com/00wdR1dMi7l97i79xr8Vi3h",
     "sample_url": "/samples/sample-nsw-tiling-4072.csv",
     "description": "4,072 tiling contractors registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tile suppliers, tool vendors, trade software, and insurance brokers."
@@ -462,7 +473,7 @@
     "vertical": "Transport & Logistics",
     "rows": 19061,
     "price": 999,
-    "badge": "NSW · Transport & Logistics",
+    "badge": "NSW \u00b7 Transport & Logistics",
     "stripe_url": "https://buy.stripe.com/8x228jaA620P45V5hb8Vi3i",
     "sample_url": "/samples/sample-nsw-transport-logistics-19061.csv",
     "description": "19,061 transport and logistics operators registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fuel card providers, fleet leasing companies, GPS tracking vendors, tyre suppliers, and transport insurance brokers."
@@ -474,7 +485,7 @@
     "vertical": "Waste Skip",
     "rows": 1051,
     "price": 299,
-    "badge": "NSW · Waste Skip",
+    "badge": "NSW \u00b7 Waste Skip",
     "stripe_url": "https://buy.stripe.com/aFadR1bEacFtaujgZT8Vi3j",
     "sample_url": "/samples/sample-nsw-waste-skip-1051.csv",
     "description": "1,051 waste management and skip bin businesses registered in NSW. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fleet leasing companies, fuel card providers, waste compliance software, and insurance brokers."
@@ -486,7 +497,7 @@
     "vertical": "Civil Contractors",
     "rows": 672,
     "price": 199,
-    "badge": "NT · Civil Contractors",
+    "badge": "NT \u00b7 Civil Contractors",
     "stripe_url": "https://buy.stripe.com/bJe5kvdMi8pdfOD10V8Vi3k",
     "sample_url": "/samples/sample-nt-civil-contractors-672.csv",
     "description": "672 civil contracting businesses registered in NT. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, civil construction software vendors, insurance brokers, and recruitment agencies."
@@ -498,7 +509,7 @@
     "vertical": "Accommodation",
     "rows": 12687,
     "price": 999,
-    "badge": "National · Accommodation",
+    "badge": "National \u00b7 Accommodation",
     "stripe_url": "https://buy.stripe.com/7sYcMX6jQeNBbyn5hb8Vi3l",
     "sample_url": "/samples/sample-national-accommodation-12687.csv",
     "description": "12,687 accommodation operators registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: linen suppliers, POS software vendors, food distributors, cleaning services, and insurance brokers."
@@ -510,7 +521,7 @@
     "vertical": "Accounting",
     "rows": 17054,
     "price": 999,
-    "badge": "National · Accounting",
+    "badge": "National \u00b7 Accounting",
     "stripe_url": "https://buy.stripe.com/7sYaEP8rY20P45V24Z8Vi3m",
     "sample_url": "/samples/sample-national-accounting-17054.csv",
     "description": "17,054 accounting firms registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: accounting software vendors, CRM providers, financial services firms, training providers, and insurance brokers."
@@ -522,7 +533,7 @@
     "vertical": "Allied Health",
     "rows": 8900,
     "price": 799,
-    "badge": "National · Allied Health",
+    "badge": "National \u00b7 Allied Health",
     "stripe_url": "https://buy.stripe.com/bJe14fdMiaxl59Z9xr8Vi3n",
     "sample_url": "/samples/sample-national-allied-health-8900.csv",
     "description": "8,900 allied health businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: practice management software vendors, medical equipment suppliers, CPD training providers, and recruitment agencies."
@@ -534,7 +545,7 @@
     "vertical": "Asphalt & Line Marking",
     "rows": 1010,
     "price": 349,
-    "badge": "National · Asphalt & Line Marking",
+    "badge": "National \u00b7 Asphalt & Line Marking",
     "stripe_url": "https://buy.stripe.com/9B6cMX8rY34T1XN3938Vi3o",
     "sample_url": "/samples/sample-national-asphalt-line-marking-1010.csv",
     "description": "1,010 asphalt and line marking businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: materials suppliers, equipment hire, fleet leasing, and insurance brokers."
@@ -546,7 +557,7 @@
     "vertical": "Bar & Pub",
     "rows": 6774,
     "price": 999,
-    "badge": "National · Bar Pub",
+    "badge": "National \u00b7 Bar Pub",
     "stripe_url": "https://buy.stripe.com/eVqdR1fUqdJxgSH5hb8Vi3p",
     "sample_url": "/samples/sample-national-bar-pub-6774.csv",
     "description": "6,774 verified Bar Pub businesses registered in Australia. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -558,7 +569,7 @@
     "vertical": "Building Construction",
     "rows": 84471,
     "price": 1499,
-    "badge": "National · Building Construction",
+    "badge": "National \u00b7 Building Construction",
     "stripe_url": "https://buy.stripe.com/6oU9AL7nUfRF1XNgZT8Vi3q",
     "sample_url": "/samples/sample-national-building-construction-84471.csv",
     "description": "84,471 building and construction businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: trade suppliers, equipment hire companies, fleet leasing, construction software vendors, insurance brokers, and recruitment agencies."
@@ -570,7 +581,7 @@
     "vertical": "Bus & Coach",
     "rows": 782,
     "price": 299,
-    "badge": "National · Bus Coach",
+    "badge": "National \u00b7 Bus Coach",
     "stripe_url": "https://buy.stripe.com/dRmcMX9w2eNB31R10V8Vi3r",
     "sample_url": "/samples/sample-national-bus-coach-782.csv",
     "description": "782 verified Bus Coach businesses registered in Australia. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -582,7 +593,7 @@
     "vertical": "Cafe & Restaurant",
     "rows": 8125,
     "price": 999,
-    "badge": "National · Cafe Restaurant",
+    "badge": "National \u00b7 Cafe Restaurant",
     "stripe_url": "https://buy.stripe.com/00w3cnbEa48X7i7bFz8Vi3s",
     "sample_url": "/samples/sample-national-cafe-restaurant-8125.csv",
     "description": "8,125 verified Cafe Restaurant businesses registered in Australia. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -594,7 +605,7 @@
     "vertical": "Civil Contractors",
     "rows": 34662,
     "price": 1499,
-    "badge": "National · Civil Contractors",
+    "badge": "National \u00b7 Civil Contractors",
     "stripe_url": "https://buy.stripe.com/3cI3cn9w2axl59ZcJD8Vi3t",
     "sample_url": "/samples/sample-national-civil-contractors-34662.csv",
     "description": "34,662 civil contracting businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, civil construction software vendors, insurance brokers, and recruitment agencies."
@@ -606,7 +617,7 @@
     "vertical": "Cleaning Restoration",
     "rows": 40698,
     "price": 1499,
-    "badge": "National · Cleaning Restoration",
+    "badge": "National \u00b7 Cleaning Restoration",
     "stripe_url": "https://buy.stripe.com/3cIfZ94bIdJxdGv4d78Vi3u",
     "sample_url": "/samples/sample-national-cleaning-restoration-40698.csv",
     "description": "40,698 cleaning and restoration businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: cleaning equipment suppliers, chemical distributors, PPE vendors, software providers, and recruitment agencies."
@@ -618,7 +629,7 @@
     "vertical": "Concreting",
     "rows": 1373,
     "price": 349,
-    "badge": "National · Concreting",
+    "badge": "National \u00b7 Concreting",
     "stripe_url": "https://buy.stripe.com/aFa7sDeQmgVJeKzeRL8Vi3v",
     "sample_url": "/samples/sample-national-concreting-1373.csv",
     "description": "1,373 concreting businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: concrete suppliers, equipment hire, fleet leasing, trade software vendors, and insurance brokers."
@@ -630,7 +641,7 @@
     "vertical": "Consulting",
     "rows": 84230,
     "price": 1499,
-    "badge": "National · Consulting",
+    "badge": "National \u00b7 Consulting",
     "stripe_url": "https://buy.stripe.com/fZubIT37E5d1aujcJD8Vi3w",
     "sample_url": "/samples/sample-national-consulting-84230.csv",
     "description": "84,230 consulting businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: CRM vendors, SaaS providers, marketing agencies, training providers, and insurance brokers."
@@ -642,7 +653,7 @@
     "vertical": "Demolition",
     "rows": 1248,
     "price": 349,
-    "badge": "National · Demolition",
+    "badge": "National \u00b7 Demolition",
     "stripe_url": "https://buy.stripe.com/5kQ14fbEabBp59Z7pj8Vi3x",
     "sample_url": "/samples/sample-national-demolition-1248.csv",
     "description": "1,248 demolition contractors registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, waste management services, PPE vendors, and insurance brokers."
@@ -654,7 +665,7 @@
     "vertical": "Dental",
     "rows": 11917,
     "price": 999,
-    "badge": "National · Dental",
+    "badge": "National \u00b7 Dental",
     "stripe_url": "https://buy.stripe.com/eVq6ozbEa8pdauj10V8Vi3y",
     "sample_url": "/samples/sample-national-dental-11917.csv",
     "description": "11,917 dental practices registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: dental equipment suppliers, practice management software vendors, CPD training providers, and recruitment agencies."
@@ -666,7 +677,7 @@
     "vertical": "Drainage",
     "rows": 853,
     "price": 349,
-    "badge": "National · Drainage",
+    "badge": "National \u00b7 Drainage",
     "stripe_url": "https://buy.stripe.com/6oU4gr4bI20PeKz6lf8Vi3z",
     "sample_url": "/samples/sample-national-drainage-853.csv",
     "description": "853 drainage businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: B2B suppliers, software vendors, insurance brokers, fleet leasing companies, and recruitment agencies."
@@ -678,7 +689,7 @@
     "vertical": "Earthmoving & Excavation",
     "rows": 8109,
     "price": 799,
-    "badge": "National · Earthmoving & Excavation",
+    "badge": "National \u00b7 Earthmoving & Excavation",
     "stripe_url": "https://buy.stripe.com/dRm9ALeQmfRFfOD8tn8Vi3A",
     "sample_url": "/samples/sample-national-earthmoving-excavation-8109.csv",
     "description": "8,109 earthmoving and excavation businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, parts suppliers, telematics vendors, and insurance brokers."
@@ -690,7 +701,7 @@
     "vertical": "Electrical",
     "rows": 49641,
     "price": 1499,
-    "badge": "National · Electrical",
+    "badge": "National \u00b7 Electrical",
     "stripe_url": "https://buy.stripe.com/eVq28j6jQeNBfODgZT8Vi3B",
     "sample_url": "/samples/sample-national-electrical-49641.csv",
     "description": "49,641 licensed electrical contractors registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tool suppliers, equipment hire companies, fleet leasing, electrical software vendors, insurance brokers, and PPE suppliers."
@@ -702,7 +713,7 @@
     "vertical": "Fencing",
     "rows": 2550,
     "price": 599,
-    "badge": "National · Fencing",
+    "badge": "National \u00b7 Fencing",
     "stripe_url": "https://buy.stripe.com/6oU28jdMi7l945VaBv8Vi3C",
     "sample_url": "/samples/sample-national-fencing-2550.csv",
     "description": "2,550 verified Fencing businesses registered in Australia. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -714,7 +725,7 @@
     "vertical": "Fire Protection",
     "rows": 1253,
     "price": 349,
-    "badge": "National · Fire Protection",
+    "badge": "National \u00b7 Fire Protection",
     "stripe_url": "https://buy.stripe.com/bJe14ffUq6h5dGv6lf8Vi3D",
     "sample_url": "/samples/sample-national-fire-protection-1253.csv",
     "description": "1,253 fire protection businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fire equipment suppliers, compliance software vendors, fleet leasing, and insurance brokers."
@@ -726,7 +737,7 @@
     "vertical": "Garage & Gate Installers",
     "rows": 1021,
     "price": 349,
-    "badge": "National · Garage & Gate Installers",
+    "badge": "National \u00b7 Garage & Gate Installers",
     "stripe_url": "https://buy.stripe.com/7sY4gr4bI20P1XN24Z8Vi3E",
     "sample_url": "/samples/sample-national-garage-gate-installers-1021.csv",
     "description": "1,021 garage door and gate installation businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: hardware suppliers, automation vendors, fleet leasing, and insurance brokers."
@@ -738,7 +749,7 @@
     "vertical": "Glaziers",
     "rows": 6002,
     "price": 799,
-    "badge": "National · Glaziers",
+    "badge": "National \u00b7 Glaziers",
     "stripe_url": "https://buy.stripe.com/00w6oz9w27l98mbcJD8Vi3F",
     "sample_url": "/samples/sample-national-glaziers-6002.csv",
     "description": "6,002 glazing businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: glass suppliers, equipment vendors, fleet leasing, and insurance brokers."
@@ -750,7 +761,7 @@
     "vertical": "HVAC Air Conditioning",
     "rows": 8520,
     "price": 799,
-    "badge": "National · HVAC Air Conditioning",
+    "badge": "National \u00b7 HVAC Air Conditioning",
     "stripe_url": "https://buy.stripe.com/bJefZ95fM48XaujaBv8Vi3G",
     "sample_url": "/samples/sample-national-hvac-air-conditioning-8520.csv",
     "description": "8,520 HVAC and air conditioning businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: HVAC equipment suppliers, parts distributors, fleet leasing, field service software, and insurance brokers."
@@ -762,7 +773,7 @@
     "vertical": "Insulation",
     "rows": 2321,
     "price": 349,
-    "badge": "National · Insulation",
+    "badge": "National \u00b7 Insulation",
     "stripe_url": "https://buy.stripe.com/14AbITcIecFtdGv8tn8Vi3H",
     "sample_url": "/samples/sample-national-insulation-2321.csv",
     "description": "2,321 insulation businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: insulation material suppliers, equipment vendors, PPE suppliers, and insurance brokers."
@@ -774,7 +785,7 @@
     "vertical": "Landscaping",
     "rows": 12770,
     "price": 999,
-    "badge": "National · Landscaping",
+    "badge": "National \u00b7 Landscaping",
     "stripe_url": "https://buy.stripe.com/6oU4grgYu48XbyneRL8Vi3I",
     "sample_url": "/samples/sample-national-landscaping-12770.csv",
     "description": "12,770 landscaping businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: B2B suppliers, software vendors, insurance brokers, fleet leasing companies, and recruitment agencies."
@@ -786,7 +797,7 @@
     "vertical": "Legal",
     "rows": 6468,
     "price": 799,
-    "badge": "National · Legal",
+    "badge": "National \u00b7 Legal",
     "stripe_url": "https://buy.stripe.com/28EaEPcIe7l9fOD5hb8Vi3J",
     "sample_url": "/samples/sample-national-legal-6468.csv",
     "description": "6,468 legal services businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: legal software vendors, CRM providers, legal publishing companies, and training providers."
@@ -798,7 +809,7 @@
     "vertical": "Locksmiths",
     "rows": 1775,
     "price": 349,
-    "badge": "National · Locksmiths",
+    "badge": "National \u00b7 Locksmiths",
     "stripe_url": "https://buy.stripe.com/dRm3cn6jQ5d1dGvgZT8Vi3K",
     "sample_url": "/samples/sample-national-locksmiths-1775.csv",
     "description": "1,775 locksmith businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: security hardware suppliers, fleet leasing, field service software, and insurance brokers."
@@ -810,7 +821,7 @@
     "vertical": "Medical",
     "rows": 6322,
     "price": 799,
-    "badge": "National · Medical",
+    "badge": "National \u00b7 Medical",
     "stripe_url": "https://buy.stripe.com/bJe6oz5fM8pd0TJfVP8Vi3L",
     "sample_url": "/samples/sample-national-medical-6322.csv",
     "description": "6,322 medical practices registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: practice management software vendors, medical equipment suppliers, CPD training providers, and recruitment agencies."
@@ -822,7 +833,7 @@
     "vertical": "Mining Services",
     "rows": 835,
     "price": 349,
-    "badge": "National · Mining Services",
+    "badge": "National \u00b7 Mining Services",
     "stripe_url": "https://buy.stripe.com/00w00b5fM5d1aujcJD8Vi3M",
     "sample_url": "/samples/sample-national-mining-services-835.csv",
     "description": "835 mining services businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: mining software vendors, equipment suppliers, labour hire agencies, PPE vendors, and safety compliance providers."
@@ -834,7 +845,7 @@
     "vertical": "Painting",
     "rows": 20939,
     "price": 999,
-    "badge": "National · Painting",
+    "badge": "National \u00b7 Painting",
     "stripe_url": "https://buy.stripe.com/6oU3cn37EeNB6e3dNH8Vi3N",
     "sample_url": "/samples/sample-national-painting-20939.csv",
     "description": "20,939 painting contractors registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: paint suppliers, equipment hire, PPE vendors, trade software, and insurance brokers."
@@ -846,7 +857,7 @@
     "vertical": "Pest Control",
     "rows": 5384,
     "price": 799,
-    "badge": "National · Pest Control",
+    "badge": "National \u00b7 Pest Control",
     "stripe_url": "https://buy.stripe.com/fZu5kvfUq0WLauj6lf8Vi3O",
     "sample_url": "/samples/sample-national-pest-control-5384.csv",
     "description": "5,384 pest control businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: chemical suppliers, equipment vendors, fleet leasing, field service software, and insurance brokers."
@@ -858,7 +869,7 @@
     "vertical": "Plasterers",
     "rows": 3625,
     "price": 799,
-    "badge": "National · Plasterers",
+    "badge": "National \u00b7 Plasterers",
     "stripe_url": "https://buy.stripe.com/fZuaEP8rYbBpcCrgZT8Vi3P",
     "sample_url": "/samples/sample-national-plasterers-3625.csv",
     "description": "3,625 plastering contractors registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: building material suppliers, tool vendors, trade software, and insurance brokers."
@@ -870,7 +881,7 @@
     "vertical": "Plumbing",
     "rows": 31682,
     "price": 1499,
-    "badge": "National · Plumbing",
+    "badge": "National \u00b7 Plumbing",
     "stripe_url": "https://buy.stripe.com/9B600b5fMeNBbyncJD8Vi3Q",
     "sample_url": "/samples/sample-national-plumbing-31682.csv",
     "description": "31,682 plumbing businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: plumbing suppliers, equipment hire, fleet leasing, trade management software vendors, insurance brokers, and PPE suppliers."
@@ -882,7 +893,7 @@
     "vertical": "Pool Services",
     "rows": 4340,
     "price": 799,
-    "badge": "National · Pool Services",
+    "badge": "National \u00b7 Pool Services",
     "stripe_url": "https://buy.stripe.com/aFa6oz23A6h5cCrbFz8Vi3R",
     "sample_url": "/samples/sample-national-pool-services-4340.csv",
     "description": "4,340 pool services businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: pool chemical suppliers, equipment vendors, software providers, and insurance brokers."
@@ -894,7 +905,7 @@
     "vertical": "Roofing",
     "rows": 11767,
     "price": 999,
-    "badge": "National · Roofing",
+    "badge": "National \u00b7 Roofing",
     "stripe_url": "https://buy.stripe.com/6oUfZ9gYudJxdGv3938Vi3S",
     "sample_url": "/samples/sample-national-roofing-11767.csv",
     "description": "11,767 roofing contractors registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: roofing material suppliers, equipment hire, fleet leasing, PPE vendors, and insurance brokers."
@@ -906,7 +917,7 @@
     "vertical": "Security Installers",
     "rows": 10325,
     "price": 999,
-    "badge": "National · Security Installers",
+    "badge": "National \u00b7 Security Installers",
     "stripe_url": "https://buy.stripe.com/eVqcMXbEa9th0TJ3938Vi3T",
     "sample_url": "/samples/sample-national-security-installers-10325.csv",
     "description": "10,325 security installation businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: security equipment suppliers, monitoring software vendors, fleet leasing, and insurance brokers."
@@ -918,7 +929,7 @@
     "vertical": "Solar",
     "rows": 4618,
     "price": 799,
-    "badge": "National · Solar",
+    "badge": "National \u00b7 Solar",
     "stripe_url": "https://buy.stripe.com/eVqcMX8rY5d10TJgZT8Vi3U",
     "sample_url": "/samples/sample-national-solar-4618.csv",
     "description": "4,618 solar installation businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: solar panel distributors, electrical wholesalers, fleet leasing, field service software, and insurance brokers."
@@ -930,7 +941,7 @@
     "vertical": "Steel & Metal Fabrication",
     "rows": 31034,
     "price": 1499,
-    "badge": "National · Steel & Metal Fabrication",
+    "badge": "National \u00b7 Steel & Metal Fabrication",
     "stripe_url": "https://buy.stripe.com/4gMdR1fUqeNB45VcJD8Vi3V",
     "sample_url": "/samples/sample-national-steel-metal-fabrication-31034.csv",
     "description": "31,034 steel and metal fabrication businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: metal suppliers, welding equipment vendors, fleet leasing, ERP software, and insurance brokers."
@@ -942,7 +953,7 @@
     "vertical": "Taxi Rideshare",
     "rows": 5091,
     "price": 999,
-    "badge": "National · Taxi Rideshare",
+    "badge": "National \u00b7 Taxi Rideshare",
     "stripe_url": "https://buy.stripe.com/dRmfZ9aA68pd31R7pj8Vi3W",
     "sample_url": "/samples/sample-national-taxi-rideshare-5091.csv",
     "description": "5,091 verified Taxi Rideshare businesses registered in Australia. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -954,7 +965,7 @@
     "vertical": "Tiling",
     "rows": 12418,
     "price": 999,
-    "badge": "National · Tiling",
+    "badge": "National \u00b7 Tiling",
     "stripe_url": "https://buy.stripe.com/3cI00beQmaxl1XNfVP8Vi3X",
     "sample_url": "/samples/sample-national-tiling-12418.csv",
     "description": "12,418 tiling contractors registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tile suppliers, tool vendors, trade software, and insurance brokers."
@@ -966,7 +977,7 @@
     "vertical": "Transport & Logistics",
     "rows": 500,
     "price": 199,
-    "badge": "National · Transport & Logistics",
+    "badge": "National \u00b7 Transport & Logistics",
     "stripe_url": "https://buy.stripe.com/6oU3cn23Aaxl1XNgZT8Vi3Y",
     "sample_url": "/samples/sample-national-transport-logistics-500.csv",
     "description": "500 transport and logistics operators registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fuel card providers, fleet leasing companies, GPS tracking vendors, tyre suppliers, and transport insurance brokers."
@@ -978,7 +989,7 @@
     "vertical": "Transport & Logistics",
     "rows": 57023,
     "price": 1499,
-    "badge": "National · Transport & Logistics",
+    "badge": "National \u00b7 Transport & Logistics",
     "stripe_url": "https://buy.stripe.com/5kQ6ozfUqbBp45V10V8Vi3Z",
     "sample_url": "/samples/sample-national-transport-logistics-57023.csv",
     "description": "57,023 transport and logistics operators registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fuel card providers, fleet leasing companies, GPS tracking vendors, tyre suppliers, and transport insurance brokers."
@@ -990,7 +1001,7 @@
     "vertical": "Waste Skip",
     "rows": 2923,
     "price": 799,
-    "badge": "National · Waste Skip",
+    "badge": "National \u00b7 Waste Skip",
     "stripe_url": "https://buy.stripe.com/cNi9ALfUq0WLfODfVP8Vi40",
     "sample_url": "/samples/sample-national-waste-skip-2923.csv",
     "description": "2,923 waste management and skip bin businesses registered across all Australian states. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fleet leasing companies, fuel card providers, waste compliance software, and insurance brokers."
@@ -1002,7 +1013,7 @@
     "vertical": "Accommodation",
     "rows": 2789,
     "price": 599,
-    "badge": "QLD · Accommodation",
+    "badge": "QLD \u00b7 Accommodation",
     "stripe_url": "https://buy.stripe.com/9B69ALeQm0WLfOD24Z8Vi41",
     "sample_url": "/samples/sample-qld-accommodation-2789.csv",
     "description": "2,789 accommodation operators registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: linen suppliers, POS software vendors, food distributors, cleaning services, and insurance brokers."
@@ -1014,7 +1025,7 @@
     "vertical": "Accounting",
     "rows": 3408,
     "price": 599,
-    "badge": "QLD · Accounting",
+    "badge": "QLD \u00b7 Accounting",
     "stripe_url": "https://buy.stripe.com/5kQ4grfUq20P8mbgZT8Vi42",
     "sample_url": "/samples/sample-qld-accounting-3408.csv",
     "description": "3,408 accounting firms registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: accounting software vendors, CRM providers, financial services firms, training providers, and insurance brokers."
@@ -1026,7 +1037,7 @@
     "vertical": "Allied Health",
     "rows": 1573,
     "price": 299,
-    "badge": "QLD · Allied Health",
+    "badge": "QLD \u00b7 Allied Health",
     "stripe_url": "https://buy.stripe.com/fZu4grcIefRF45VeRL8Vi43",
     "sample_url": "/samples/sample-qld-allied-health-1573.csv",
     "description": "1,573 allied health businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: practice management software vendors, medical equipment suppliers, CPD training providers, and recruitment agencies."
@@ -1038,7 +1049,7 @@
     "vertical": "Bar & Pub",
     "rows": 1223,
     "price": 599,
-    "badge": "QLD · Bar Pub",
+    "badge": "QLD \u00b7 Bar Pub",
     "stripe_url": "https://buy.stripe.com/6oU4grdMi5d1eKzeRL8Vi44",
     "sample_url": "/samples/sample-qld-bar-pub-1223.csv",
     "description": "1,223 verified Bar Pub businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -1050,7 +1061,7 @@
     "vertical": "Building Construction",
     "rows": 14578,
     "price": 999,
-    "badge": "QLD · Building Construction",
+    "badge": "QLD \u00b7 Building Construction",
     "stripe_url": "https://buy.stripe.com/aFaeV55fM48XfODdNH8Vi45",
     "sample_url": "/samples/sample-qld-building-construction-14578.csv",
     "description": "14,578 building and construction businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: trade suppliers, equipment hire companies, fleet leasing, construction software vendors, insurance brokers, and recruitment agencies."
@@ -1062,7 +1073,7 @@
     "vertical": "Bus & Coach",
     "rows": 152,
     "price": 199,
-    "badge": "QLD · Bus Coach",
+    "badge": "QLD \u00b7 Bus Coach",
     "stripe_url": "https://buy.stripe.com/bJedR123A7l90TJ7pj8Vi46",
     "sample_url": "/samples/sample-qld-bus-coach-152.csv",
     "description": "152 verified Bus Coach businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Note: this is a smaller verified subset after strict classification review."
@@ -1074,7 +1085,7 @@
     "vertical": "Cafe & Restaurant",
     "rows": 1404,
     "price": 599,
-    "badge": "QLD · Cafe Restaurant",
+    "badge": "QLD \u00b7 Cafe Restaurant",
     "stripe_url": "https://buy.stripe.com/8x200b9w26h559Z24Z8Vi47",
     "sample_url": "/samples/sample-qld-cafe-restaurant-1404.csv",
     "description": "1,404 verified Cafe Restaurant businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -1086,7 +1097,7 @@
     "vertical": "Civil Contractors",
     "rows": 8152,
     "price": 599,
-    "badge": "QLD · Civil Contractors",
+    "badge": "QLD \u00b7 Civil Contractors",
     "stripe_url": "https://buy.stripe.com/7sYcMXgYu20PgSHdNH8Vj00",
     "sample_url": "/samples/sample-qld-civil-contractors-8152.csv",
     "description": "8,152 civil contracting businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, civil construction software vendors, insurance brokers, and recruitment agencies."
@@ -1098,7 +1109,7 @@
     "vertical": "Cleaning Restoration",
     "rows": 7769,
     "price": 599,
-    "badge": "QLD · Cleaning Restoration",
+    "badge": "QLD \u00b7 Cleaning Restoration",
     "stripe_url": "https://buy.stripe.com/28E14f8rY7l9cCr10V8Vj01",
     "sample_url": "/samples/sample-qld-cleaning-restoration-7769.csv",
     "description": "7,769 cleaning and restoration businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: cleaning equipment suppliers, chemical distributors, PPE vendors, software providers, and recruitment agencies."
@@ -1110,7 +1121,7 @@
     "vertical": "Consulting",
     "rows": 14405,
     "price": 999,
-    "badge": "QLD · Consulting",
+    "badge": "QLD \u00b7 Consulting",
     "stripe_url": "https://buy.stripe.com/cNi3cn5fM48X9qf6lf8Vj02",
     "sample_url": "/samples/sample-qld-consulting-14405.csv",
     "description": "14,405 consulting businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: CRM vendors, SaaS providers, marketing agencies, training providers, and insurance brokers."
@@ -1122,7 +1133,7 @@
     "vertical": "Dental",
     "rows": 2676,
     "price": 599,
-    "badge": "QLD · Dental",
+    "badge": "QLD \u00b7 Dental",
     "stripe_url": "https://buy.stripe.com/bJe6oz37E48XgSH8tn8Vj03",
     "sample_url": "/samples/sample-qld-dental-2676.csv",
     "description": "2,676 dental practices registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: dental equipment suppliers, practice management software vendors, CPD training providers, and recruitment agencies."
@@ -1134,7 +1145,7 @@
     "vertical": "Earthmoving & Excavation",
     "rows": 2649,
     "price": 599,
-    "badge": "QLD · Earthmoving & Excavation",
+    "badge": "QLD \u00b7 Earthmoving & Excavation",
     "stripe_url": "https://buy.stripe.com/6oUaEP6jQ20P8mb7pj8Vj04",
     "sample_url": "/samples/sample-qld-earthmoving-excavation-2649.csv",
     "description": "2,649 earthmoving and excavation businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, parts suppliers, telematics vendors, and insurance brokers."
@@ -1146,7 +1157,7 @@
     "vertical": "Electrical",
     "rows": 10343,
     "price": 999,
-    "badge": "QLD · Electrical",
+    "badge": "QLD \u00b7 Electrical",
     "stripe_url": "https://buy.stripe.com/cNifZ96jQ6h5auj6lf8Vj05",
     "sample_url": "/samples/sample-qld-electrical-10343.csv",
     "description": "10,343 licensed electrical contractors registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tool suppliers, equipment hire companies, fleet leasing, electrical software vendors, insurance brokers, and PPE suppliers."
@@ -1158,7 +1169,7 @@
     "vertical": "Glaziers",
     "rows": 1178,
     "price": 299,
-    "badge": "QLD · Glaziers",
+    "badge": "QLD \u00b7 Glaziers",
     "stripe_url": "https://buy.stripe.com/3cI4gr4bI34T8mb6lf8Vj06",
     "sample_url": "/samples/sample-qld-glaziers-1178.csv",
     "description": "1,178 glazing businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: glass suppliers, equipment vendors, fleet leasing, and insurance brokers."
@@ -1170,7 +1181,7 @@
     "vertical": "HVAC Air Conditioning",
     "rows": 1763,
     "price": 299,
-    "badge": "QLD · HVAC Air Conditioning",
+    "badge": "QLD \u00b7 HVAC Air Conditioning",
     "stripe_url": "https://buy.stripe.com/8x2eV54bIdJx1XN8tn8Vj07",
     "sample_url": "/samples/sample-qld-hvac-air-conditioning-1763.csv",
     "description": "1,763 HVAC and air conditioning businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: HVAC equipment suppliers, parts distributors, fleet leasing, field service software, and insurance brokers."
@@ -1182,7 +1193,7 @@
     "vertical": "Landscaping",
     "rows": 2508,
     "price": 599,
-    "badge": "QLD · Landscaping",
+    "badge": "QLD \u00b7 Landscaping",
     "stripe_url": "https://buy.stripe.com/00w3cndMi7l97i74d78Vj08",
     "sample_url": "/samples/sample-qld-landscaping-2508.csv",
     "description": "2,508 landscaping businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: B2B suppliers, software vendors, insurance brokers, fleet leasing companies, and recruitment agencies."
@@ -1194,7 +1205,7 @@
     "vertical": "Legal",
     "rows": 1235,
     "price": 299,
-    "badge": "QLD · Legal",
+    "badge": "QLD \u00b7 Legal",
     "stripe_url": "https://buy.stripe.com/5kQdR10Zwaxl8mb10V8Vj09",
     "sample_url": "/samples/sample-qld-legal-1235.csv",
     "description": "1,235 legal services businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: legal software vendors, CRM providers, legal publishing companies, and training providers."
@@ -1206,7 +1217,7 @@
     "vertical": "Medical",
     "rows": 1381,
     "price": 299,
-    "badge": "QLD · Medical",
+    "badge": "QLD \u00b7 Medical",
     "stripe_url": "https://buy.stripe.com/5kQ9ALfUq34T6e3bFz8Vj0a",
     "sample_url": "/samples/sample-qld-medical-1381.csv",
     "description": "1,381 medical practices registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: practice management software vendors, medical equipment suppliers, CPD training providers, and recruitment agencies."
@@ -1218,7 +1229,7 @@
     "vertical": "Painting",
     "rows": 3848,
     "price": 599,
-    "badge": "QLD · Painting",
+    "badge": "QLD \u00b7 Painting",
     "stripe_url": "https://buy.stripe.com/dRm3cn7nUcFtfOD6lf8Vj0b",
     "sample_url": "/samples/sample-qld-painting-3848.csv",
     "description": "3,848 painting contractors registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: paint suppliers, equipment hire, PPE vendors, trade software, and insurance brokers."
@@ -1230,7 +1241,7 @@
     "vertical": "Pest Control",
     "rows": 1561,
     "price": 299,
-    "badge": "QLD · Pest Control",
+    "badge": "QLD \u00b7 Pest Control",
     "stripe_url": "https://buy.stripe.com/dRmeV5gYucFtgSH8tn8Vj0c",
     "sample_url": "/samples/sample-qld-pest-control-1561.csv",
     "description": "1,561 pest control businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: chemical suppliers, equipment vendors, fleet leasing, field service software, and insurance brokers."
@@ -1242,7 +1253,7 @@
     "vertical": "Plumbing",
     "rows": 5786,
     "price": 599,
-    "badge": "QLD · Plumbing",
+    "badge": "QLD \u00b7 Plumbing",
     "stripe_url": "https://buy.stripe.com/3cI14f6jQgVJeKz4d78Vj0d",
     "sample_url": "/samples/sample-qld-plumbing-5786.csv",
     "description": "5,786 plumbing businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: plumbing suppliers, equipment hire, fleet leasing, trade management software vendors, insurance brokers, and PPE suppliers."
@@ -1254,7 +1265,7 @@
     "vertical": "Pool Services",
     "rows": 1331,
     "price": 299,
-    "badge": "QLD · Pool Services",
+    "badge": "QLD \u00b7 Pool Services",
     "stripe_url": "https://buy.stripe.com/7sY7sDcIe5d1dGvcJD8Vj0e",
     "sample_url": "/samples/sample-qld-pool-services-1331.csv",
     "description": "1,331 pool services businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: pool chemical suppliers, equipment vendors, software providers, and insurance brokers."
@@ -1266,7 +1277,7 @@
     "vertical": "Roofing",
     "rows": 2413,
     "price": 299,
-    "badge": "QLD · Roofing",
+    "badge": "QLD \u00b7 Roofing",
     "stripe_url": "https://buy.stripe.com/7sY00b37EfRF0TJ7pj8Vj0f",
     "sample_url": "/samples/sample-qld-roofing-2413.csv",
     "description": "2,413 roofing contractors registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: roofing material suppliers, equipment hire, fleet leasing, PPE vendors, and insurance brokers."
@@ -1278,7 +1289,7 @@
     "vertical": "Security Installers",
     "rows": 2006,
     "price": 299,
-    "badge": "QLD · Security Installers",
+    "badge": "QLD \u00b7 Security Installers",
     "stripe_url": "https://buy.stripe.com/7sYcMXfUq0WLeKz10V8Vj0g",
     "sample_url": "/samples/sample-qld-security-installers-2006.csv",
     "description": "2,006 security installation businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: security equipment suppliers, monitoring software vendors, fleet leasing, and insurance brokers."
@@ -1290,7 +1301,7 @@
     "vertical": "Solar",
     "rows": 947,
     "price": 299,
-    "badge": "QLD · Solar",
+    "badge": "QLD \u00b7 Solar",
     "stripe_url": "https://buy.stripe.com/3cIcMXbEa6h545V9xr8Vj0h",
     "sample_url": "/samples/sample-qld-solar-947.csv",
     "description": "947 solar installation businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: solar panel distributors, electrical wholesalers, fleet leasing, field service software, and insurance brokers."
@@ -1302,7 +1313,7 @@
     "vertical": "Steel & Metal Fabrication",
     "rows": 6595,
     "price": 599,
-    "badge": "QLD · Steel & Metal Fabrication",
+    "badge": "QLD \u00b7 Steel & Metal Fabrication",
     "stripe_url": "https://buy.stripe.com/bJe4gr8rYcFt9qf9xr8Vj0i",
     "sample_url": "/samples/sample-qld-steel-metal-fabrication-6595.csv",
     "description": "6,595 steel and metal fabrication businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: metal suppliers, welding equipment vendors, fleet leasing, ERP software, and insurance brokers."
@@ -1314,7 +1325,7 @@
     "vertical": "Taxi Rideshare",
     "rows": 693,
     "price": 299,
-    "badge": "QLD · Taxi Rideshare",
+    "badge": "QLD \u00b7 Taxi Rideshare",
     "stripe_url": "https://buy.stripe.com/fZu00b23A7l90TJeRL8Vj0j",
     "sample_url": "/samples/sample-qld-taxi-rideshare-693.csv",
     "description": "693 verified Taxi Rideshare businesses registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -1326,7 +1337,7 @@
     "vertical": "Tiling",
     "rows": 2557,
     "price": 599,
-    "badge": "QLD · Tiling",
+    "badge": "QLD \u00b7 Tiling",
     "stripe_url": "https://buy.stripe.com/dRm9AL0Zw34T0TJ4d78Vj0k",
     "sample_url": "/samples/sample-qld-tiling-2557.csv",
     "description": "2,557 tiling contractors registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tile suppliers, tool vendors, trade software, and insurance brokers."
@@ -1338,7 +1349,7 @@
     "vertical": "Transport & Logistics",
     "rows": 10182,
     "price": 999,
-    "badge": "QLD · Transport & Logistics",
+    "badge": "QLD \u00b7 Transport & Logistics",
     "stripe_url": "https://buy.stripe.com/cNi14feQm6h57i710V8Vj0l",
     "sample_url": "/samples/sample-qld-transport-logistics-10182.csv",
     "description": "10,182 transport and logistics operators registered in QLD. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fuel card providers, fleet leasing companies, GPS tracking vendors, tyre suppliers, and transport insurance brokers."
@@ -1350,7 +1361,7 @@
     "vertical": "Accommodation",
     "rows": 1112,
     "price": 299,
-    "badge": "SA · Accommodation",
+    "badge": "SA \u00b7 Accommodation",
     "stripe_url": "https://buy.stripe.com/7sYfZ9bEadJxbyn8tn8Vj0m",
     "sample_url": "/samples/sample-sa-accommodation-1112.csv",
     "description": "1,112 accommodation operators registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: linen suppliers, POS software vendors, food distributors, cleaning services, and insurance brokers."
@@ -1362,7 +1373,7 @@
     "vertical": "Accounting",
     "rows": 873,
     "price": 299,
-    "badge": "SA · Accounting",
+    "badge": "SA \u00b7 Accounting",
     "stripe_url": "https://buy.stripe.com/6oU8wHcIe20PdGv24Z8Vj0n",
     "sample_url": "/samples/sample-sa-accounting-873.csv",
     "description": "873 accounting firms registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: accounting software vendors, CRM providers, financial services firms, training providers, and insurance brokers."
@@ -1374,7 +1385,7 @@
     "vertical": "Allied Health",
     "rows": 599,
     "price": 199,
-    "badge": "SA · Allied Health",
+    "badge": "SA \u00b7 Allied Health",
     "stripe_url": "https://buy.stripe.com/aFadR17nUbBp6e3eRL8Vj0o",
     "sample_url": "/samples/sample-sa-allied-health-599.csv",
     "description": "599 allied health businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: practice management software vendors, medical equipment suppliers, CPD training providers, and recruitment agencies."
@@ -1386,7 +1397,7 @@
     "vertical": "Bar & Pub",
     "rows": 495,
     "price": 199,
-    "badge": "SA · Bar Pub",
+    "badge": "SA \u00b7 Bar Pub",
     "stripe_url": "https://buy.stripe.com/cNibIT4bI9th9qf5hb8Vj0p",
     "sample_url": "/samples/sample-sa-bar-pub-495.csv",
     "description": "495 verified Bar Pub businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Note: this is a smaller verified subset after strict classification review."
@@ -1398,7 +1409,7 @@
     "vertical": "Building Construction",
     "rows": 4429,
     "price": 599,
-    "badge": "SA · Building Construction",
+    "badge": "SA \u00b7 Building Construction",
     "stripe_url": "https://buy.stripe.com/28EdR123A5d10TJ6lf8Vj0q",
     "sample_url": "/samples/sample-sa-building-construction-4429.csv",
     "description": "4,429 building and construction businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: trade suppliers, equipment hire companies, fleet leasing, construction software vendors, insurance brokers, and recruitment agencies."
@@ -1410,7 +1421,7 @@
     "vertical": "Bus & Coach",
     "rows": 36,
     "price": 199,
-    "badge": "SA · Bus Coach",
+    "badge": "SA \u00b7 Bus Coach",
     "stripe_url": "https://buy.stripe.com/6oU7sD37E5d1byncJD8Vj0r",
     "sample_url": "/samples/sample-sa-bus-coach-36.csv",
     "description": "36 verified Bus Coach businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Note: this is a smaller verified subset after strict classification review."
@@ -1422,7 +1433,7 @@
     "vertical": "Cafe & Restaurant",
     "rows": 524,
     "price": 299,
-    "badge": "SA · Cafe Restaurant",
+    "badge": "SA \u00b7 Cafe Restaurant",
     "stripe_url": "https://buy.stripe.com/dRmdR123A8pd31R4d78Vj0s",
     "sample_url": "/samples/sample-sa-cafe-restaurant-524.csv",
     "description": "524 verified Cafe Restaurant businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -1434,7 +1445,7 @@
     "vertical": "Civil Contractors",
     "rows": 1989,
     "price": 299,
-    "badge": "SA · Civil Contractors",
+    "badge": "SA \u00b7 Civil Contractors",
     "stripe_url": "https://buy.stripe.com/eVq6oz5fM5d145V3938Vj0t",
     "sample_url": "/samples/sample-sa-civil-contractors-1989.csv",
     "description": "1,989 civil contracting businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, civil construction software vendors, insurance brokers, and recruitment agencies."
@@ -1446,7 +1457,7 @@
     "vertical": "Cleaning Restoration",
     "rows": 2529,
     "price": 599,
-    "badge": "SA · Cleaning Restoration",
+    "badge": "SA \u00b7 Cleaning Restoration",
     "stripe_url": "https://buy.stripe.com/5kQ3cn7nU7l9byn9xr8Vj0u",
     "sample_url": "/samples/sample-sa-cleaning-restoration-2529.csv",
     "description": "2,529 cleaning and restoration businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: cleaning equipment suppliers, chemical distributors, PPE vendors, software providers, and recruitment agencies."
@@ -1458,7 +1469,7 @@
     "vertical": "Consulting",
     "rows": 4682,
     "price": 599,
-    "badge": "SA · Consulting",
+    "badge": "SA \u00b7 Consulting",
     "stripe_url": "https://buy.stripe.com/cNieV523AbBpbyneRL8Vj0v",
     "sample_url": "/samples/sample-sa-consulting-4682.csv",
     "description": "4,682 consulting businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: CRM vendors, SaaS providers, marketing agencies, training providers, and insurance brokers."
@@ -1470,7 +1481,7 @@
     "vertical": "Dental",
     "rows": 719,
     "price": 199,
-    "badge": "SA · Dental",
+    "badge": "SA \u00b7 Dental",
     "stripe_url": "https://buy.stripe.com/8x2eV59w2bBpgSH7pj8Vj0w",
     "sample_url": "/samples/sample-sa-dental-719.csv",
     "description": "719 dental practices registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: dental equipment suppliers, practice management software vendors, CPD training providers, and recruitment agencies."
@@ -1482,7 +1493,7 @@
     "vertical": "Electrical",
     "rows": 3151,
     "price": 599,
-    "badge": "SA · Electrical",
+    "badge": "SA \u00b7 Electrical",
     "stripe_url": "https://buy.stripe.com/fZu4grcIe5d131R8tn8Vj0x",
     "sample_url": "/samples/sample-sa-electrical-3151.csv",
     "description": "3,151 licensed electrical contractors registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tool suppliers, equipment hire companies, fleet leasing, electrical software vendors, insurance brokers, and PPE suppliers."
@@ -1494,7 +1505,7 @@
     "vertical": "HVAC Air Conditioning",
     "rows": 553,
     "price": 199,
-    "badge": "SA · HVAC Air Conditioning",
+    "badge": "SA \u00b7 HVAC Air Conditioning",
     "stripe_url": "https://buy.stripe.com/eVqeV5dMi5d10TJ3938Vj0y",
     "sample_url": "/samples/sample-sa-hvac-air-conditioning-553.csv",
     "description": "553 HVAC and air conditioning businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: HVAC equipment suppliers, parts distributors, fleet leasing, field service software, and insurance brokers."
@@ -1506,7 +1517,7 @@
     "vertical": "Landscaping",
     "rows": 981,
     "price": 299,
-    "badge": "SA · Landscaping",
+    "badge": "SA \u00b7 Landscaping",
     "stripe_url": "https://buy.stripe.com/fZu3cn4bI48XbynbFz8Vj0z",
     "sample_url": "/samples/sample-sa-landscaping-981.csv",
     "description": "981 landscaping businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: B2B suppliers, software vendors, insurance brokers, fleet leasing companies, and recruitment agencies."
@@ -1518,7 +1529,7 @@
     "vertical": "Painting",
     "rows": 1176,
     "price": 299,
-    "badge": "SA · Painting",
+    "badge": "SA \u00b7 Painting",
     "stripe_url": "https://buy.stripe.com/6oU7sDdMi7l9dGvcJD8Vj0A",
     "sample_url": "/samples/sample-sa-painting-1176.csv",
     "description": "1,176 painting contractors registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: paint suppliers, equipment hire, PPE vendors, trade software, and insurance brokers."
@@ -1530,7 +1541,7 @@
     "vertical": "Plumbing",
     "rows": 1657,
     "price": 299,
-    "badge": "SA · Plumbing",
+    "badge": "SA \u00b7 Plumbing",
     "stripe_url": "https://buy.stripe.com/4gMbITgYuaxl31R10V8Vj0B",
     "sample_url": "/samples/sample-sa-plumbing-1657.csv",
     "description": "1,657 plumbing businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: plumbing suppliers, equipment hire, fleet leasing, trade management software vendors, insurance brokers, and PPE suppliers."
@@ -1542,7 +1553,7 @@
     "vertical": "Roofing",
     "rows": 707,
     "price": 199,
-    "badge": "SA · Roofing",
+    "badge": "SA \u00b7 Roofing",
     "stripe_url": "https://buy.stripe.com/9B6aEP4bI6h5dGvcJD8Vj0C",
     "sample_url": "/samples/sample-sa-roofing-707.csv",
     "description": "707 roofing contractors registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: roofing material suppliers, equipment hire, fleet leasing, PPE vendors, and insurance brokers."
@@ -1554,7 +1565,7 @@
     "vertical": "Security Installers",
     "rows": 533,
     "price": 199,
-    "badge": "SA · Security Installers",
+    "badge": "SA \u00b7 Security Installers",
     "stripe_url": "https://buy.stripe.com/aFa9ALeQmfRF8mb8tn8Vj0D",
     "sample_url": "/samples/sample-sa-security-installers-533.csv",
     "description": "533 security installation businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: security equipment suppliers, monitoring software vendors, fleet leasing, and insurance brokers."
@@ -1566,7 +1577,7 @@
     "vertical": "Steel & Metal Fabrication",
     "rows": 1861,
     "price": 299,
-    "badge": "SA · Steel & Metal Fabrication",
+    "badge": "SA \u00b7 Steel & Metal Fabrication",
     "stripe_url": "https://buy.stripe.com/6oUeV55fM0WL9qfdNH8Vj0E",
     "sample_url": "/samples/sample-sa-steel-metal-fabrication-1861.csv",
     "description": "1,861 steel and metal fabrication businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: metal suppliers, welding equipment vendors, fleet leasing, ERP software, and insurance brokers."
@@ -1578,7 +1589,7 @@
     "vertical": "Taxi Rideshare",
     "rows": 268,
     "price": 199,
-    "badge": "SA · Taxi Rideshare",
+    "badge": "SA \u00b7 Taxi Rideshare",
     "stripe_url": "https://buy.stripe.com/5kQ3cn5fM0WL45V3938Vj0F",
     "sample_url": "/samples/sample-sa-taxi-rideshare-268.csv",
     "description": "268 verified Taxi Rideshare businesses registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Note: this is a smaller verified subset after strict classification review."
@@ -1590,7 +1601,7 @@
     "vertical": "Tiling",
     "rows": 847,
     "price": 299,
-    "badge": "SA · Tiling",
+    "badge": "SA \u00b7 Tiling",
     "stripe_url": "https://buy.stripe.com/00w6ozaA65d131R10V8Vj0G",
     "sample_url": "/samples/sample-sa-tiling-847.csv",
     "description": "847 tiling contractors registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tile suppliers, tool vendors, trade software, and insurance brokers."
@@ -1602,7 +1613,7 @@
     "vertical": "Transport & Logistics",
     "rows": 3365,
     "price": 599,
-    "badge": "SA · Transport & Logistics",
+    "badge": "SA \u00b7 Transport & Logistics",
     "stripe_url": "https://buy.stripe.com/9B66oz6jQcFt1XN7pj8Vj0H",
     "sample_url": "/samples/sample-sa-transport-logistics-3365.csv",
     "description": "3,365 transport and logistics operators registered in SA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fuel card providers, fleet leasing companies, GPS tracking vendors, tyre suppliers, and transport insurance brokers."
@@ -1614,7 +1625,7 @@
     "vertical": "Building Construction",
     "rows": 1454,
     "price": 299,
-    "badge": "TAS · Building Construction",
+    "badge": "TAS \u00b7 Building Construction",
     "stripe_url": "https://buy.stripe.com/dRm14ffUqcFtdGv9xr8Vj0I",
     "sample_url": "/samples/sample-tas-building-construction-1454.csv",
     "description": "1,454 building and construction businesses registered in TAS. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: trade suppliers, equipment hire companies, fleet leasing, construction software vendors, insurance brokers, and recruitment agencies."
@@ -1626,7 +1637,7 @@
     "vertical": "Civil Contractors",
     "rows": 976,
     "price": 299,
-    "badge": "TAS · Civil Contractors",
+    "badge": "TAS \u00b7 Civil Contractors",
     "stripe_url": "https://buy.stripe.com/8x29AL23A20P8mbgZT8Vj0J",
     "sample_url": "/samples/sample-tas-civil-contractors-976.csv",
     "description": "976 civil contracting businesses registered in TAS. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, civil construction software vendors, insurance brokers, and recruitment agencies."
@@ -1638,7 +1649,7 @@
     "vertical": "Cleaning Restoration",
     "rows": 639,
     "price": 199,
-    "badge": "TAS · Cleaning Restoration",
+    "badge": "TAS \u00b7 Cleaning Restoration",
     "stripe_url": "https://buy.stripe.com/aFa14fcIe34T45V7pj8Vj0K",
     "sample_url": "/samples/sample-tas-cleaning-restoration-639.csv",
     "description": "639 cleaning and restoration businesses registered in TAS. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: cleaning equipment suppliers, chemical distributors, PPE vendors, software providers, and recruitment agencies."
@@ -1650,7 +1661,7 @@
     "vertical": "Consulting",
     "rows": 1082,
     "price": 299,
-    "badge": "TAS · Consulting",
+    "badge": "TAS \u00b7 Consulting",
     "stripe_url": "https://buy.stripe.com/5kQ3cn6jQ7l9cCr3938Vj0L",
     "sample_url": "/samples/sample-tas-consulting-1082.csv",
     "description": "1,082 consulting businesses registered in TAS. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: CRM vendors, SaaS providers, marketing agencies, training providers, and insurance brokers."
@@ -1662,7 +1673,7 @@
     "vertical": "Electrical",
     "rows": 801,
     "price": 299,
-    "badge": "TAS · Electrical",
+    "badge": "TAS \u00b7 Electrical",
     "stripe_url": "https://buy.stripe.com/fZucMXfUq6h5cCrfVP8Vj0M",
     "sample_url": "/samples/sample-tas-electrical-801.csv",
     "description": "801 licensed electrical contractors registered in TAS. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tool suppliers, equipment hire companies, fleet leasing, electrical software vendors, insurance brokers, and PPE suppliers."
@@ -1674,7 +1685,7 @@
     "vertical": "Plumbing",
     "rows": 529,
     "price": 199,
-    "badge": "TAS · Plumbing",
+    "badge": "TAS \u00b7 Plumbing",
     "stripe_url": "https://buy.stripe.com/00w4gr6jQ34T8mb4d78Vj0N",
     "sample_url": "/samples/sample-tas-plumbing-529.csv",
     "description": "529 plumbing businesses registered in TAS. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: plumbing suppliers, equipment hire, fleet leasing, trade management software vendors, insurance brokers, and PPE suppliers."
@@ -1686,7 +1697,7 @@
     "vertical": "Steel & Metal Fabrication",
     "rows": 598,
     "price": 199,
-    "badge": "TAS · Steel & Metal Fabrication",
+    "badge": "TAS \u00b7 Steel & Metal Fabrication",
     "stripe_url": "https://buy.stripe.com/28EfZ95fM20PdGvcJD8Vj0O",
     "sample_url": "/samples/sample-tas-steel-metal-fabrication-598.csv",
     "description": "598 steel and metal fabrication businesses registered in TAS. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: metal suppliers, welding equipment vendors, fleet leasing, ERP software, and insurance brokers."
@@ -1698,7 +1709,7 @@
     "vertical": "Transport & Logistics",
     "rows": 644,
     "price": 199,
-    "badge": "TAS · Transport & Logistics",
+    "badge": "TAS \u00b7 Transport & Logistics",
     "stripe_url": "https://buy.stripe.com/28EeV59w28pd7i79xr8Vj0P",
     "sample_url": "/samples/sample-tas-transport-logistics-644.csv",
     "description": "644 transport and logistics operators registered in TAS. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fuel card providers, fleet leasing companies, GPS tracking vendors, tyre suppliers, and transport insurance brokers."
@@ -1710,7 +1721,7 @@
     "vertical": "Accommodation",
     "rows": 2767,
     "price": 599,
-    "badge": "VIC · Accommodation",
+    "badge": "VIC \u00b7 Accommodation",
     "stripe_url": "https://buy.stripe.com/7sY8wHaA68pdgSH3938Vj0Q",
     "sample_url": "/samples/sample-vic-accommodation-2767.csv",
     "description": "2,767 accommodation operators registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: linen suppliers, POS software vendors, food distributors, cleaning services, and insurance brokers."
@@ -1722,7 +1733,7 @@
     "vertical": "Accounting",
     "rows": 4532,
     "price": 599,
-    "badge": "VIC · Accounting",
+    "badge": "VIC \u00b7 Accounting",
     "stripe_url": "https://buy.stripe.com/4gMdR1gYufRF6e39xr8Vj0R",
     "sample_url": "/samples/sample-vic-accounting-4532.csv",
     "description": "4,532 accounting firms registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: accounting software vendors, CRM providers, financial services firms, training providers, and insurance brokers."
@@ -1734,7 +1745,7 @@
     "vertical": "Allied Health",
     "rows": 2423,
     "price": 299,
-    "badge": "VIC · Allied Health",
+    "badge": "VIC \u00b7 Allied Health",
     "stripe_url": "https://buy.stripe.com/6oUaEP8rYcFt7i79xr8Vj0S",
     "sample_url": "/samples/sample-vic-allied-health-2423.csv",
     "description": "2,423 allied health businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: practice management software vendors, medical equipment suppliers, CPD training providers, and recruitment agencies."
@@ -1746,7 +1757,7 @@
     "vertical": "Bar & Pub",
     "rows": 1794,
     "price": 599,
-    "badge": "VIC · Bar Pub",
+    "badge": "VIC \u00b7 Bar Pub",
     "stripe_url": "https://buy.stripe.com/bJeaEP4bI7l90TJbFz8Vj0T",
     "sample_url": "/samples/sample-vic-bar-pub-1794.csv",
     "description": "1,794 verified Bar Pub businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -1758,7 +1769,7 @@
     "vertical": "Building Construction",
     "rows": 500,
     "price": 199,
-    "badge": "VIC · Building Construction",
+    "badge": "VIC \u00b7 Building Construction",
     "stripe_url": "https://buy.stripe.com/aFabIT4bI20P31R3938Vj0U",
     "sample_url": "/samples/sample-vic-building-construction-500.csv",
     "description": "500 building and construction businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: trade suppliers, equipment hire companies, fleet leasing, construction software vendors, insurance brokers, and recruitment agencies."
@@ -1770,7 +1781,7 @@
     "vertical": "Bus & Coach",
     "rows": 151,
     "price": 199,
-    "badge": "VIC · Bus Coach",
+    "badge": "VIC \u00b7 Bus Coach",
     "stripe_url": "https://buy.stripe.com/28E7sDbEacFt45VcJD8Vj0V",
     "sample_url": "/samples/sample-vic-bus-coach-151.csv",
     "description": "151 verified Bus Coach businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Note: this is a smaller verified subset after strict classification review."
@@ -1782,7 +1793,7 @@
     "vertical": "Cafe & Restaurant",
     "rows": 2244,
     "price": 599,
-    "badge": "VIC · Cafe Restaurant",
+    "badge": "VIC \u00b7 Cafe Restaurant",
     "stripe_url": "https://buy.stripe.com/14A4gr6jQ6h5auj7pj8Vj0W",
     "sample_url": "/samples/sample-vic-cafe-restaurant-2244.csv",
     "description": "2,244 verified Cafe Restaurant businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -1794,7 +1805,7 @@
     "vertical": "Civil Contractors",
     "rows": 5562,
     "price": 599,
-    "badge": "VIC · Civil Contractors",
+    "badge": "VIC \u00b7 Civil Contractors",
     "stripe_url": "https://buy.stripe.com/bJe4grfUqgVJ6e33938Vj0X",
     "sample_url": "/samples/sample-vic-civil-contractors-5562.csv",
     "description": "5,562 civil contracting businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, civil construction software vendors, insurance brokers, and recruitment agencies."
@@ -1806,7 +1817,7 @@
     "vertical": "Cleaning Restoration",
     "rows": 10722,
     "price": 999,
-    "badge": "VIC · Cleaning Restoration",
+    "badge": "VIC \u00b7 Cleaning Restoration",
     "stripe_url": "https://buy.stripe.com/4gM4graA620P0TJaBv8Vj0Y",
     "sample_url": "/samples/sample-vic-cleaning-restoration-10722.csv",
     "description": "10,722 cleaning and restoration businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: cleaning equipment suppliers, chemical distributors, PPE vendors, software providers, and recruitment agencies."
@@ -1818,7 +1829,7 @@
     "vertical": "Consulting",
     "rows": 23571,
     "price": 999,
-    "badge": "VIC · Consulting",
+    "badge": "VIC \u00b7 Consulting",
     "stripe_url": "https://buy.stripe.com/8x25kv0ZweNBbyn3938Vj0Z",
     "sample_url": "/samples/sample-vic-consulting-23571.csv",
     "description": "23,571 consulting businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: CRM vendors, SaaS providers, marketing agencies, training providers, and insurance brokers."
@@ -1830,7 +1841,7 @@
     "vertical": "Dental",
     "rows": 2944,
     "price": 599,
-    "badge": "VIC · Dental",
+    "badge": "VIC \u00b7 Dental",
     "stripe_url": "https://buy.stripe.com/6oU5kv37EfRF0TJaBv8Vj10",
     "sample_url": "/samples/sample-vic-dental-2944.csv",
     "description": "2,944 dental practices registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: dental equipment suppliers, practice management software vendors, CPD training providers, and recruitment agencies."
@@ -1842,7 +1853,7 @@
     "vertical": "Earthmoving & Excavation",
     "rows": 1642,
     "price": 299,
-    "badge": "VIC · Earthmoving & Excavation",
+    "badge": "VIC \u00b7 Earthmoving & Excavation",
     "stripe_url": "https://buy.stripe.com/3cI8wHdMi8pd1XN10V8Vj11",
     "sample_url": "/samples/sample-vic-earthmoving-excavation-1642.csv",
     "description": "1,642 earthmoving and excavation businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, parts suppliers, telematics vendors, and insurance brokers."
@@ -1854,7 +1865,7 @@
     "vertical": "Electrical",
     "rows": 12790,
     "price": 999,
-    "badge": "VIC · Electrical",
+    "badge": "VIC \u00b7 Electrical",
     "stripe_url": "https://buy.stripe.com/28E00b5fMeNBauj3938Vj12",
     "sample_url": "/samples/sample-vic-electrical-12790.csv",
     "description": "12,790 licensed electrical contractors registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tool suppliers, equipment hire companies, fleet leasing, electrical software vendors, insurance brokers, and PPE suppliers."
@@ -1866,7 +1877,7 @@
     "vertical": "Fencing",
     "rows": 747,
     "price": 299,
-    "badge": "VIC · Fencing",
+    "badge": "VIC \u00b7 Fencing",
     "stripe_url": "https://buy.stripe.com/7sY3cneQmfRF6e36lf8Vj13",
     "sample_url": "/samples/sample-vic-fencing-747.csv",
     "description": "747 verified Fencing businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -1878,7 +1889,7 @@
     "vertical": "Glaziers",
     "rows": 1452,
     "price": 299,
-    "badge": "VIC · Glaziers",
+    "badge": "VIC \u00b7 Glaziers",
     "stripe_url": "https://buy.stripe.com/28E00b0Zw0WL31R5hb8Vj14",
     "sample_url": "/samples/sample-vic-glaziers-1452.csv",
     "description": "1,452 glazing businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: glass suppliers, equipment vendors, fleet leasing, and insurance brokers."
@@ -1890,7 +1901,7 @@
     "vertical": "HVAC Air Conditioning",
     "rows": 2078,
     "price": 299,
-    "badge": "VIC · HVAC Air Conditioning",
+    "badge": "VIC \u00b7 HVAC Air Conditioning",
     "stripe_url": "https://buy.stripe.com/5kQ00b8rY48XbynaBv8Vj15",
     "sample_url": "/samples/sample-vic-hvac-air-conditioning-2078.csv",
     "description": "2,078 HVAC and air conditioning businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: HVAC equipment suppliers, parts distributors, fleet leasing, field service software, and insurance brokers."
@@ -1902,7 +1913,7 @@
     "vertical": "Insulation",
     "rows": 523,
     "price": 199,
-    "badge": "VIC · Insulation",
+    "badge": "VIC \u00b7 Insulation",
     "stripe_url": "https://buy.stripe.com/9B614ffUq34TcCrgZT8Vj16",
     "sample_url": "/samples/sample-vic-insulation-523.csv",
     "description": "523 insulation businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: insulation material suppliers, equipment vendors, PPE suppliers, and insurance brokers."
@@ -1914,7 +1925,7 @@
     "vertical": "Landscaping",
     "rows": 3270,
     "price": 599,
-    "badge": "VIC · Landscaping",
+    "badge": "VIC \u00b7 Landscaping",
     "stripe_url": "https://buy.stripe.com/bJe4graA65d145VbFz8Vj17",
     "sample_url": "/samples/sample-vic-landscaping-3270.csv",
     "description": "3,270 landscaping businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: B2B suppliers, software vendors, insurance brokers, fleet leasing companies, and recruitment agencies."
@@ -1926,7 +1937,7 @@
     "vertical": "Legal",
     "rows": 1799,
     "price": 299,
-    "badge": "VIC · Legal",
+    "badge": "VIC \u00b7 Legal",
     "stripe_url": "https://buy.stripe.com/bJe8wH9w27l959ZgZT8Vj18",
     "sample_url": "/samples/sample-vic-legal-1799.csv",
     "description": "1,799 legal services businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: legal software vendors, CRM providers, legal publishing companies, and training providers."
@@ -1938,7 +1949,7 @@
     "vertical": "Medical",
     "rows": 1500,
     "price": 299,
-    "badge": "VIC · Medical",
+    "badge": "VIC \u00b7 Medical",
     "stripe_url": "https://buy.stripe.com/14A3cndMi48X45VbFz8Vj19",
     "sample_url": "/samples/sample-vic-medical-1500.csv",
     "description": "1,500 medical practices registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: practice management software vendors, medical equipment suppliers, CPD training providers, and recruitment agencies."
@@ -1950,7 +1961,7 @@
     "vertical": "Painting",
     "rows": 5952,
     "price": 599,
-    "badge": "VIC · Painting",
+    "badge": "VIC \u00b7 Painting",
     "stripe_url": "https://buy.stripe.com/28EfZ96jQ8pdeKz10V8Vj1a",
     "sample_url": "/samples/sample-vic-painting-5952.csv",
     "description": "5,952 painting contractors registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: paint suppliers, equipment hire, PPE vendors, trade software, and insurance brokers."
@@ -1962,7 +1973,7 @@
     "vertical": "Pest Control",
     "rows": 750,
     "price": 199,
-    "badge": "VIC · Pest Control",
+    "badge": "VIC \u00b7 Pest Control",
     "stripe_url": "https://buy.stripe.com/5kQaEP7nU8pdfOD7pj8Vj1b",
     "sample_url": "/samples/sample-vic-pest-control-750.csv",
     "description": "750 pest control businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: chemical suppliers, equipment vendors, fleet leasing, field service software, and insurance brokers."
@@ -1974,7 +1985,7 @@
     "vertical": "Plasterers",
     "rows": 1544,
     "price": 299,
-    "badge": "VIC · Plasterers",
+    "badge": "VIC \u00b7 Plasterers",
     "stripe_url": "https://buy.stripe.com/dRm00bfUqdJxauj4d78Vj1c",
     "sample_url": "/samples/sample-vic-plasterers-1544.csv",
     "description": "1,544 plastering contractors registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: building material suppliers, tool vendors, trade software, and insurance brokers."
@@ -1986,7 +1997,7 @@
     "vertical": "Plumbing",
     "rows": 8841,
     "price": 599,
-    "badge": "VIC · Plumbing",
+    "badge": "VIC \u00b7 Plumbing",
     "stripe_url": "https://buy.stripe.com/aFaaEPgYu9th7i7eRL8Vj1d",
     "sample_url": "/samples/sample-vic-plumbing-8841.csv",
     "description": "8,841 plumbing businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: plumbing suppliers, equipment hire, fleet leasing, trade management software vendors, insurance brokers, and PPE suppliers."
@@ -1998,7 +2009,7 @@
     "vertical": "Pool Services",
     "rows": 981,
     "price": 299,
-    "badge": "VIC · Pool Services",
+    "badge": "VIC \u00b7 Pool Services",
     "stripe_url": "https://buy.stripe.com/cNieV54bIcFtdGvaBv8Vj1e",
     "sample_url": "/samples/sample-vic-pool-services-981.csv",
     "description": "981 pool services businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: pool chemical suppliers, equipment vendors, software providers, and insurance brokers."
@@ -2010,7 +2021,7 @@
     "vertical": "Roofing",
     "rows": 2622,
     "price": 599,
-    "badge": "VIC · Roofing",
+    "badge": "VIC \u00b7 Roofing",
     "stripe_url": "https://buy.stripe.com/5kQfZ9bEaeNBaujdNH8Vj1f",
     "sample_url": "/samples/sample-vic-roofing-2622.csv",
     "description": "2,622 roofing contractors registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: roofing material suppliers, equipment hire, fleet leasing, PPE vendors, and insurance brokers."
@@ -2022,7 +2033,7 @@
     "vertical": "Security Installers",
     "rows": 2775,
     "price": 599,
-    "badge": "VIC · Security Installers",
+    "badge": "VIC \u00b7 Security Installers",
     "stripe_url": "https://buy.stripe.com/aFa4grfUqeNBeKz3938Vj1g",
     "sample_url": "/samples/sample-vic-security-installers-2775.csv",
     "description": "2,775 security installation businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: security equipment suppliers, monitoring software vendors, fleet leasing, and insurance brokers."
@@ -2034,7 +2045,7 @@
     "vertical": "Solar",
     "rows": 1211,
     "price": 299,
-    "badge": "VIC · Solar",
+    "badge": "VIC \u00b7 Solar",
     "stripe_url": "https://buy.stripe.com/6oUeV5fUq8pdcCr24Z8Vj1h",
     "sample_url": "/samples/sample-vic-solar-1211.csv",
     "description": "1,211 solar installation businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: solar panel distributors, electrical wholesalers, fleet leasing, field service software, and insurance brokers."
@@ -2046,7 +2057,7 @@
     "vertical": "Steel & Metal Fabrication",
     "rows": 7464,
     "price": 599,
-    "badge": "VIC · Steel & Metal Fabrication",
+    "badge": "VIC \u00b7 Steel & Metal Fabrication",
     "stripe_url": "https://buy.stripe.com/aFa8wH4bI8pdgSHbFz8Vj1i",
     "sample_url": "/samples/sample-vic-steel-metal-fabrication-7464.csv",
     "description": "7,464 steel and metal fabrication businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: metal suppliers, welding equipment vendors, fleet leasing, ERP software, and insurance brokers."
@@ -2058,7 +2069,7 @@
     "vertical": "Taxi Rideshare",
     "rows": 1832,
     "price": 599,
-    "badge": "VIC · Taxi Rideshare",
+    "badge": "VIC \u00b7 Taxi Rideshare",
     "stripe_url": "https://buy.stripe.com/8x27sD6jQfRF9qf9xr8Vj1j",
     "sample_url": "/samples/sample-vic-taxi-rideshare-1832.csv",
     "description": "1,832 verified Taxi Rideshare businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -2070,7 +2081,7 @@
     "vertical": "Tiling",
     "rows": 3198,
     "price": 599,
-    "badge": "VIC · Tiling",
+    "badge": "VIC \u00b7 Tiling",
     "stripe_url": "https://buy.stripe.com/8x26ozbEadJx31R8tn8Vj1k",
     "sample_url": "/samples/sample-vic-tiling-3198.csv",
     "description": "3,198 tiling contractors registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tile suppliers, tool vendors, trade software, and insurance brokers."
@@ -2082,7 +2093,7 @@
     "vertical": "Transport & Logistics",
     "rows": 17459,
     "price": 999,
-    "badge": "VIC · Transport & Logistics",
+    "badge": "VIC \u00b7 Transport & Logistics",
     "stripe_url": "https://buy.stripe.com/00w6ozgYucFt1XN6lf8Vj1l",
     "sample_url": "/samples/sample-vic-transport-logistics-17459.csv",
     "description": "17,459 transport and logistics operators registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fuel card providers, fleet leasing companies, GPS tracking vendors, tyre suppliers, and transport insurance brokers."
@@ -2094,7 +2105,7 @@
     "vertical": "Waste Skip",
     "rows": 804,
     "price": 299,
-    "badge": "VIC · Waste Skip",
+    "badge": "VIC \u00b7 Waste Skip",
     "stripe_url": "https://buy.stripe.com/dRm7sD6jQdJxgSHcJD8Vj1m",
     "sample_url": "/samples/sample-vic-waste-skip-804.csv",
     "description": "804 waste management and skip bin businesses registered in VIC. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fleet leasing companies, fuel card providers, waste compliance software, and insurance brokers."
@@ -2106,7 +2117,7 @@
     "vertical": "Accommodation",
     "rows": 877,
     "price": 299,
-    "badge": "WA · Accommodation",
+    "badge": "WA \u00b7 Accommodation",
     "stripe_url": "https://buy.stripe.com/6oUaEP23A0WL9qf24Z8Vj1n",
     "sample_url": "/samples/sample-wa-accommodation-877.csv",
     "description": "877 accommodation operators registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: linen suppliers, POS software vendors, food distributors, cleaning services, and insurance brokers."
@@ -2118,7 +2129,7 @@
     "vertical": "Accounting",
     "rows": 1643,
     "price": 299,
-    "badge": "WA · Accounting",
+    "badge": "WA \u00b7 Accounting",
     "stripe_url": "https://buy.stripe.com/dRm9AL23A20PeKz8tn8Vj1o",
     "sample_url": "/samples/sample-wa-accounting-1643.csv",
     "description": "1,643 accounting firms registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: accounting software vendors, CRM providers, financial services firms, training providers, and insurance brokers."
@@ -2130,7 +2141,7 @@
     "vertical": "Allied Health",
     "rows": 954,
     "price": 299,
-    "badge": "WA · Allied Health",
+    "badge": "WA \u00b7 Allied Health",
     "stripe_url": "https://buy.stripe.com/bJedR1dMifRFeKz3938Vj1p",
     "sample_url": "/samples/sample-wa-allied-health-954.csv",
     "description": "954 allied health businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: practice management software vendors, medical equipment suppliers, CPD training providers, and recruitment agencies."
@@ -2142,7 +2153,7 @@
     "vertical": "Bar & Pub",
     "rows": 867,
     "price": 299,
-    "badge": "WA · Bar Pub",
+    "badge": "WA \u00b7 Bar Pub",
     "stripe_url": "https://buy.stripe.com/eVqbIT6jQcFt31R9xr8Vj1q",
     "sample_url": "/samples/sample-wa-bar-pub-867.csv",
     "description": "867 verified Bar Pub businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -2154,7 +2165,7 @@
     "vertical": "Building Construction",
     "rows": 500,
     "price": 199,
-    "badge": "WA · Building Construction",
+    "badge": "WA \u00b7 Building Construction",
     "stripe_url": "https://buy.stripe.com/eVq6oz23A48X31R8tn8Vj1r",
     "sample_url": "/samples/sample-wa-building-construction-500.csv",
     "description": "500 building and construction businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: trade suppliers, equipment hire companies, fleet leasing, construction software vendors, insurance brokers, and recruitment agencies."
@@ -2166,7 +2177,7 @@
     "vertical": "Bus & Coach",
     "rows": 84,
     "price": 199,
-    "badge": "WA · Bus Coach",
+    "badge": "WA \u00b7 Bus Coach",
     "stripe_url": "https://buy.stripe.com/aFa6oz9w28pdfODgZT8Vj1s",
     "sample_url": "/samples/sample-wa-bus-coach-84.csv",
     "description": "84 verified Bus Coach businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Note: this is a smaller verified subset after strict classification review."
@@ -2178,7 +2189,7 @@
     "vertical": "Cafe & Restaurant",
     "rows": 809,
     "price": 299,
-    "badge": "WA · Cafe Restaurant",
+    "badge": "WA \u00b7 Cafe Restaurant",
     "stripe_url": "https://buy.stripe.com/cNiaEP5fM34TcCr7pj8Vj1t",
     "sample_url": "/samples/sample-wa-cafe-restaurant-809.csv",
     "description": "809 verified Cafe Restaurant businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -2190,7 +2201,7 @@
     "vertical": "Civil Contractors",
     "rows": 500,
     "price": 199,
-    "badge": "WA · Civil Contractors",
+    "badge": "WA \u00b7 Civil Contractors",
     "stripe_url": "https://buy.stripe.com/aFa28jbEacFtcCr8tn8Vj1u",
     "sample_url": "/samples/sample-wa-civil-contractors-500.csv",
     "description": "500 civil contracting businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, civil construction software vendors, insurance brokers, and recruitment agencies."
@@ -2202,7 +2213,7 @@
     "vertical": "Cleaning Restoration",
     "rows": 500,
     "price": 199,
-    "badge": "WA · Cleaning Restoration",
+    "badge": "WA \u00b7 Cleaning Restoration",
     "stripe_url": "https://buy.stripe.com/8x2cMXeQm5d17i73938Vj1v",
     "sample_url": "/samples/sample-wa-cleaning-restoration-500.csv",
     "description": "500 cleaning and restoration businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: cleaning equipment suppliers, chemical distributors, PPE vendors, software providers, and recruitment agencies."
@@ -2214,7 +2225,7 @@
     "vertical": "Consulting",
     "rows": 7693,
     "price": 599,
-    "badge": "WA · Consulting",
+    "badge": "WA \u00b7 Consulting",
     "stripe_url": "https://buy.stripe.com/6oU6oz6jQ9th59ZeRL8Vj1w",
     "sample_url": "/samples/sample-wa-consulting-7693.csv",
     "description": "7,693 consulting businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: CRM vendors, SaaS providers, marketing agencies, training providers, and insurance brokers."
@@ -2226,7 +2237,7 @@
     "vertical": "Dental",
     "rows": 1248,
     "price": 299,
-    "badge": "WA · Dental",
+    "badge": "WA \u00b7 Dental",
     "stripe_url": "https://buy.stripe.com/dRm14f8rY6h57i76lf8Vj1x",
     "sample_url": "/samples/sample-wa-dental-1248.csv",
     "description": "1,248 dental practices registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: dental equipment suppliers, practice management software vendors, CPD training providers, and recruitment agencies."
@@ -2238,7 +2249,7 @@
     "vertical": "Earthmoving & Excavation",
     "rows": 1067,
     "price": 299,
-    "badge": "WA · Earthmoving & Excavation",
+    "badge": "WA \u00b7 Earthmoving & Excavation",
     "stripe_url": "https://buy.stripe.com/9B614f4bIbBp45VdNH8Vj1y",
     "sample_url": "/samples/sample-wa-earthmoving-excavation-1067.csv",
     "description": "1,067 earthmoving and excavation businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: equipment hire companies, fleet leasing, parts suppliers, telematics vendors, and insurance brokers."
@@ -2250,7 +2261,7 @@
     "vertical": "Electrical Contractors",
     "rows": 500,
     "price": 199,
-    "badge": "WA · Electrical Contractors",
+    "badge": "WA \u00b7 Electrical Contractors",
     "stripe_url": "https://buy.stripe.com/dRm6ozbEabBp7i73938Vj1z",
     "sample_url": "/samples/sample-wa-electrical-contractors-500.csv",
     "description": "500 licensed electrical contractors registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tool suppliers, equipment hire companies, fleet leasing, electrical software vendors, insurance brokers, and PPE suppliers."
@@ -2262,7 +2273,7 @@
     "vertical": "Glaziers",
     "rows": 767,
     "price": 299,
-    "badge": "WA · Glaziers",
+    "badge": "WA \u00b7 Glaziers",
     "stripe_url": "https://buy.stripe.com/aFadR1cIeeNB8mbgZT8Vj1A",
     "sample_url": "/samples/sample-wa-glaziers-767.csv",
     "description": "767 glazing businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: glass suppliers, equipment vendors, fleet leasing, and insurance brokers."
@@ -2274,7 +2285,7 @@
     "vertical": "HVAC Air Conditioning",
     "rows": 917,
     "price": 299,
-    "badge": "WA · HVAC Air Conditioning",
+    "badge": "WA \u00b7 HVAC Air Conditioning",
     "stripe_url": "https://buy.stripe.com/aFa9AL0Zw6h5byn8tn8Vj1B",
     "sample_url": "/samples/sample-wa-hvac-air-conditioning-917.csv",
     "description": "917 HVAC and air conditioning businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: HVAC equipment suppliers, parts distributors, fleet leasing, field service software, and insurance brokers."
@@ -2286,7 +2297,7 @@
     "vertical": "Insulation",
     "rows": 810,
     "price": 299,
-    "badge": "WA · Insulation",
+    "badge": "WA \u00b7 Insulation",
     "stripe_url": "https://buy.stripe.com/5kQaEP5fM7l931R7pj8Vj1C",
     "sample_url": "/samples/sample-wa-insulation-810.csv",
     "description": "810 insulation businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: insulation material suppliers, equipment vendors, PPE suppliers, and insurance brokers."
@@ -2298,7 +2309,7 @@
     "vertical": "Landscaping",
     "rows": 1511,
     "price": 299,
-    "badge": "WA · Landscaping",
+    "badge": "WA \u00b7 Landscaping",
     "stripe_url": "https://buy.stripe.com/28EeV5dMieNB31R4d78Vj1D",
     "sample_url": "/samples/sample-wa-landscaping-1511.csv",
     "description": "1,511 landscaping businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: B2B suppliers, software vendors, insurance brokers, fleet leasing companies, and recruitment agencies."
@@ -2310,7 +2321,7 @@
     "vertical": "Medical",
     "rows": 711,
     "price": 199,
-    "badge": "WA · Medical",
+    "badge": "WA \u00b7 Medical",
     "stripe_url": "https://buy.stripe.com/8x29AL23A48X0TJ7pj8Vj1E",
     "sample_url": "/samples/sample-wa-medical-711.csv",
     "description": "711 medical practices registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: practice management software vendors, medical equipment suppliers, CPD training providers, and recruitment agencies."
@@ -2322,7 +2333,7 @@
     "vertical": "Painting",
     "rows": 2071,
     "price": 299,
-    "badge": "WA · Painting",
+    "badge": "WA \u00b7 Painting",
     "stripe_url": "https://buy.stripe.com/cNifZ9eQmdJxauj9xr8Vj1F",
     "sample_url": "/samples/sample-wa-painting-2071.csv",
     "description": "2,071 painting contractors registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: paint suppliers, equipment hire, PPE vendors, trade software, and insurance brokers."
@@ -2334,7 +2345,7 @@
     "vertical": "Pest Control",
     "rows": 504,
     "price": 199,
-    "badge": "WA · Pest Control",
+    "badge": "WA \u00b7 Pest Control",
     "stripe_url": "https://buy.stripe.com/cNi4gr0ZwbBpeKzcJD8Vj1G",
     "sample_url": "/samples/sample-wa-pest-control-504.csv",
     "description": "504 pest control businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: chemical suppliers, equipment vendors, fleet leasing, field service software, and insurance brokers."
@@ -2346,7 +2357,7 @@
     "vertical": "Plumbing Services",
     "rows": 500,
     "price": 199,
-    "badge": "WA · Plumbing Services",
+    "badge": "WA \u00b7 Plumbing Services",
     "stripe_url": "https://buy.stripe.com/bJe3cn6jQcFt0TJ24Z8Vj1H",
     "sample_url": "/samples/sample-wa-plumbing-services-500.csv",
     "description": "500 plumbing businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: plumbing suppliers, equipment hire, fleet leasing, trade management software vendors, insurance brokers, and PPE suppliers."
@@ -2358,7 +2369,7 @@
     "vertical": "Roofing",
     "rows": 1265,
     "price": 299,
-    "badge": "WA · Roofing",
+    "badge": "WA \u00b7 Roofing",
     "stripe_url": "https://buy.stripe.com/8x26ozgYubBpaujaBv8Vj1I",
     "sample_url": "/samples/sample-wa-roofing-1265.csv",
     "description": "1,265 roofing contractors registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: roofing material suppliers, equipment hire, fleet leasing, PPE vendors, and insurance brokers."
@@ -2370,7 +2381,7 @@
     "vertical": "Security Installers",
     "rows": 992,
     "price": 299,
-    "badge": "WA · Security Installers",
+    "badge": "WA \u00b7 Security Installers",
     "stripe_url": "https://buy.stripe.com/fZu6ozbEa20P9qfgZT8Vj1J",
     "sample_url": "/samples/sample-wa-security-installers-992.csv",
     "description": "992 security installation businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: security equipment suppliers, monitoring software vendors, fleet leasing, and insurance brokers."
@@ -2382,7 +2393,7 @@
     "vertical": "Steel & Metal Fabrication",
     "rows": 4508,
     "price": 599,
-    "badge": "WA · Steel & Metal Fabrication",
+    "badge": "WA \u00b7 Steel & Metal Fabrication",
     "stripe_url": "https://buy.stripe.com/14AaEPbEagVJ45VeRL8Vj1K",
     "sample_url": "/samples/sample-wa-steel-metal-fabrication-4508.csv",
     "description": "4,508 steel and metal fabrication businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: metal suppliers, welding equipment vendors, fleet leasing, ERP software, and insurance brokers."
@@ -2394,7 +2405,7 @@
     "vertical": "Taxi Rideshare",
     "rows": 621,
     "price": 299,
-    "badge": "WA · Taxi Rideshare",
+    "badge": "WA \u00b7 Taxi Rideshare",
     "stripe_url": "https://buy.stripe.com/cNi5kvfUq8pd59ZgZT8Vj1L",
     "sample_url": "/samples/sample-wa-taxi-rideshare-621.csv",
     "description": "621 verified Taxi Rideshare businesses registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores."
@@ -2406,7 +2417,7 @@
     "vertical": "Tiling",
     "rows": 1341,
     "price": 299,
-    "badge": "WA · Tiling",
+    "badge": "WA \u00b7 Tiling",
     "stripe_url": "https://buy.stripe.com/5kQcMXcIedJx8mbeRL8Vj1M",
     "sample_url": "/samples/sample-wa-tiling-1341.csv",
     "description": "1,341 tiling contractors registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: tile suppliers, tool vendors, trade software, and insurance brokers."
@@ -2418,7 +2429,7 @@
     "vertical": "Transport & Logistics",
     "rows": 5577,
     "price": 599,
-    "badge": "WA · Transport & Logistics",
+    "badge": "WA \u00b7 Transport & Logistics",
     "stripe_url": "https://buy.stripe.com/9B63cn7nU20P1XNdNH8Vj1N",
     "sample_url": "/samples/sample-wa-transport-logistics-5577.csv",
     "description": "5,577 transport and logistics operators registered in WA. Every record includes ABN, entity name, trading name, suburb, LGA, SA4 region, ANZSIC code, GST status, years in business, and 8 propensity scores. Ideal for: fuel card providers, fleet leasing companies, GPS tracking vendors, tyre suppliers, and transport insurance brokers."
